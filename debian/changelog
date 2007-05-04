@@ -1,6 +1,6 @@
 soprano (0.0.0~snapshot~2007-05-04-1) unstable; urgency=low
 
-  * Initial release
+  * Initial release (Closes: #422206)
 
  -- Sune Vuorela <debian@pusling.com>  Fri,  4 May 2007 09:49:34 +0200
 
