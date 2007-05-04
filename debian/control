@@ -1,0 +1,22 @@
+Source: soprano
+Section: libs
+Priority: extra
+Maintainer: Sune Vuorela <debian@pusling.com>
+Build-Depends: cdbs, debhelper (>= 5), librdf0-dev,libqt4-dev (>>4.3~beta~)
+Standards-Version: 3.7.2
+
+Package: libsoprano3
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Qt interface to RDF storage
+ Soprano (formally known as QRDF) is a library which provides a nice Qt 
+ interface  to RDF storage solutions. It has a modular structure which 
+ allows to replace the  actual RDF storage implementation used.
+
+Package: libsoprano-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Development files for soprano, a Qt interface for RDF storage
+ Soprano (formally known as QRDF) is a library which provides a nice Qt 
+ interface  to RDF storage solutions. It has a modular structure which allows 
+ to replace the  actual RDF storage implementation used.
