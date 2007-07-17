@@ -1,16 +1,16 @@
 This package was debianized by Sune Vuorela <debian@pusling.com> on
 Fri,  4 May 2007 09:49:34 +0200.
 
-It was downloaded from <ftp://ktown.kde.org>
+It was downloaded from http://www.kde.org
 
 Copyright: 
-	 * Copyright (C) 2006-2007 Daniele Galdi <daniele.galdi@gmail.com>
- 	 * Copyright (C) 2006 Duncan Mac-Vicar <duncan@kde.org>
-    	 * Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
-         * Copyright (c) 2006, Peter Kuemmel, <syntheticpp@yahoo.com>
-       	 * Copyright (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+     * Copyright (C) 2006-2007 Daniele Galdi <daniele.galdi@gmail.com>
+     * Copyright (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+     * Copyright (C) 2006 Duncan Mac-Vicar <duncan@kde.org>
+     * Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
+     * Copyright (c) 2006 Peter Kuemmel <syntheticpp@yahoo.com>
 
-Licensi:
+License:
 
     This library is free software; you can redistribute it and/or
     modify it under the terms of the GNU Library General Public
@@ -29,5 +29,7 @@ Licensi:
 On Debian systems, the complete text of the GNU Library General
 Public License can be found in `/usr/share/common-licenses/LGPL-2'.
 
-The Debian packaging is (C) 2007, Sune Vuorela <debian@pusling.com> and
-is licensed under the same licenes as the software, see above.
+The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers and
+is licensed under the GPL. The GNU General Public License can be found,
+on Debian systems, at /usr/share/common-licenses/GPL.
+
