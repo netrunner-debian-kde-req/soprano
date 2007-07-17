@@ -30,6 +30,4 @@ On Debian systems, the complete text of the GNU Library General
 Public License can be found in `/usr/share/common-licenses/LGPL-2'.
 
 The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers and
-is licensed under the GPL. The GNU General Public License can be found,
-on Debian systems, at /usr/share/common-licenses/GPL.
-
+is licensed under the same licenes as the software, see above.
