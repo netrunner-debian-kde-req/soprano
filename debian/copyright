@@ -29,5 +29,13 @@ License:
 On Debian systems, the complete text of the GNU Library General
 Public License can be found in `/usr/share/common-licenses/LGPL-2'.
 
+
+The following files are under the terms of the BSD license:
+    | cmake/modules/FindGNUWIN32.cmake  
+    | cmake/modules/ FindRedland.cmake
+
+On Debian systems, the complete text of the BSD License can be
+found in `/usr/share/common-licenses/BSD'
+
 The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers and
-is licensed under the same licenes as the software, see above.
+is licensed under the same license as the software, LGPL-2, see above.

@@ -1,4 +1,4 @@
-soprano (0.9.0~snapshot20070717-1) unstable; urgency=low
+soprano (0.9.0~snapshot20070728-1) unstable; urgency=low
 
   * First upload to Debian. (Closes: #422206)
 
@@ -6,7 +6,7 @@ soprano (0.9.0~snapshot20070717-1) unstable; urgency=low
   
   * Some minor changes for package polishing.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 17 Jul 2007 14:44:03 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 Jul 2007 02:03:40 +0200
 
 soprano (0.9.0~snapshot20070525-1) unstable; urgency=low
 
