@@ -9,7 +9,11 @@ soprano (1.93.0~svn717188) unstable; urgency=low
   * Patch away java backend and remove jar files from upstream.
   * Update copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Sep 2007 13:33:03 +0200
+  +++ Changes by Armin Berres:
+
+  * Add dependency of libsoprano-dev on the binary version of libsoprano4
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Sep 2007 15:06:58 +0200
 
 soprano (0.9.0~snapshot20070728-1) unstable; urgency=low
 
