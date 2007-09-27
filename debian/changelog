@@ -1,3 +1,16 @@
+soprano (1.93.0~svn717188) unstable; urgency=low
+
+  +++ Changes by Sune Vuorela:
+
+  * New upstream snapshot.
+    - Soprano2
+    - Now a client-server model, but both used on same computer.
+  * Soname bump.
+  * Patch away java backend and remove jar files from upstream.
+  * Update copyright.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Sep 2007 13:33:03 +0200
+
 soprano (0.9.0~snapshot20070728-1) unstable; urgency=low
 
   * First upload to Debian. (Closes: #422206)
