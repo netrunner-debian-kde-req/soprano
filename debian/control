@@ -11,8 +11,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: libsoprano3
 Replaces: libsoprano3
-Description: Qt interface to RDF storage
- Soprano (formally known as QRDF) is a library which provides a nice Qt 
+Description: Qt4 interface to RDF storage
+ Soprano (formally known as QRDF) is a library which provides a nice Qt4 
  interface to RDF storage solutions. It has a modular structure which 
  allows to replace the actual RDF storage implementation used.
  .
@@ -25,10 +25,10 @@ Description: Qt interface to RDF storage
 Package: libsoprano-dev
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, libsoprano4 (= ${binary:Version})
-Description: Development files for soprano, a Qt interface for RDF storage
- Soprano (formally known as QRDF) is a library which provides a nice Qt 
+Description: Development files for soprano, a Qt4 interface for RDF storage
+ Soprano (formally known as QRDF) is a library which provides a nice Qt4
  interface to RDF storage solutions. It has a modular structure which allows 
- to replace the actual RDF storage implementation used..
+ to replace the actual RDF storage implementation used.
  .
  Currently Soprano implements one fully functional backend which is based
  on librdf, the Redland RDF Application Framework.

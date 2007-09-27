@@ -1,9 +1,9 @@
-soprano (1.93.0~svn717188) unstable; urgency=low
+soprano (1.93.0~svn718014) unstable; urgency=low
 
   +++ Changes by Sune Vuorela:
 
   * New upstream snapshot.
-    - Soprano2
+    - Soprano2.
     - Now a client-server model, but both used on same computer.
   * Soname bump.
   * Patch away java backend and remove jar files from upstream.
@@ -11,10 +11,14 @@ soprano (1.93.0~svn717188) unstable; urgency=low
 
   +++ Changes by Armin Berres:
 
-  * Add dependency of libsoprano-dev on the binary version of libsoprano4
-  * Add conflict of libsoprano4 with libsoprano3
+  * Add dependency of libsoprano-dev on the binary version of libsoprano4.
+  * Add conflict of libsoprano4 with libsoprano3.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Sep 2007 15:06:58 +0200
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Change s/Qt/Qt4/ in descriptions.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Sep 2007 00:38:03 +0200
 
 soprano (0.9.0~snapshot20070728-1) unstable; urgency=low
 
