@@ -3,7 +3,7 @@ Section: libs
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Ana Beatriz Guerrero Lopez <ana@debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, librdf0-dev, libqt4-dev (>> 4.3.0), quilt
+Build-Depends: cdbs, debhelper (>= 5), cmake, librdf0-dev, libqt4-dev (>> 4.3.0), libclucene-dev, quilt
 Standards-Version: 3.7.2
 
 Package: libsoprano4

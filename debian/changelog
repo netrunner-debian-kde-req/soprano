@@ -17,6 +17,7 @@ soprano (1.93.0~svn718014-1) unstable; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Change s/Qt/Qt4/ in descriptions.
+  * Add new build-dep on libclucene-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Sep 2007 00:38:03 +0200
 
