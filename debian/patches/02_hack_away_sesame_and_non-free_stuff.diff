@@ -1,10 +1,8 @@
-Index: b/CMakeLists.txt
-===================================================================
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -19,18 +19,6 @@
+@@ -17,18 +17,6 @@
+ 
  find_package(Redland)
- find_package(TStore)
  
 -find_package(JNI)
 -if(JAVA_INCLUDE_PATH)
@@ -21,7 +19,7 @@ Index: b/CMakeLists.txt
  
  set (LIB_SUFFIX "" CACHE STRING "Define suffix of directory name (32/64)" )
  set (LIB_DESTINATION "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}" CACHE STRING "Library directory name" FORCE)
-@@ -79,16 +67,13 @@
+@@ -80,16 +68,13 @@
  
  message("---------------------------------------------------------------------------------------")
  message("-- Soprano Components that will be built:")
@@ -37,27 +35,25 @@ Index: b/CMakeLists.txt
 -if(JNI_1_6_FOUND)
 -  message("   * Sesame2 storage backend (java-based)")
 -endif(JNI_1_6_FOUND)
- if(TSTORE_FOUND)
-   message("   * 3Store storage backend (the 3Store backend depends on a running and configured MySQL DB")
-   message("     and does not support removing of statements")
-@@ -112,9 +97,6 @@
+ 
+ if(REDLAND_FOUND)
+   message("   * Raptor RDF parser")
+@@ -109,9 +94,6 @@
  if(NOT REDLAND_FOUND)
    message("   * Redland storage backend")
  endif(NOT REDLAND_FOUND)
 -if(NOT JNI_1_6_FOUND)
 -  message("   * Sesame2 storage backend (java-based)")
 -endif(NOT JNI_1_6_FOUND)
- if(NOT TSTORE_FOUND)
-   message("   * 3Store storage backend")
- endif(NOT TSTORE_FOUND)
-Index: b/backends/CMakeLists.txt
-===================================================================
+ 
+ if(NOT REDLAND_FOUND)
+   message("   * Raptor RDF parser")
 --- a/backends/CMakeLists.txt
 +++ b/backends/CMakeLists.txt
-@@ -7,7 +7,3 @@
- if(TSTORE_FOUND)
-   add_subdirectory(3store)
- endif(TSTORE_FOUND)
+@@ -3,7 +3,3 @@
+ if(REDLAND_FOUND)
+   add_subdirectory(redland)
+ endif(REDLAND_FOUND)
 -
 -if(JNI_1_6_FOUND)
 -  add_subdirectory(sesame2)

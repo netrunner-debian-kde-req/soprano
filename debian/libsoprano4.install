@@ -5,6 +5,10 @@
 ./usr/share/dbus-1/interfaces/org.soprano.Server.xml
 ./usr/share/soprano/rules/rdfs.rules
 ./usr/share/soprano/rules/nrl.rules
+./usr/share/soprano/plugins/raptorparser.desktop
+./usr/share/soprano/plugins/raptorserializer.desktop
+./usr/share/soprano/plugins/rasqalqueryparser.desktop
+./usr/share/soprano/plugins/redlandbackend.desktop
 ./usr/bin/sopranocmd
 ./usr/bin/sopranod
 ./usr/lib/libsoprano.so.4.0.0

@@ -1,3 +1,12 @@
+soprano (1.93.0~svn720155-1) unstable; urgency=low
+
+  +++ Changes by Armin Berres:
+
+  * Update patch to remove java backend.
+  * Update *.install files
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Oct 2007 15:44:44 +0200
+
 soprano (1.93.0~svn718014-1) unstable; urgency=low
 
   +++ Changes by Sune Vuorela:
