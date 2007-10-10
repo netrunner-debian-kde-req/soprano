@@ -19,16 +19,16 @@
  
  set (LIB_SUFFIX "" CACHE STRING "Define suffix of directory name (32/64)" )
  set (LIB_DESTINATION "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}" CACHE STRING "Library directory name" FORCE)
-@@ -80,16 +68,13 @@
+@@ -87,16 +75,13 @@
  
  message("---------------------------------------------------------------------------------------")
  message("-- Soprano Components that will be built:")
--if(NOT REDLAND_FOUND AND JNI_1_6_FOUND AND TSTORE_FOUND)
-+if(NOT REDLAND_FOUND AND TSTORE_FOUND)
+-if(NOT REDLAND_FOUND AND JNI_1_6_FOUND)
++if(NOT REDLAND_FOUND)
    message("   WARNING: No Soprano backends will be compiled due to missing dependancies!")
    message("   WARNING: Soprano will not be very useful without storage backends!")
--endif(NOT REDLAND_FOUND AND JNI_1_6_FOUND AND TSTORE_FOUND)
-+endif(NOT REDLAND_FOUND AND TSTORE_FOUND)
+-endif(NOT REDLAND_FOUND AND JNI_1_6_FOUND)
++endif(NOT REDLAND_FOUND)
  if(REDLAND_FOUND)
    message("   * Redland storage backend")
  endif(REDLAND_FOUND)
@@ -38,7 +38,7 @@
  
  if(REDLAND_FOUND)
    message("   * Raptor RDF parser")
-@@ -109,9 +94,6 @@
+@@ -119,9 +104,6 @@
  if(NOT REDLAND_FOUND)
    message("   * Redland storage backend")
  endif(NOT REDLAND_FOUND)

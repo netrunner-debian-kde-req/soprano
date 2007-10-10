@@ -7,7 +7,6 @@
 ./usr/share/soprano/rules/nrl.rules
 ./usr/share/soprano/plugins/raptorparser.desktop
 ./usr/share/soprano/plugins/raptorserializer.desktop
-./usr/share/soprano/plugins/rasqalqueryparser.desktop
 ./usr/share/soprano/plugins/redlandbackend.desktop
 ./usr/bin/sopranocmd
 ./usr/bin/sopranod
@@ -17,7 +16,6 @@
 ./usr/lib/libsopranoindex.so.1.0.0
 ./usr/lib/libsopranoindex.so.1
 ./usr/lib/soprano/libsoprano_redlandbackend.so
-./usr/lib/soprano/libsoprano_rasqalqueryparser.so
 ./usr/lib/soprano/libsoprano_raptorparser.so
 ./usr/lib/soprano/libsoprano_raptorserializer.so
 ./usr/lib/libsopranoserver.so.1.0.0

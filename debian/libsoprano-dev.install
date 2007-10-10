@@ -1,4 +1,3 @@
-./usr/include/soprano/queryparser.h
 ./usr/include/soprano/nao.h
 ./usr/include/soprano/inferenceruleset.h
 ./usr/include/soprano/statementiterator.h
@@ -18,7 +17,6 @@
 ./usr/include/soprano/iteratorbackend.h
 ./usr/include/soprano/sopranotypes.h
 ./usr/include/soprano/cluceneindex.h
-./usr/include/soprano/query.h
 ./usr/include/soprano/parser.h
 ./usr/include/soprano/nodeiterator.h
 ./usr/include/soprano/rdfschemawrapper.h
@@ -38,7 +36,6 @@
 ./usr/include/soprano/inferencemodel.h
 ./usr/include/soprano/soprano_export.h
 ./usr/include/soprano/vocabulary.h
-./usr/include/soprano/queryserializer.h
 ./usr/include/soprano/queryresultiteratorbackend.h
 ./usr/include/soprano/dbusmodel.h
 ./usr/include/soprano/literalvalue.h
@@ -55,3 +52,4 @@
 ./usr/lib/libsopranoindex.so
 ./usr/lib/libsoprano.so
 ./usr/lib/libsopranoclient.so
+./usr/lib/pkgconfig/soprano.pc
