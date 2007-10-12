@@ -1,8 +1,9 @@
 soprano (1.95.0~beta2-2) unstable; urgency=low
 
-  * Make soprano binNMUable. 
+  * Make soprano binNMUable.
+  * Add watch file.
 
- -- Armin Berres <trigger+debian@space-based.de>  Fri, 12 Oct 2007 00:25:49 +0200
+ -- Armin Berres <trigger+debian@space-based.de>  Fri, 12 Oct 2007 13:07:23 +0200
 
 soprano (1.95.0~beta2-1) unstable; urgency=low
 
