@@ -1,10 +1,21 @@
-soprano (1.95.0~beta2-2) unstable; urgency=low
+soprano (1.97.1~beta4-1) unstable; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Armin Berres:
 
   * Make soprano binNMUable (Closes: #449130).
-  * libsoprano-dev belongs into section libdevel (Closes: #447620).
   * Add watch file.
 
- -- Armin Berres <trigger+debian@space-based.de>  Tue, 06 Nov 2007 17:41:53 +0100
+  +++ Changes by Fathi Boudra:
+
+  * Add myself in uploaders.
+  * libsoprano-dev should be in section libdevel (Closes: 447620).
+  * Add Homepage in long description.
+  * Update libsoprano-dev include files.
+  * Update patch.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 Nov 2007 17:33:28 +0100
 
 soprano (1.95.0~beta2-1) unstable; urgency=low
 

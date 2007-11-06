@@ -1,11 +1,11 @@
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -17,18 +17,6 @@
+@@ -17,19 +17,6 @@
  
  find_package(Redland)
  
 -find_package(JNI)
--if(JAVA_INCLUDE_PATH)
+-if(JAVA_INCLUDE_PATH AND JAVA_JVM_LIBRARY)
 -  file(READ ${JAVA_INCLUDE_PATH}/jni.h jni_header_data)
 -  string(REGEX MATCH "JNI_VERSION_1_6" JNI_1_6_FOUND "${jni_header_data}")
 -  if(JNI_1_6_FOUND)
@@ -13,13 +13,14 @@
 -  else(JNI_1_6_FOUND)
 -    message( "Need JRE version 1.6 or higher for the Sesame2 backend.")
 -  endif(JNI_1_6_FOUND)
--else(JAVA_INCLUDE_PATH)
+-else(JAVA_INCLUDE_PATH AND JAVA_JVM_LIBRARY)
 -  message(STATUS "Could not find Java JNI")
--endif(JAVA_INCLUDE_PATH)
- 
+-endif(JAVA_INCLUDE_PATH AND JAVA_JVM_LIBRARY)
+-
  set (LIB_SUFFIX "" CACHE STRING "Define suffix of directory name (32/64)" )
  set (LIB_DESTINATION "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}" CACHE STRING "Library directory name" FORCE)
-@@ -87,16 +75,13 @@
+ ## the following are directories where stuff will be installed to
+@@ -92,16 +79,13 @@
  
  message("---------------------------------------------------------------------------------------")
  message("-- Soprano Components that will be built:")
@@ -38,7 +39,7 @@
  
  if(REDLAND_FOUND)
    message("   * Raptor RDF parser")
-@@ -119,9 +104,6 @@
+@@ -124,9 +108,6 @@
  if(NOT REDLAND_FOUND)
    message("   * Redland storage backend")
  endif(NOT REDLAND_FOUND)
@@ -50,11 +51,10 @@
    message("   * Raptor RDF parser")
 --- a/backends/CMakeLists.txt
 +++ b/backends/CMakeLists.txt
-@@ -3,7 +3,3 @@
- if(REDLAND_FOUND)
+@@ -4,6 +4,3 @@
    add_subdirectory(redland)
  endif(REDLAND_FOUND)
--
+ 
 -if(JNI_1_6_FOUND)
 -  add_subdirectory(sesame2)
 -endif(JNI_1_6_FOUND)

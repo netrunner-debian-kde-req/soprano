@@ -1,14 +1,15 @@
 This package was debianized by Sune Vuorela <debian@pusling.com> on
 Fri,  4 May 2007 09:49:34 +0200.
 
-It was downloaded from http://www.kde.org
+It was downloaded from http://soprano.sourceforge.net
 
-Copyright: 
-     * Copyright (C) 2006-2007 Daniele Galdi <daniele.galdi@gmail.com>
-     * Copyright (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
-     * Copyright (C) 2006 Duncan Mac-Vicar <duncan@kde.org>
-     * Copyright (C) 2006 Kevin Ottens <ervin@kde.org>
-     * Copyright (c) 2006 Peter Kuemmel <syntheticpp@yahoo.com>
+Copyright:
+
+    * (C) 2006-2007 Daniele Galdi <daniele.galdi@gmail.com>
+    * (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
+    * (C) 2006 Duncan Mac-Vicar <duncan@kde.org>
+    * (C) 2006 Kevin Ottens <ervin@kde.org>
+    * (C) 2006 Peter Kuemmel <syntheticpp@yahoo.com>
 
 License:
 
@@ -29,12 +30,16 @@ License:
 On Debian systems, the complete text of the GNU Library General
 Public License can be found in `/usr/share/common-licenses/LGPL-2'.
 
-The following files are under the terms of the GNU General Public License version 2 or later:
-tools/sopranocmd.cpp
-tools/sopranod.cpp
-test/parsertest.cpp
-test/tstringtest.cpp
-test/tstringtest.h
+The following files are under the terms of the GNU General Public License
+version 2 or later:
+
+    * tools/sopranocmd.cpp
+    * tools/sopranod.cpp
+    * test/parsertest.cpp
+    * test/tstringtest.cpp
+    * test/tstringtest.h
+
+License:
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -53,11 +58,11 @@ test/tstringtest.h
 On Debian systems, the complete text of the GNU General
 Public License can be found in `/usr/share/common-licenses/GPL-2'.
 
-
 The following files are under the terms of the BSD license:
-    | cmake/modules/FindGNUWIN32.cmake  
-    | cmake/modules/ FindRedland.cmake
-    | cmake/modules/FindQt4.cmake
+
+    * cmake/modules/FindGNUWIN32.cmake
+    * cmake/modules/ FindRedland.cmake
+    * cmake/modules/FindQt4.cmake
 
 On Debian systems, the complete text of the BSD License can be
 found in `/usr/share/common-licenses/BSD'
