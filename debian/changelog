@@ -1,9 +1,10 @@
 soprano (1.95.0~beta2-2) unstable; urgency=low
 
   * Make soprano binNMUable (Closes: #449130).
+  * libsoprano-dev belongs into section libdevel (Closes: #447620).
   * Add watch file.
 
- -- Armin Berres <trigger+debian@space-based.de>  Sun, 04 Nov 2007 22:46:16 +0100
+ -- Armin Berres <trigger+debian@space-based.de>  Tue, 06 Nov 2007 17:41:53 +0100
 
 soprano (1.95.0~beta2-1) unstable; urgency=low
 

@@ -23,6 +23,7 @@ Description: Qt4 interface to RDF storage
  using libsoprano.
 
 Package: libsoprano-dev
+Section: libdevel
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, libsoprano4 (>= ${source:Version}),
  libsoprano4 (<< ${source:Version}.1~)
