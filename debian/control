@@ -6,6 +6,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>, Ana Beatriz Guerrero Lopez <ana@de
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt,
  libclucene-dev, libqt4-dev (>> 4.3.0), librdf0-dev
 Standards-Version: 3.7.2
+Homepage: http://soprano.sourceforge.net
 
 Package: libsoprano4
 Section: libs
@@ -23,8 +24,6 @@ Description: Qt4 interface to RDF storage
  .
  This package contains the runtime library files needed to run software
  using libsoprano.
- .
-  Homepage: http://soprano.sourceforge.net
 
 Package: libsoprano-dev
 Section: libdevel
@@ -41,5 +40,3 @@ Description: Development files for soprano, a Qt4 interface for RDF storage
  .
  This package contains the header and development files needed to build
  programs and packages using libsoprano.
- .
-  Homepage: http://soprano.sourceforge.net
