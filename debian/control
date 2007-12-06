@@ -2,7 +2,7 @@ Source: soprano
 Section: libs
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Sune Vuorela <debian@pusling.com>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Armin Berres <trigger+debian@space-based.de>, Fathi Boudra <fboudra@free.fr>
+Uploaders: Sune Vuorela <debian@pusling.com>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Armin Berres <trigger+debian@space-based.de>, Fathi Boudra <fabo@debian.org>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt,
  libclucene-dev, libqt4-dev (>> 4.3.0), librdf0-dev
 Standards-Version: 3.7.2
