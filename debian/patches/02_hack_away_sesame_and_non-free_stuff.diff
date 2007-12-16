@@ -1,5 +1,7 @@
---- a/CMakeLists.txt
-+++ b/CMakeLists.txt
+Index: soprano-1.99~rc2/CMakeLists.txt
+===================================================================
+--- soprano-1.99~rc2.orig/CMakeLists.txt	2007-12-16 19:17:18.000000000 +0100
++++ soprano-1.99~rc2/CMakeLists.txt	2007-12-16 19:17:40.000000000 +0100
 @@ -17,19 +17,6 @@
  
  find_package(Redland)
@@ -20,7 +22,7 @@
  set (LIB_SUFFIX "" CACHE STRING "Define suffix of directory name (32/64)" )
  set (LIB_DESTINATION "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}" CACHE STRING "Library directory name" FORCE)
  ## the following are directories where stuff will be installed to
-@@ -92,16 +79,13 @@
+@@ -95,16 +82,13 @@
  
  message("---------------------------------------------------------------------------------------")
  message("-- Soprano Components that will be built:")
@@ -39,7 +41,7 @@
  
  if(REDLAND_FOUND)
    message("   * Raptor RDF parser")
-@@ -124,9 +108,6 @@
+@@ -127,9 +111,6 @@
  if(NOT REDLAND_FOUND)
    message("   * Redland storage backend")
  endif(NOT REDLAND_FOUND)
@@ -49,8 +51,10 @@
  
  if(NOT REDLAND_FOUND)
    message("   * Raptor RDF parser")
---- a/backends/CMakeLists.txt
-+++ b/backends/CMakeLists.txt
+Index: soprano-1.99~rc2/backends/CMakeLists.txt
+===================================================================
+--- soprano-1.99~rc2.orig/backends/CMakeLists.txt	2007-12-16 19:17:18.000000000 +0100
++++ soprano-1.99~rc2/backends/CMakeLists.txt	2007-12-16 19:17:40.000000000 +0100
 @@ -4,6 +4,3 @@
    add_subdirectory(redland)
  endif(REDLAND_FOUND)
