@@ -1,5 +1,6 @@
 #!/usr/bin/make -f
 THIS_SHOULD_GO_TO_UNSTABLE = 1  
 
+export LDFLAGS+="-Wl,--as-needed"
 include debian/cdbs/kde.mk
 
