@@ -1,3 +1,10 @@
+soprano (2.0.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Remove export LDFLAGS since it was added to cdbs/kde.mk.
+
+ -- Fathi Boudra <fabo@debian.org>  Mon, 07 Jan 2008 13:52:52 +0100
+
 soprano (1.99~rc2-1) unstable; urgency=low
 
   * New upstream release.

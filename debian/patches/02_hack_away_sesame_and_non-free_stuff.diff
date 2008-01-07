@@ -1,7 +1,5 @@
-Index: soprano-1.99~rc2/CMakeLists.txt
-===================================================================
---- soprano-1.99~rc2.orig/CMakeLists.txt	2007-12-16 19:17:18.000000000 +0100
-+++ soprano-1.99~rc2/CMakeLists.txt	2007-12-16 19:17:40.000000000 +0100
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
 @@ -17,19 +17,6 @@
  
  find_package(Redland)
@@ -51,10 +49,8 @@ Index: soprano-1.99~rc2/CMakeLists.txt
  
  if(NOT REDLAND_FOUND)
    message("   * Raptor RDF parser")
-Index: soprano-1.99~rc2/backends/CMakeLists.txt
-===================================================================
---- soprano-1.99~rc2.orig/backends/CMakeLists.txt	2007-12-16 19:17:18.000000000 +0100
-+++ soprano-1.99~rc2/backends/CMakeLists.txt	2007-12-16 19:17:40.000000000 +0100
+--- a/backends/CMakeLists.txt
++++ b/backends/CMakeLists.txt
 @@ -4,6 +4,3 @@
    add_subdirectory(redland)
  endif(REDLAND_FOUND)
