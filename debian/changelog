@@ -2,7 +2,10 @@ soprano (2.0.0-3) UNRELEASED; urgency=low
 
   +++ Changes by Matthew Rosewarne:
 
+  * Split executables from libsoprano4 into libsoprano-bin package.
+  * Add libsoprano-dbg package.
   * Fix version for libsoprano-dev dependency on libsoprano4.
+  * Tweak package descriptions.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Jan 2008 01:22:43 -0500
 

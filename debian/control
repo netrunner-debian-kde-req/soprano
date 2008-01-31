@@ -11,31 +11,59 @@ Homepage: http://soprano.sourceforge.net
 Package: libsoprano4
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libsoprano-bin (= ${binary:Version})
 Conflicts: libsoprano3
 Replaces: libsoprano3
-Description: Qt 4 interface to RDF storage
- Soprano (formally known as QRDF) is a library which provides a nice Qt 4
- interface to RDF storage solutions. It has a modular structure which 
- allows to replace the actual RDF storage implementation used.
+Description: Soprano RDF framework for Qt 4
+ Soprano is a pluggable RDF storage, parsing, and serialization framework based
+ on Qt 4.  Soprano is targeted at desktop applications that need to store RDF
+ data.  Its API has been optimized for simplicity and ease of use, while its
+ modular structure allows it to use various different RDF storage
+ implementations as its backend.
  .
- Currently Soprano implements one fully functional backend which is based
- on librdf, the Redland RDF Application Framework.
+ This package contains the Soprano core libraries, parser plugins, and a
+ storage plugin for the Redland RDF Application Framework.
+
+Package: libsoprano-bin
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libsoprano4 (= ${binary:Version})
+Replaces: libsoprano4 (<= 2.0.0-2)
+Conflicts: libsoprano4 (<= 2.0.0-2)
+Description: executables for the Soprano RDF framework
+ Soprano is a pluggable RDF storage, parsing, and serialization framework based
+ on Qt 4.  Soprano is targeted at desktop applications that need to store RDF
+ data.  Its API has been optimized for simplicity and ease of use, while its
+ modular structure allows it to use various different RDF storage
+ implementations as its backend.
  .
- This package contains the runtime library files needed to run software
- using libsoprano.
+ This package contains programs used by the Soprano libraries, including the
+ Soprano D-Bus service.
+
+Package: libsoprano-dbg
+Section: libdevel
+Architecture: any
+Suggests: libsoprano4 (= ${binary:Version})
+Description: debugging symbols for the Soprano RDF framework
+ Soprano is a pluggable RDF storage, parsing, and serialization framework based
+ on Qt 4.  Soprano is targeted at desktop applications that need to store RDF
+ data.  Its API has been optimized for simplicity and ease of use, while its
+ modular structure allows it to use various different RDF storage
+ implementations as its backend.
+ .
+ This package contains debugging files used to investigate problems with
+ binaries included in the Soprano packages.
 
 Package: libsoprano-dev
 Section: libdevel
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libsoprano4 (= ${binary:Version})
-Description: development files for soprano, a Qt 4 interface for RDF storage
- Soprano (formally known as QRDF) is a library which provides a nice Qt 4
- interface to RDF storage solutions. It has a modular structure which allows 
- to replace the actual RDF storage implementation used.
+Description: development files for the Soprano RDF framework
+ Soprano is a pluggable RDF storage, parsing, and serialization framework based
+ on Qt 4.  Soprano is targeted at desktop applications that need to store RDF
+ data.  Its API has been optimized for simplicity and ease of use, while its
+ modular structure allows it to use various different RDF storage
+ implementations as its backend.
  .
- Currently Soprano implements one fully functional backend which is based
- on librdf, the Redland RDF Application Framework.
- .
- This package contains the header and development files needed to build
- programs and packages using libsoprano.
+ This package contains development files for building software that uses the
+ Soprano libraries.

@@ -1,0 +1,13 @@
+usr/bin/sopranocmd
+usr/bin/sopranod
+usr/lib/libsopranoclient.so.1
+usr/lib/libsopranoclient.so.1.0.0
+usr/lib/libsopranoindex.so.1
+usr/lib/libsopranoindex.so.1.0.0
+usr/lib/libsopranoserver.so.1
+usr/lib/libsopranoserver.so.1.0.0
+usr/share/dbus-1/interfaces/org.soprano.Model.xml
+usr/share/dbus-1/interfaces/org.soprano.NodeIterator.xml
+usr/share/dbus-1/interfaces/org.soprano.QueryResultIterator.xml
+usr/share/dbus-1/interfaces/org.soprano.Server.xml
+usr/share/dbus-1/interfaces/org.soprano.StatementIterator.xml
