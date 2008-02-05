@@ -2,8 +2,8 @@ soprano (2.0.0-3) UNRELEASED; urgency=low
 
   +++ Changes by Matthew Rosewarne:
 
-  * Split executables from libsoprano4 into libsoprano-bin package.
   * Add libsoprano-dbg package.
+  * Bump compat to 6.
   * Fix version for libsoprano-dev dependency on libsoprano4.
   * Tweak package descriptions.
 

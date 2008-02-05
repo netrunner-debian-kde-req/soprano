@@ -3,7 +3,7 @@ Section: libs
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Armin Berres <trigger+debian@space-based.de>, Fathi Boudra <fabo@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt,
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt,
  libclucene-dev, libqt4-dev (>> 4.3.0), librdf0-dev
 Standards-Version: 3.7.3
 Homepage: http://soprano.sourceforge.net
@@ -21,24 +21,8 @@ Description: libraries for the Soprano RDF framework
  modular structure allows it to use various different RDF storage
  implementations as its backend.
  .
- This package contains the Soprano core libraries, parser plugins, and a
- storage plugin for the Redland RDF Application Framework.
-
-Package: libsoprano-bin
-Section: libs
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libsoprano4 (= ${binary:Version})
-Replaces: libsoprano4 (<= 2.0.0-2)
-Conflicts: libsoprano4 (<= 2.0.0-2)
-Description: executables for the Soprano RDF framework
- Soprano is a pluggable RDF storage, parsing, and serialization framework based
- on Qt 4.  Soprano is targeted at desktop applications that need to store RDF
- data.  Its API has been optimized for simplicity and ease of use, while its
- modular structure allows it to use various different RDF storage
- implementations as its backend.
- .
- This package contains programs used by the Soprano libraries, including the
- Soprano D-Bus service.
+ This package contains the Soprano core libraries, D-Bus service, parser
+ plugins, and a storage plugin for the Redland RDF Application Framework.
 
 Package: libsoprano-dbg
 Section: libdevel
