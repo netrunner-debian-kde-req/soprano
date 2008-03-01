@@ -5,11 +5,11 @@ It was downloaded from http://soprano.sourceforge.net
 
 Copyright:
 
-    * (C) 2006-2007 Daniele Galdi <daniele.galdi@gmail.com>
-    * (C) 2006-2007 Sebastian Trueg <trueg@kde.org>
-    * (C) 2006 Duncan Mac-Vicar <duncan@kde.org>
-    * (C) 2006 Kevin Ottens <ervin@kde.org>
-    * (C) 2006 Peter Kuemmel <syntheticpp@yahoo.com>
+    © 2006-2007 Daniele Galdi <daniele.galdi@gmail.com>
+    © 2006-2007 Sebastian Trueg <trueg@kde.org>
+    © 2006 Duncan Mac-Vicar <duncan@kde.org>
+    © 2006 Kevin Ottens <ervin@kde.org>
+    © 2006 Peter Kuemmel <syntheticpp@yahoo.com>
 
 License:
 
@@ -67,5 +67,5 @@ The following files are under the terms of the BSD license:
 On Debian systems, the complete text of the BSD License can be
 found in `/usr/share/common-licenses/BSD'
 
-The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers and
+The Debian packaging is © 2007, Debian Qt/KDE Maintainers and
 is licensed under the same license as the software, LGPL-2, see above.

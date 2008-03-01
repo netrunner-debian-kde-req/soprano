@@ -3,15 +3,17 @@ Section: libs
 Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Armin Berres <trigger+debian@space-based.de>, Fathi Boudra <fabo@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt,
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 5), cmake, quilt,
  libclucene-dev, libqt4-dev (>> 4.3.0), librdf0-dev
 Standards-Version: 3.7.3
 Homepage: http://soprano.sourceforge.net
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/soprano
+Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/soprnao
 
 Package: libsoprano4
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libsoprano-bin (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: libsoprano3
 Replaces: libsoprano3
 Description: libraries for the Soprano RDF framework
