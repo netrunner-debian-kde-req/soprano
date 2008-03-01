@@ -1,5 +1,7 @@
 soprano (2.0.2-1) unstable; urgency=low
 
+  * New upstream release.
+
   +++ Changes by Matthew Rosewarne:
 
   * Add libsoprano-dbg package.
