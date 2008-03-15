@@ -1,4 +1,4 @@
-soprano (2.0.2-1) unstable; urgency=low
+soprano (2.0.3-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -12,7 +12,7 @@ soprano (2.0.2-1) unstable; urgency=low
 
   * Add Vcs-Browser and Vcs-Svn fields.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Mar 2008 18:57:09 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 15 Mar 2008 17:14:52 +0100
 
 soprano (2.0.0-2) unstable; urgency=low
 
