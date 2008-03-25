@@ -1,3 +1,10 @@
+soprano (2.0.3-2) experimental; urgency=low
+
+  * Rebuild against Qt 4.4 beta. Update build depend on libqt4-dev 
+    to (>> 4.4.0~).
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 25 Mar 2008 19:25:36 +0100
+
 soprano (2.0.3-1) unstable; urgency=low
 
   * New upstream release.
