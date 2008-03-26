@@ -1,3 +1,10 @@
+soprano (2.0.97~svn790369-1) experimental; urgency=low
+
+  * New upstream snapshot.
+  * Update installed files.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 26 Mar 2008 18:38:05 +0100
+
 soprano (2.0.3-2) experimental; urgency=low
 
   * Rebuild against Qt 4.4 beta. Update build depend on libqt4-dev 

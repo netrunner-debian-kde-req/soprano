@@ -3,7 +3,12 @@ usr/include/soprano/backend.h
 usr/include/soprano/bindingset.h
 usr/include/soprano/cluceneindex.h
 usr/include/soprano/dbusclient.h
+usr/include/soprano/dbusexportiterator.h
+usr/include/soprano/dbusexportmodel.h
 usr/include/soprano/dbusmodel.h
+usr/include/soprano/dbusnodeiterator.h
+usr/include/soprano/dbusqueryresultiterator.h
+usr/include/soprano/dbusstatementiterator.h
 usr/include/soprano/dummymodel.h
 usr/include/soprano/error.h
 usr/include/soprano/filtermodel.h
@@ -17,6 +22,7 @@ usr/include/soprano/inferenceruleset.h
 usr/include/soprano/iteratorbackend.h
 usr/include/soprano/iterator.h
 usr/include/soprano/literalvalue.h
+usr/include/soprano/localsocketclient.h
 usr/include/soprano/model.h
 usr/include/soprano/mutexmodel.h
 usr/include/soprano/nao.h
@@ -24,6 +30,7 @@ usr/include/soprano/node.h
 usr/include/soprano/nodeiterator.h
 usr/include/soprano/nodepattern.h
 usr/include/soprano/nrl.h
+usr/include/soprano/owl.h
 usr/include/soprano/parser.h
 usr/include/soprano/plugin.h
 usr/include/soprano/pluginmanager.h
@@ -32,8 +39,10 @@ usr/include/soprano/queryresultiterator.h
 usr/include/soprano/rdf.h
 usr/include/soprano/rdfschemamodel.h
 usr/include/soprano/rdfs.h
+usr/include/soprano/readonlymodel.h
 usr/include/soprano/serializer.h
 usr/include/soprano/servercore.h
+usr/include/soprano/signalcachemodel.h
 usr/include/soprano/sil.h
 usr/include/soprano/simplenodeiterator.h
 usr/include/soprano/simplestatementiterator.h
@@ -45,7 +54,6 @@ usr/include/soprano/statementiterator.h
 usr/include/soprano/statementpattern.h
 usr/include/soprano/storagemodel.h
 usr/include/soprano/tcpclient.h
-usr/include/soprano/unixsocketclient.h
 usr/include/soprano/version.h
 usr/include/soprano/vocabulary.h
 usr/include/soprano/xesam.h
