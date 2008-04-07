@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Armin Berres <trigger+debian@space-based.de>, Fathi Boudra <fabo@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 5), cmake, quilt,
- libclucene-dev, libqt4-dev (>> 4.4.0~), librdf0-dev
+ libclucene-dev, libqt4-dev (>> 4.4.0~rc1), librdf0-dev, doxygen, graphviz
 Standards-Version: 3.7.3
 Homepage: http://soprano.sourceforge.net
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/soprano
@@ -44,6 +44,7 @@ Package: libsoprano-dev
 Section: libdevel
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libsoprano4 (= ${binary:Version})
+Suggests: libsoprano-doc (= ${source:Version})
 Description: development files for the Soprano RDF framework
  Soprano is a pluggable RDF storage, parsing, and serialization framework based
  on Qt 4.  Soprano is targeted at desktop applications that need to store RDF
@@ -53,3 +54,18 @@ Description: development files for the Soprano RDF framework
  .
  This package contains development files for building software that uses the
  Soprano libraries.
+
+Package: libsoprano-doc
+Section: doc
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: qt4-doc
+Description: developer documentation for the Soprano RDF framework
+ Soprano is a pluggable RDF storage, parsing, and serialization framework based
+ on Qt 4.  Soprano is targeted at desktop applications that need to store RDF
+ data.  Its API has been optimized for simplicity and ease of use, while its
+ modular structure allows it to use various different RDF storage
+ implementations as its backend.
+ .
+ This package contains documentation for software developers using the Soprano
+ RDF framework.

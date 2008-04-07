@@ -4,3 +4,18 @@ THIS_SHOULD_GO_TO_UNSTABLE = 1
 
 include debian/cdbs/kde.mk
 
+build/libsoprano-doc::
+	cp /usr/share/qt4/doc/qt4.tag $(DEB_BUILDDIR)/qt4.tag
+	cd $(DEB_BUILDDIR) && $(MAKE) apidox
+
+install/libsoprano-doc::
+	mkdir -p $(DEB_DESTDIR)/usr/share/soprano/doc/html
+	cp $(DEB_BUILDDIR)/docs/html/*.css \
+	$(DEB_BUILDDIR)/docs/html/*.gif \
+	$(DEB_BUILDDIR)/docs/html/*.html \
+	$(DEB_BUILDDIR)/docs/html/*.png \
+	$(DEB_DESTDIR)/usr/share/soprano/doc/html/
+
+binary-post-install/libsoprano-dev::
+	doxytag -t debian/$(cdbs_curpkg)/usr/share/soprano/doc/soprano.tag \
+		$(DEB_DESTDIR)/usr/share/soprano/doc/html

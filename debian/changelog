@@ -1,3 +1,16 @@
+soprano (2.0.97~svn790369-2) UNRELEASED; urgency=low
+
+  +++ Changes by Matthew Rosewarne:
+
+  * Remove 02_hack_away_sesame_and_non-free_stuff.diff and prune-nonfree,
+    since Sesame2 is compliant with the DFSG.
+  * Update watch file to handle problems with the SourceForge redirector.
+  * Create libsoprano-doc package.
+  * Added doxygen and graphviz to Build-Depends.
+  * Increase minimum libqt4-dev Build-Depends version to 4.4.0~rc1.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 07 Apr 2008 00:58:55 -0400
+
 soprano (2.0.97~svn790369-1) experimental; urgency=low
 
   * New upstream snapshot.
