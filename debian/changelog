@@ -1,6 +1,6 @@
 soprano (2.0.97~svn790369-3) UNRELEASED; urgency=low
 
-  * Add libx11-dev build dependency to fix ftbfs since libqt4-dev dependencies
+  * Add patch to make X11 not required to fix ftbfs since libqt4-dev dependencies
     clean up.
 
  -- Fathi Boudra <fabo@debian.org>  Mon, 21 Apr 2008 14:20:45 +0200
