@@ -1,3 +1,9 @@
+soprano (2.0.97~svn790369-3) UNRELEASED; urgency=low
+
+  * Add libx11-dev build dependency to fix ftbfs against cmake >= 2.6.0~.
+
+ -- Fathi Boudra <fabo@debian.org>  Mon, 21 Apr 2008 14:20:45 +0200
+
 soprano (2.0.97~svn790369-2) experimental; urgency=low
 
   +++ Changes by Matthew Rosewarne:
