@@ -1,4 +1,5 @@
 usr/include/Soprano
+usr/include/soprano/asyncmodel.h
 usr/include/soprano/backend.h
 usr/include/soprano/bindingset.h
 usr/include/soprano/cluceneindex.h
@@ -19,10 +20,11 @@ usr/include/soprano/inferencemodel.h
 usr/include/soprano/inferencerule.h
 usr/include/soprano/inferenceruleparser.h
 usr/include/soprano/inferenceruleset.h
-usr/include/soprano/iteratorbackend.h
 usr/include/soprano/iterator.h
+usr/include/soprano/iteratorbackend.h
 usr/include/soprano/literalvalue.h
 usr/include/soprano/localsocketclient.h
+usr/include/soprano/locator.h
 usr/include/soprano/model.h
 usr/include/soprano/mutexmodel.h
 usr/include/soprano/nao.h
@@ -34,11 +36,11 @@ usr/include/soprano/owl.h
 usr/include/soprano/parser.h
 usr/include/soprano/plugin.h
 usr/include/soprano/pluginmanager.h
-usr/include/soprano/queryresultiteratorbackend.h
 usr/include/soprano/queryresultiterator.h
+usr/include/soprano/queryresultiteratorbackend.h
 usr/include/soprano/rdf.h
-usr/include/soprano/rdfschemamodel.h
 usr/include/soprano/rdfs.h
+usr/include/soprano/rdfschemamodel.h
 usr/include/soprano/readonlymodel.h
 usr/include/soprano/serializer.h
 usr/include/soprano/servercore.h
@@ -46,8 +48,8 @@ usr/include/soprano/signalcachemodel.h
 usr/include/soprano/sil.h
 usr/include/soprano/simplenodeiterator.h
 usr/include/soprano/simplestatementiterator.h
-usr/include/soprano/soprano_export.h
 usr/include/soprano/soprano.h
+usr/include/soprano/soprano_export.h
 usr/include/soprano/sopranotypes.h
 usr/include/soprano/statement.h
 usr/include/soprano/statementiterator.h
@@ -58,8 +60,8 @@ usr/include/soprano/version.h
 usr/include/soprano/vocabulary.h
 usr/include/soprano/xesam.h
 usr/include/soprano/xsd.h
+usr/lib/libsoprano.so
 usr/lib/libsopranoclient.so
 usr/lib/libsopranoindex.so
 usr/lib/libsopranoserver.so
-usr/lib/libsoprano.so
 usr/lib/pkgconfig/soprano.pc

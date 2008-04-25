@@ -1,0 +1,5 @@
+depends libsoprano4
+
+dst:usr/include
+dst:usr/lib/.*\.so$
+dst:.*\.pc$

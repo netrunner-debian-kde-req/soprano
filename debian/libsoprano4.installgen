@@ -1,0 +1,7 @@
+# install docs first (because they are in usr/share)
+depends libsoprano-doc
+
+mime:application/x-sharedlib,.* ! link:
+dst:usr/lib/.*\.so\.\d+
+dst:usr/bin
+dst:usr/share

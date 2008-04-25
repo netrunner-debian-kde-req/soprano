@@ -1,14 +1,14 @@
 usr/bin/onto2vocabularyclass
 usr/bin/sopranocmd
 usr/bin/sopranod
+usr/lib/libsoprano.so.4
+usr/lib/libsoprano.so.4.1.0
 usr/lib/libsopranoclient.so.1
 usr/lib/libsopranoclient.so.1.0.0
 usr/lib/libsopranoindex.so.1
 usr/lib/libsopranoindex.so.1.0.0
 usr/lib/libsopranoserver.so.1
 usr/lib/libsopranoserver.so.1.0.0
-usr/lib/libsoprano.so.4
-usr/lib/libsoprano.so.4.0.0
 usr/lib/soprano/libsoprano_nquadparser.so
 usr/lib/soprano/libsoprano_nquadserializer.so
 usr/lib/soprano/libsoprano_raptorparser.so

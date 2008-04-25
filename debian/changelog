@@ -1,9 +1,24 @@
-soprano (2.0.97~svn790369-3) UNRELEASED; urgency=low
+soprano (2.0.98+svn800809-1~pre1) UNRELEASED; urgency=low
 
-  * Add patch to make X11 not required to fix ftbfs since libqt4-dev dependencies
-    clean up.
+  * New upstream development snapshot:
+    - The latest upstream commit is r800809 by aacid
+    - Date: Fri, 25 Apr 2008 00:40:25 -0000
+  * Corrections to *.install files:
+    - libsoprano-dev.install: 2 new file(s) added;
+    - libsoprano4.install: 1 new file(s) added; 1 file(s) removed;
 
- -- Fathi Boudra <fabo@debian.org>  Mon, 21 Apr 2008 14:20:45 +0200
+  +++ Changes by Fathi Boudra:
+
+  * Add patch to make X11 not required to fix ftbfs since libqt4-dev
+    dependencies clean up.
+  
+  +++ Changes by Modestas Vainius:
+
+  * Bump libsoprano4 shlibs to 2.0.98 because libsoprano4 changed its version
+    to 4.1.0.
+  * Add *.installgen files.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 25 Apr 2008 03:49:51 +0300
 
 soprano (2.0.97~svn790369-2) experimental; urgency=low
 
