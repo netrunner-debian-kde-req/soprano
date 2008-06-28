@@ -1,4 +1,5 @@
 #!/usr/bin/make -f
+THIS_SHOULD_GO_TO_UNSTABLE=1
 
 DEB_DH_MAKESHLIBS_ARGS_libsoprano4 = -V'libsoprano4 (>= 2.0.98)'
 
