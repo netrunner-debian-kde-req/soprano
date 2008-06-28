@@ -1,3 +1,10 @@
+soprano (2.0.98-2) unstable; urgency=low
+
+  * Upload to unstable.
+  * Replaces current soprano 2.0.3 and does not longer FTBFS. (Closes: #482265)
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 28 Jun 2008 21:23:37 +0200
+
 soprano (2.0.98-1) experimental; urgency=low
 
   * New upstream release.
