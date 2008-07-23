@@ -1,13 +1,17 @@
-soprano (2.1-0r2) UNRELEASED; urgency=low
+soprano (2.1+dfsg.1-0r1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release (KDE 4.1).
 
   +++ Changes by Modestas Vainius:
 
   * Bump shlibs to 2.1.
   * Add myself to uploaders.
+  * Update debian/copyright.
+  * Add prune-nonfree debian/rules target as a helper to get rid of jars and
+    *.class files inside the tarball. 
+  * Add dfsg suffix to the original tarball name. It was pruned.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Jul 2008 16:42:40 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Jul 2008 17:26:55 +0300
 
 soprano (2.0.98-2) unstable; urgency=low
 

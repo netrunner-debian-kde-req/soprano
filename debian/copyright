@@ -3,13 +3,18 @@ Fri,  4 May 2007 09:49:34 +0200.
 
 It was downloaded from http://soprano.sourceforge.net
 
-Copyright:
-
-    © 2006-2007 Daniele Galdi <daniele.galdi@gmail.com>
-    © 2006-2007 Sebastian Trueg <trueg@kde.org>
-    © 2006 Duncan Mac-Vicar <duncan@kde.org>
-    © 2006 Kevin Ottens <ervin@kde.org>
-    © 2006 Peter Kuemmel <syntheticpp@yahoo.com>
+Copyright: © 2006-2008 Sebastian Trueg <trueg@kde.org> <strueg@mandriva.com>
+Copyright: © 2006-2007 Daniele Galdi <daniele.galdi@gmail.com>
+Copyright: © 2006 Duncan Mac-Vicar <duncan@kde.org>
+Copyright: © 2006 David Faure <faure@kde.org>
+Copyright: © 2002 Insight Consortium. All Rights Reserved.
+Copyright: © 2006 Alexander Neundorf <neundorf@kde.org>
+Copyright: © 2006-2007 Laurent Montel <montel@kde.org>
+Copyright: © 2007 Pino Toscano <pino@kde.org>
+Copyright: © 2007 Christian Ehrlicher <ch.ehrlicher@gmx.de>
+Copyright: © 1992-2008 Trolltech ASA
+Copyright: © 2006 Kevin Ottens <ervin@kde.org>
+Copyright: © 2006 Peter Kuemmel <syntheticpp@yahoo.com>
 
 License:
 
@@ -31,13 +36,18 @@ On Debian systems, the complete text of the GNU Library General
 Public License can be found in `/usr/share/common-licenses/LGPL-2'.
 
 The following files are under the terms of the GNU General Public License
-version 2 or later:
-
-    * tools/sopranocmd.cpp
-    * tools/sopranod.cpp
-    * test/parsertest.cpp
+version 2 or later (unless stated otherwise below):
+    
+    * top level source directory files
+    * build system files (CMakeLists.txt, cmake/*, *.cmake)
+    * data/*
+    * server/sopranod.cpp
+    * server/sopranodcore.cpp
+    * server/sopranodcore.h
     * test/tstringtest.cpp
     * test/tstringtest.h
+    * tools/sopranocmd.cpp
+    * tools/onto2vocabularyclass.cpp
 
 License:
 
@@ -61,11 +71,13 @@ Public License can be found in `/usr/share/common-licenses/GPL-2'.
 The following files are under the terms of the BSD license:
 
     * cmake/modules/FindGNUWIN32.cmake
-    * cmake/modules/ FindRedland.cmake
-    * cmake/modules/FindQt4.cmake
+    * cmake/modules/FindLibraryWithDebug.cmake
+    * cmake/modules/FindRedland.cmake
+    * cmake/modules/MacroEnsureVersion.cmake
+    * cmake/modules/MacroPushRequiredVars.cmake
 
 On Debian systems, the complete text of the BSD License can be
 found in `/usr/share/common-licenses/BSD'
 
-The Debian packaging is © 2007, Debian Qt/KDE Maintainers and
+The Debian packaging is © 2008, Debian Qt/KDE Maintainers and
 is licensed under the same license as the software, LGPL-2, see above.

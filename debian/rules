@@ -20,3 +20,7 @@ install/libsoprano-doc::
 binary-post-install/libsoprano-dev::
 	doxytag -t debian/$(cdbs_curpkg)/usr/share/soprano/doc/soprano.tag \
 		$(DEB_DESTDIR)/usr/share/soprano/doc/html
+
+prune-nonfree:
+	# Deleting binary blobs
+	find \( -name *.jar -o -name *.class \) -print -delete
