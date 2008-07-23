@@ -1,13 +1,13 @@
-soprano (2.1-0r1) UNRELEASED; urgency=low
+soprano (2.1-0r2) UNRELEASED; urgency=low
 
-  * New upstream release (KDE 4.1).
+  * New upstream release.
 
   +++ Changes by Modestas Vainius:
 
   * Bump shlibs to 2.1.
   * Add myself to uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Jul 2008 16:36:51 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Jul 2008 16:42:40 +0300
 
 soprano (2.0.98-2) unstable; urgency=low
 
