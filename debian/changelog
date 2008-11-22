@@ -1,3 +1,17 @@
+soprano (2.1.1+dfsg.1-1) unstable; urgency=high
+
+  * New upstream release.
+    - Bumps version number to 2.1.1 instead of 2.0.99 (prerelease).
+    - Adds README file.
+    - Removes old method from private backends/redland/redlandmodel.{cpp,h}.
+
+  +++ Changes by Modestas Vainius:
+
+  * Fix FTBFS (Closes: #506537).
+  * Urgency high due to RC bugfix targetted for Lenny.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Nov 2008 14:55:00 +0200
+
 soprano (2.1+dfsg.1-1) unstable; urgency=low
 
   * New upstream release.

@@ -6,7 +6,7 @@ DEB_DH_MAKESHLIBS_ARGS_libsoprano4 = -V'libsoprano4 (>= 2.1)'
 include debian/cdbs/kde.mk
 
 build/libsoprano-doc::
-	cp /usr/share/qt4/doc/qt4.tag $(DEB_BUILDDIR)/qt4.tag
+	cp qt4.tag $(DEB_BUILDDIR)/qt4.tag
 	cd $(DEB_BUILDDIR) && $(MAKE) apidox
 
 install/libsoprano-doc::
