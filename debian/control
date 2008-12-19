@@ -45,6 +45,7 @@ Section: libdevel
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libsoprano4 (= ${binary:Version})
 Suggests: libsoprano-doc (= ${source:Version})
+Replaces: libsoprano4 (<< 2.1.64+svn897713)
 Description: development files for the Soprano RDF framework
  Soprano is a pluggable RDF storage, parsing, and serialization framework based
  on Qt 4.  Soprano is targeted at desktop applications that need to store RDF
