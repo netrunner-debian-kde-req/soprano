@@ -1,4 +1,4 @@
-soprano (2.1.64+svn897713-0r2) UNRELEASED; urgency=low
+soprano (2.1.65~svn907836-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
@@ -11,7 +11,7 @@ soprano (2.1.64+svn897713-0r2) UNRELEASED; urgency=low
   * Bump shlibs to 2.1.64+svn897713.
   * Move DBus interface XMLs to libsoprano-dev, add appropriate replaces.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Dec 2008 21:57:34 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Jan 2009 02:23:21 +0200
 
 soprano (2.1.1+dfsg.1-1) unstable; urgency=high
 
