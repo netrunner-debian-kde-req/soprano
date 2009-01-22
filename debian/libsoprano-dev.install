@@ -51,8 +51,6 @@ usr/include/Soprano/Soprano
 usr/include/Soprano/Statement
 usr/include/Soprano/StatementIterator
 usr/include/Soprano/StorageModel
-usr/include/Soprano/Transaction
-usr/include/Soprano/TransactionFactory
 usr/include/Soprano/Util/AsyncModel
 usr/include/Soprano/Util/AsyncResult
 usr/include/Soprano/Util/DummyModel
@@ -61,7 +59,6 @@ usr/include/Soprano/Util/ReadOnlyModel
 usr/include/Soprano/Util/SignalCacheModel
 usr/include/Soprano/Util/SimpleNodeIterator
 usr/include/Soprano/Util/SimpleStatementIterator
-usr/include/Soprano/Util/SimpleTransactionModel
 usr/include/Soprano/Version
 usr/include/Soprano/Vocabulary/NAO
 usr/include/Soprano/Vocabulary/NRL

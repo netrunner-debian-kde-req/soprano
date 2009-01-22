@@ -3,7 +3,7 @@ THIS_SHOULD_GO_TO_UNSTABLE=0
 
 include debian/cdbs/kde.mk
 
-DEB_DH_MAKESHLIBS_ARGS_libsoprano4 = -V'libsoprano4 (>= 2.1.64+svn897713)'
+DEB_DH_MAKESHLIBS_ARGS_libsoprano4 = -V'libsoprano4 (>= 2.1.67)'
 
 build/libsoprano-doc::
 	cp qt4.tag $(DEB_BUILDDIR)/qt4.tag
@@ -20,6 +20,16 @@ install/libsoprano-doc::
 binary-post-install/libsoprano-dev::
 	doxytag -t debian/$(cdbs_curpkg)/usr/share/soprano/doc/soprano.tag \
 		$(DEB_DESTDIR)/usr/share/soprano/doc/html
+
+# Symbol file handling
+binary-strip/libsoprano4::
+	pkgkde-symbolshelper symbolfile -p $(cdbs_curpkg) -o debian/$(cdbs_curpkg).symbols.$(DEB_HOST_ARCH)
+
+binary-fixup/libsoprano4::
+	pkgkde-symbolshelper postgensymbols -p $(cdbs_curpkg) -v
+
+clean::
+	rm -f debian/libsoprano4.symbols.$(DEB_HOST_ARCH)
 
 prune-nonfree:
 	# Deleting binary blobs

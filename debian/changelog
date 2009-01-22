@@ -1,6 +1,6 @@
-soprano (2.1.65~svn907836-0r1) UNRELEASED; urgency=low
+soprano (2.1.67+dfsg.1-0r3) UNRELEASED; urgency=low
 
-  * New upstream development snapshot.
+  * New upstream development release.
 
   +++ Changes by Modestas Vainius:
 
@@ -8,10 +8,13 @@ soprano (2.1.65~svn907836-0r1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.8.0: add README.source.
   * Switch to new installgen format.
   * Update install files.
-  * Bump shlibs to 2.1.64+svn897713.
+  * Bump shlibs to 2.1.67.
   * Move DBus interface XMLs to libsoprano-dev, add appropriate replaces.
+  * Build soprano with -fvisibility=hidden -fvisibility-inlines-hidden.
+  * Add symbols file template for libsoprano4, build depend on
+    pkg-kde-tools 0.3.1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Jan 2009 02:23:21 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Jan 2009 11:53:18 +0200
 
 soprano (2.1.1+dfsg.1-1) unstable; urgency=high
 
