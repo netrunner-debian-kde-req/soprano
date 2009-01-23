@@ -1,142 +1,8 @@
 libsoprano.so.4 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN7Soprano12NodeIteratorEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN7Soprano17StatementIteratorEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN7Soprano19QueryResultIteratorEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN7Soprano4NodeEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN7Soprano5Error9ErrorCodeEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN7Soprano12NodeIteratorEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN7Soprano17StatementIteratorEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN7Soprano19QueryResultIteratorEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN7Soprano4NodeEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN7Soprano5Error9ErrorCodeEEPvPKT_@Base 2.1.1
- _Z5qHashRK4QUrl@Base 2.1.67
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QLinkedListIPN7Soprano4Util7CommandEE4freeEP15QLinkedListData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QLinkedListIPN7Soprano4Util7CommandEE5eraseENS4_8iteratorE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN7Soprano12NodeIteratorEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN7Soprano17StatementIteratorEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN7Soprano19QueryResultIteratorEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN7Soprano4NodeEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN7Soprano5Error9ErrorCodeEE14qt_metatype_idEv@Base 2.1.1
+#DEPRECATED: PRIVATE: EXTERNAL# _Z5qHashRK4QUrl@Base 2.1.67
 #DEPRECATED: PRIVATE: EXTERNAL# _ZN15QBasicAtomicInt3refEv@Base 2.1.1
 #DEPRECATED: PRIVATE: EXTERNAL# _ZN15QBasicAtomicInt5derefEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano10BindingSet7PrivateEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano10BindingSet7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano12LiteralValue7PrivateEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano12LiteralValue7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano14BackendSetting7PrivateEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano14BackendSetting7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano4Node8NodeDataEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Error7Locator7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Error9ErrorDataEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Query10QueryTerms7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Query13TriplePattern7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Query13TriplePattern7PrivateEEptEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Query31BinaryDateTimeBooleanExpression7PrivateEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Query4Node7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Query5Query7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Query6Prefix7PrivateEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Query6Prefix7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Query6Regexp7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Query6String7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Query7IsBound7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Query8Variable7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Query9Numerical7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Query9Numerical7PrivateEEptEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano8IteratorINS0_10BindingSetEE7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano8IteratorINS0_4NodeEE7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano8IteratorINS0_9StatementEE7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano9Inference11NodePattern7PrivateEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano9Inference11NodePattern7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano9Inference16StatementPattern7PrivateEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano9Inference16StatementPattern7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano9Inference4Rule7PrivateEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano9Inference4Rule7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano9Inference7RuleSet7PrivateEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano9Inference7RuleSet7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano9Statement7PrivateEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano9Statement7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN20QGlobalStaticDeleterI10NaoPrivateED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN20QGlobalStaticDeleterI10NrlPrivateED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN20QGlobalStaticDeleterI10OwlPrivateED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN20QGlobalStaticDeleterI10RdfPrivateED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN20QGlobalStaticDeleterI10SILGlobalsED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN20QGlobalStaticDeleterI11RdfsPrivateED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN20QGlobalStaticDeleterI12XesamPrivateED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN20QGlobalStaticDeleterI9XMLSchemaED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN28QExplicitlySharedDataPointerIN7Soprano10PluginStub7PrivateEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN4QMapI7QStringS0_E11node_createEP8QMapDataPPNS2_4NodeERKS0_S8_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN4QMapI7QStringS0_E13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN4QMapI7QStringS0_E8freeDataEP8QMapData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN4QMapI7QStringS0_ED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN4QSetIN7Soprano4NodeEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI4QUrlN8QVariant4TypeEE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI4QUrlN8QVariant4TypeEE6insertERKS0_RKS2_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI4QUrlN8QVariant4TypeEE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI4QUrlN8QVariant4TypeEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringN7Soprano10PluginStubEE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringN7Soprano10PluginStubEE6insertERKS0_RKS2_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringN7Soprano10PluginStubEE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringN7Soprano10PluginStubEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringN7Soprano4NodeEE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringN7Soprano4NodeEE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringN7Soprano9Inference4RuleEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringN7Soprano9Inference4RuleEE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringN7Soprano9Inference4RuleEE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringN7Soprano9Inference4RuleEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringS0_E13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringS0_E8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringS_IS0_S0_EE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringS_IS0_S0_EE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringS_IS0_S0_EE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIN7Soprano4NodeE15QHashDummyValueE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIN7Soprano4NodeE15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIN7Soprano4NodeE15QHashDummyValueE6removeERKS1_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIN7Soprano4NodeE15QHashDummyValueE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIP7QThreadN7Soprano5Error5ErrorEE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIP7QThreadN7Soprano5Error5ErrorEE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIi4QUrlE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIi4QUrlE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIi4QUrlED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashImiE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashImiE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI7QStringE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI7QStringE4freeEPN9QListData4DataE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI7QStringE6appendERKS0_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI7QStringED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI7QStringEpLERKS1_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano10BindingSetEE4freeEPN9QListData4DataE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano10BindingSetEE6appendERKS1_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano10BindingSetEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano4NodeEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano4NodeEE4freeEPN9QListData4DataE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano4NodeEE6appendERKS1_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano4NodeEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano5Query6PrefixEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano5Query6PrefixEE4freeEPN9QListData4DataE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano5Query6PrefixEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano9Inference16StatementPatternEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano9Inference16StatementPatternEE4freeEPN9QListData4DataE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano9Inference16StatementPatternEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano9Inference4RuleEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano9Inference4RuleEE4freeEPN9QListData4DataE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano9Inference4RuleEE5clearEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano9Inference4RuleEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano9StatementEE4freeEPN9QListData4DataE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano9StatementEE6appendERKS1_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano9StatementEE6detachEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano9StatementEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN7Soprano4Util17AsyncIteratorBaseEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN7Soprano4Util17AsyncIteratorBaseEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN7Soprano4Util17MutexIteratorBaseEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN7Soprano4Util17MutexIteratorBaseEE6appendERKS3_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN7Soprano4Util17MutexIteratorBaseEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN7Soprano5Query17BooleanExpressionEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN7Soprano5Query17BooleanExpressionEE6appendERKS3_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN7Soprano5Query17BooleanExpressionEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN7Soprano5Query8VariableEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN7Soprano5Query8VariableEE6appendERKS3_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIPN7Soprano5Query8VariableEED1Ev@Base 2.1.1
  _ZN7Soprano10BindingSet6insertERK7QStringRKNS_4NodeE@Base 2.1.1
  _ZN7Soprano10BindingSetC1ERKS0_@Base 2.1.1
  _ZN7Soprano10BindingSetC1Ev@Base 2.1.1
@@ -736,12 +602,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano14BackendSettingaSERKS0_@Base 2.1.1
  _ZN7Soprano14setUsedBackendEPKNS_7BackendE@Base 2.1.1
  _ZN7Soprano14versionReleaseEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano15IteratorBackendINS_10BindingSetEED0Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano15IteratorBackendINS_10BindingSetEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano15IteratorBackendINS_4NodeEED0Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano15IteratorBackendINS_4NodeEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano15IteratorBackendINS_9StatementEED0Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano15IteratorBackendINS_9StatementEED1Ev@Base 2.1.1
  _ZN7Soprano15valueInSettingsERK5QListINS_14BackendSettingEENS_13BackendOptionERK7QString@Base 2.1.67
  _ZN7Soprano17StatementIteratorC1EPNS_15IteratorBackendINS_9StatementEEE@Base 2.1.1
  _ZN7Soprano17StatementIteratorC1ERKS0_@Base 2.1.1
@@ -872,14 +732,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano4Util18SimpleNodeIteratorD2Ev@Base 2.1.1
  _ZN7Soprano4Util18SimpleNodeIteratoraSERK5QListINS_4NodeEE@Base 2.1.1
  _ZN7Soprano4Util18SimpleNodeIteratoraSERKS1_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano4Util20AsyncIteratorBackendINS_4NodeEE4nextEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano4Util20AsyncIteratorBackendINS_4NodeEE5closeEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano4Util20AsyncIteratorBackendINS_4NodeEED0Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano4Util20AsyncIteratorBackendINS_4NodeEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano4Util20AsyncIteratorBackendINS_9StatementEE4nextEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano4Util20AsyncIteratorBackendINS_9StatementEE5closeEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano4Util20AsyncIteratorBackendINS_9StatementEED0Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano4Util20AsyncIteratorBackendINS_9StatementEED1Ev@Base 2.1.1
  _ZN7Soprano4Util23SimpleStatementIteratorC1ERK5QListINS_9StatementEE@Base 2.1.1
  _ZN7Soprano4Util23SimpleStatementIteratorC1ERKS1_@Base 2.1.1
  _ZN7Soprano4Util23SimpleStatementIteratorC1Ev@Base 2.1.1
@@ -1339,30 +1191,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano7BackendD0Ev@Base 2.1.1
  _ZN7Soprano7BackendD1Ev@Base 2.1.1
  _ZN7Soprano7BackendD2Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_10BindingSetEE11allElementsEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_10BindingSetEE4nextEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_10BindingSetEE5closeEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_10BindingSetEEC2EPNS_15IteratorBackendIS1_EE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_10BindingSetEEC2Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_10BindingSetEED0Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_10BindingSetEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_10BindingSetEED2Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_4NodeEE11allElementsEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_4NodeEE4nextEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_4NodeEE5closeEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_4NodeEEC2EPNS_15IteratorBackendIS1_EE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_4NodeEEC2Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_4NodeEED0Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_4NodeEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_4NodeEED2Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_9StatementEE11allElementsEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_9StatementEE4nextEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_9StatementEE5closeEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_9StatementEEC2EPNS_15IteratorBackendIS1_EE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_9StatementEEC2Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_9StatementEED0Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_9StatementEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_9StatementEED2Ev@Base 2.1.1
  _ZN7Soprano8NRLModel12addStatementERKNS_9StatementE@Base 2.1.1
  _ZN7Soprano8NRLModel16setIgnoreContextEb@Base 2.1.1
  _ZN7Soprano8NRLModelC1EPNS_5ModelE@Base 2.1.1
@@ -1453,19 +1281,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano9StatementD1Ev@Base 2.1.1
  _ZN7Soprano9StatementD2Ev@Base 2.1.1
  _ZN7Soprano9StatementaSERKS0_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK4QMapI7QStringS0_E15mutableFindNodeEPPN8QMapData4NodeERKS0_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashI4QUrlN8QVariant4TypeEE8findNodeERKS0_Pj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashI7QStringN7Soprano10PluginStubEE8findNodeERKS0_Pj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashI7QStringN7Soprano4NodeEE8findNodeERKS0_Pj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashI7QStringN7Soprano9Inference4RuleEE6valuesEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashI7QStringN7Soprano9Inference4RuleEE8findNodeERKS0_Pj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashI7QStringS0_E8findNodeERKS0_Pj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashI7QStringS_IS0_S0_EE8findNodeERKS0_Pj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashIN7Soprano4NodeE15QHashDummyValueE8findNodeERKS1_Pj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashIP7QThreadN7Soprano5Error5ErrorEE8findNodeERKS1_Pj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashIi4QUrlE8findNodeERKiPj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashImiE8findNodeERKmPj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QListIN7Soprano4NodeEE5toSetEv@Base 2.1.1
  _ZNK7Soprano10BindingSet12bindingNamesEv@Base 2.1.1
  _ZNK7Soprano10BindingSet5countEv@Base 2.1.1
  _ZNK7Soprano10BindingSet5valueERK7QString@Base 2.1.1
@@ -1606,10 +1421,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZNK7Soprano4Util11AsyncResult9errorCodeEv@Base 2.1.67
  _ZNK7Soprano4Util16SignalCacheModel10metaObjectEv@Base 2.1.1
  _ZNK7Soprano4Util16SignalCacheModel9cacheTimeEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK7Soprano4Util20AsyncIteratorBackendINS_4NodeEE7currentEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK7Soprano4Util20AsyncIteratorBackendINS_4NodeEE9lastErrorEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK7Soprano4Util20AsyncIteratorBackendINS_9StatementEE7currentEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK7Soprano4Util20AsyncIteratorBackendINS_9StatementEE9lastErrorEv@Base 2.1.1
  _ZNK7Soprano5Error10ErrorCache10clearErrorEv@Base 2.1.1
  _ZNK7Soprano5Error10ErrorCache8setErrorERK7QStringi@Base 2.1.1
  _ZNK7Soprano5Error10ErrorCache8setErrorERKNS0_5ErrorE@Base 2.1.1
@@ -1759,9 +1570,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZNK7Soprano6Plugin11isAvailableEv@Base 2.1.1
  _ZNK7Soprano7Backend16supportsFeaturesE6QFlagsINS_14BackendFeatureEERK11QStringList@Base 2.1.1
  _ZNK7Soprano7Backend21supportedUserFeaturesEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK7Soprano8IteratorINS_10BindingSetEE7currentEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK7Soprano8IteratorINS_4NodeEE7currentEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK7Soprano8IteratorINS_9StatementEE7currentEv@Base 2.1.1
  _ZNK7Soprano8NRLModel13ignoreContextEv@Base 2.1.1
  _ZNK7Soprano9Inference10RuleParser5rulesEv@Base 2.1.1
  _ZNK7Soprano9Inference11NodePattern10isVariableEv@Base 2.1.1
@@ -2099,11 +1907,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZThn{vt:8}_N7Soprano8NRLModelD1Ev@Base 2.1.1
  _ZThn{vt:8}_N7Soprano9Inference14InferenceModelD0Ev@Base 2.1.1
  _ZThn{vt:8}_N7Soprano9Inference14InferenceModelD1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN7Soprano12NodeIteratorEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN7Soprano17StatementIteratorEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN7Soprano19QueryResultIteratorEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN7Soprano4NodeEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN7Soprano5Error9ErrorCodeEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
  _Zls6QDebugRKN7Soprano10BindingSetE@Base 2.1.1
  _Zls6QDebugRKN7Soprano12LiteralValueE@Base 2.1.1
  _Zls6QDebugRKN7Soprano4NodeE@Base 2.1.1
@@ -2118,63 +1921,8 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZlsR11QTextStreamRKN7Soprano9StatementE@Base 2.1.1
 libsopranoclient.so.1 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
-#DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castI11QStringListET_RK8QVariant@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castI7QStringET_RK8QVariant@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castIN7Soprano10BindingSetEET_RK8QVariant@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castIN7Soprano4NodeEET_RK8QVariant@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castIN7Soprano9StatementEET_RK8QVariant@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z19qDBusMarshallHelperIN7Soprano10BindingSetEEvR13QDBusArgumentPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z19qDBusMarshallHelperIN7Soprano4NodeEEvR13QDBusArgumentPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z19qDBusMarshallHelperIN7Soprano9StatementEEvR13QDBusArgumentPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qDBusDemarshallHelperIN7Soprano10BindingSetEEvRK13QDBusArgumentPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qDBusDemarshallHelperIN7Soprano4NodeEEvRK13QDBusArgumentPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qDBusDemarshallHelperIN7Soprano9StatementEEvRK13QDBusArgumentPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qDBusRegisterMetaTypeIN7Soprano10BindingSetEEiPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qDBusRegisterMetaTypeIN7Soprano4NodeEEiPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qDBusRegisterMetaTypeIN7Soprano9StatementEEiPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN12QLocalSocket16LocalSocketErrorEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN15QAbstractSocket11SocketErrorEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN15QAbstractSocket11SocketStateEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN7Soprano10BindingSetEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN7Soprano4NodeEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN7Soprano9StatementEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN12QLocalSocket16LocalSocketErrorEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN15QAbstractSocket11SocketErrorEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN15QAbstractSocket11SocketStateEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN7Soprano10BindingSetEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN7Soprano4NodeEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN7Soprano9StatementEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN10QDBusReplyI11QStringListED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN10QDBusReplyI11QStringListEaSERKS1_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN10QDBusReplyI7QStringED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN10QDBusReplyI7QStringEaSERKS1_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN10QDBusReplyIN7Soprano10BindingSetEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN10QDBusReplyIN7Soprano4NodeEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN10QDBusReplyIN7Soprano4NodeEEaSERKS2_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN10QDBusReplyIN7Soprano9StatementEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN10QDBusReplyIbEC1ERK12QDBusMessage@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN12QLocalSocket16LocalSocketErrorEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN15QAbstractSocket11SocketErrorEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN15QAbstractSocket11SocketStateEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN7Soprano10BindingSetEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN7Soprano4NodeEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN7Soprano9StatementEE14qt_metatype_idEv@Base 2.1.1
 #DEPRECATED: PRIVATE: EXTERNAL# _ZN15QBasicAtomicInt3refEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIP7QThreadP9QIODeviceE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIP7QThreadP9QIODeviceE6detachEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIP7QThreadP9QIODeviceE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI7QStringE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI7QStringE4freeEPN9QListData4DataE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI8QVariantE4freeEPN9QListData4DataE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI8QVariantE6appendERKS0_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI8QVariantED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIiE6appendERKi@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIiED1Ev@Base 2.1.1
 #DEPRECATED: PRIVATE: EXTERNAL# _ZN7QStringC1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano15IteratorBackendINS_4NodeEED0Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano15IteratorBackendINS_4NodeEED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano15IteratorBackendINS_9StatementEED0Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano15IteratorBackendINS_9StatementEED1Ev@Base 2.1.1
  _ZN7Soprano6Client10DBusClient11createModelERK7QStringRK5QListINS_14BackendSettingEE@Base 2.1.1
  _ZN7Soprano6Client10DBusClient11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.1
  _ZN7Soprano6Client10DBusClient11qt_metacastEPKc@Base 2.1.1
@@ -2257,7 +2005,6 @@ libsopranoclient.so.1 libsoprano4 #MINVER#
  _ZN7Soprano6Client9TcpClientD0Ev@Base 2.1.1
  _ZN7Soprano6Client9TcpClientD1Ev@Base 2.1.1
  _ZN7Soprano6Client9TcpClientD2Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashIP7QThreadP9QIODeviceE8findNodeERKS1_Pj@Base 2.1.1
  _ZNK7Soprano6Client10DBusClient10metaObjectEv@Base 2.1.1
  _ZNK7Soprano6Client10DBusClient7isValidEv@Base 2.1.1
  _ZNK7Soprano6Client10DBusClient9allModelsEv@Base 2.1.1
@@ -2316,18 +2063,12 @@ libsopranoclient.so.1 libsoprano4 #MINVER#
  _ZThn{vt:8}_N7Soprano6Client9DBusModelD1Ev@Base 2.1.1
  _ZThn{vt:8}_N7Soprano6Client9TcpClientD0Ev@Base 2.1.1
  _ZThn{vt:8}_N7Soprano6Client9TcpClientD1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN12QLocalSocket16LocalSocketErrorEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN15QAbstractSocket11SocketErrorEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN15QAbstractSocket11SocketStateEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN7Soprano10BindingSetEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN7Soprano4NodeEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN7Soprano9StatementEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
 libsopranoindex.so.1 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
- _Z6qDebugv@Base 2.1.1
+#DEPRECATED: PRIVATE: EXTERNAL# _Z6qDebugv@Base 2.1.1
 #DEPRECATED: PRIVATE: EXTERNAL# _ZN10QByteArrayD1Ev@Base 2.1.1
- _ZN11QStringListD1Ev@Base 2.1.1
- _ZN12QMutexLockerD1Ev@Base 2.1.1
+#DEPRECATED: PRIVATE: EXTERNAL# _ZN11QStringListD1Ev@Base 2.1.1
+#DEPRECATED: PRIVATE: EXTERNAL# _ZN12QMutexLockerD1Ev@Base 2.1.1
 #DEPRECATED: PRIVATE: EXTERNAL# _ZN15QBasicAtomicInt3refEv@Base 2.1.1
 #DEPRECATED: PRIVATE: EXTERNAL# _ZN15QBasicAtomicInt5derefEv@Base 2.1.1
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN18QSharedDataPointerIN7Soprano5Index8QueryHit7PrivateEED1Ev@Base 2.1.1
@@ -2347,11 +2088,12 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI7QStringE13detach_helperEv@Base 2.1.1
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI7QStringE4freeEPN9QListData4DataE@Base 2.1.1
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI7QStringE6appendERKS0_@Base 2.1.1
- _ZN6QDebugD1Ev@Base 2.1.1
- _ZN6QDebuglsEPKc@Base 2.1.1
- _ZN6QDebuglsERK7QString@Base 2.1.1
- _ZN6QDebuglsEm@Base 2.1.1
- _ZN7QStringD1Ev@Base 2.1.1
+#DEPRECATED: PRIVATE: EXTERNAL# _ZN5QListI7QStringED2Ev@Base 2.1.67
+#DEPRECATED: PRIVATE: EXTERNAL# _ZN6QDebugD1Ev@Base 2.1.1
+#DEPRECATED: PRIVATE: EXTERNAL# _ZN6QDebuglsEPKc@Base 2.1.1
+#DEPRECATED: PRIVATE: EXTERNAL# _ZN6QDebuglsERK7QString@Base 2.1.1
+#DEPRECATED: PRIVATE: EXTERNAL# _ZN6QDebuglsEm@Base 2.1.1
+#DEPRECATED: PRIVATE: EXTERNAL# _ZN7QStringD1Ev@Base 2.1.1
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano15IteratorBackendINS_5Index8QueryHitEED0Ev@Base 2.1.1
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano15IteratorBackendINS_5Index8QueryHitEED1Ev@Base 2.1.1
  _ZN7Soprano5Index11idFieldNameEv@Base 2.1.1
@@ -2438,7 +2180,9 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_10BindingSetEE4nextEv@Base 2.1.1
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_5Index8QueryHitEE4nextEv@Base 2.1.1
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_5Index8QueryHitEE5closeEv@Base 2.1.1
+#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_5Index8QueryHitEE7PrivateD1Ev@Base 2.1.67
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_5Index8QueryHitEEC1EPNS_15IteratorBackendIS2_EE@Base 2.1.1
+#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_5Index8QueryHitEEC1ERKS3_@Base 2.1.67
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_5Index8QueryHitEEC1Ev@Base 2.1.1
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_5Index8QueryHitEED0Ev@Base 2.1.1
 #DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_5Index8QueryHitEED1Ev@Base 2.1.1
@@ -2521,83 +2265,8 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  _ZThn{vt:8}_N7Soprano5Index16IndexFilterModelD1Ev@Base 2.1.1
 libsopranoserver.so.1 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
-#DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castIN7Soprano12NodeIteratorEET_RK8QVariant@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castIN7Soprano17StatementIteratorEET_RK8QVariant@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castIN7Soprano19QueryResultIteratorEET_RK8QVariant@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z13qvariant_castIN7Soprano4NodeEET_RK8QVariant@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z19qDBusMarshallHelperIN7Soprano10BindingSetEEvR13QDBusArgumentPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z19qDBusMarshallHelperIN7Soprano4NodeEEvR13QDBusArgumentPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z19qDBusMarshallHelperIN7Soprano9StatementEEvR13QDBusArgumentPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qDBusDemarshallHelperIN7Soprano10BindingSetEEvRK13QDBusArgumentPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qDBusDemarshallHelperIN7Soprano4NodeEEvRK13QDBusArgumentPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qDBusDemarshallHelperIN7Soprano9StatementEEvRK13QDBusArgumentPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qDBusRegisterMetaTypeIN7Soprano10BindingSetEEiPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qDBusRegisterMetaTypeIN7Soprano4NodeEEiPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qDBusRegisterMetaTypeIN7Soprano9StatementEEiPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN12QLocalSocket16LocalSocketErrorEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN15QAbstractSocket11SocketErrorEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN7Soprano10BindingSetEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN7Soprano12NodeIteratorEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN7Soprano17StatementIteratorEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN7Soprano19QueryResultIteratorEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN7Soprano4NodeEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN7Soprano5Error9ErrorCodeEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z21qMetaTypeDeleteHelperIN7Soprano9StatementEEvPT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN12QLocalSocket16LocalSocketErrorEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN15QAbstractSocket11SocketErrorEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN7Soprano10BindingSetEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN7Soprano12NodeIteratorEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN7Soprano17StatementIteratorEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN7Soprano19QueryResultIteratorEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN7Soprano4NodeEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN7Soprano5Error9ErrorCodeEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _Z24qMetaTypeConstructHelperIN7Soprano9StatementEEPvPKT_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN12QLocalSocket16LocalSocketErrorEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN15QAbstractSocket11SocketErrorEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN7Soprano10BindingSetEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN7Soprano12NodeIteratorEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN7Soprano17StatementIteratorEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN7Soprano19QueryResultIteratorEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN7Soprano4NodeEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN7Soprano5Error9ErrorCodeEE14qt_metatype_idEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN11QMetaTypeIdIN7Soprano9StatementEE14qt_metatype_idEv@Base 2.1.1
 #DEPRECATED: PRIVATE: EXTERNAL# _ZN15QBasicAtomicInt3refEv@Base 2.1.1
 #DEPRECATED: PRIVATE: EXTERNAL# _ZN15QBasicAtomicInt5derefEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringPN7Soprano5ModelEE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringPN7Soprano5ModelEE6detachEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringPN7Soprano5ModelEE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringPN7Soprano6Server15DBusExportModelEE10createNodeEjRKS0_RKS4_PP9QHashNodeIS0_S4_E@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringPN7Soprano6Server15DBusExportModelEE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringPN7Soprano6Server15DBusExportModelEE6removeERKS0_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringPN7Soprano6Server15DBusExportModelEE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringjE10createNodeEjRKS0_RKjPP9QHashNodeIS0_jE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringjE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringjE6detachEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringjE6removeERKS0_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashI7QStringjE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIPN7Soprano4Util11AsyncResultE12QDBusMessageE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIPN7Soprano4Util11AsyncResultE12QDBusMessageE6removeERKS3_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIPN7Soprano4Util11AsyncResultE12QDBusMessageE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIjN7Soprano12NodeIteratorEE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIjN7Soprano12NodeIteratorEE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIjN7Soprano17StatementIteratorEE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIjN7Soprano17StatementIteratorEE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIjN7Soprano19QueryResultIteratorEE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIjN7Soprano19QueryResultIteratorEE4findERKj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIjN7Soprano19QueryResultIteratorEE6detachEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIjN7Soprano19QueryResultIteratorEE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIjPN7Soprano5ModelEE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIjPN7Soprano5ModelEE6detachEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QHashIjPN7Soprano5ModelEE8freeDataEP9QHashData@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI7QStringE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI7QStringE4freeEPN9QListData4DataE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI7QStringE6appendERKS0_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI7QStringED1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI8QVariantE4freeEPN9QListData4DataE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListI8QVariantE6appendERKS0_@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano14BackendSettingEE13detach_helperEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano14BackendSettingEE4freeEPN9QListData4DataE@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN5QListIN7Soprano14BackendSettingEED1Ev@Base 2.1.1
 #DEPRECATED: PRIVATE: EXTERNAL# _ZN7QStringC1Ev@Base 2.1.1
  _ZN7Soprano6Server10ServerCore10setBackendEPKNS_7BackendE@Base 2.1.1
  _ZN7Soprano6Server10ServerCore11createModelERK5QListINS_14BackendSettingEE@Base 2.1.1
@@ -2647,20 +2316,6 @@ libsopranoserver.so.1 libsoprano4 #MINVER#
  _ZN7Soprano6Server18DBusExportIteratorD0Ev@Base 2.1.1
  _ZN7Soprano6Server18DBusExportIteratorD1Ev@Base 2.1.1
  _ZN7Soprano6Server18DBusExportIteratorD2Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_10BindingSetEE4nextEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_10BindingSetEE5closeEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_4NodeEE4nextEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_4NodeEE5closeEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_9StatementEE4nextEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZN7Soprano8IteratorINS_9StatementEE5closeEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashI7QStringPN7Soprano5ModelEE8findNodeERKS0_Pj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashI7QStringPN7Soprano6Server15DBusExportModelEE8findNodeERKS0_Pj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashI7QStringjE8findNodeERKS0_Pj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashIPN7Soprano4Util11AsyncResultE12QDBusMessageE8findNodeERKS3_Pj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashIjN7Soprano12NodeIteratorEE8findNodeERKjPj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashIjN7Soprano17StatementIteratorEE8findNodeERKjPj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashIjN7Soprano19QueryResultIteratorEE8findNodeERKjPj@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK5QHashIjPN7Soprano5ModelEE8findNodeERKjPj@Base 2.1.1
  _ZNK7Soprano6Server10ServerCore10metaObjectEv@Base 2.1.1
  _ZNK7Soprano6Server10ServerCore10serverPortEv@Base 2.1.1
  _ZNK7Soprano6Server10ServerCore15backendSettingsEv@Base 2.1.1
@@ -2674,9 +2329,6 @@ libsopranoserver.so.1 libsoprano4 #MINVER#
  _ZNK7Soprano6Server18DBusExportIterator14dbusObjectPathEv@Base 2.1.1
  _ZNK7Soprano6Server18DBusExportIterator17statementIteratorEv@Base 2.1.1
  _ZNK7Soprano6Server18DBusExportIterator19queryResultIteratorEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK7Soprano8IteratorINS_10BindingSetEE7currentEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK7Soprano8IteratorINS_4NodeEE7currentEv@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZNK7Soprano8IteratorINS_9StatementEE7currentEv@Base 2.1.1
  _ZTIN7Soprano6Server10ServerCoreE@Base 2.1.1
  _ZTIN7Soprano6Server15DBusExportModelE@Base 2.1.1
  _ZTIN7Soprano6Server18DBusExportIteratorE@Base 2.1.1
@@ -2692,12 +2344,3 @@ libsopranoserver.so.1 libsoprano4 #MINVER#
  _ZThn{vt:8}_N7Soprano6Server15DBusExportModelD1Ev@Base 2.1.1
  _ZThn{vt:8}_N7Soprano6Server18DBusExportIteratorD0Ev@Base 2.1.1
  _ZThn{vt:8}_N7Soprano6Server18DBusExportIteratorD1Ev@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN12QLocalSocket16LocalSocketErrorEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN15QAbstractSocket11SocketErrorEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN7Soprano10BindingSetEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN7Soprano12NodeIteratorEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN7Soprano17StatementIteratorEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN7Soprano19QueryResultIteratorEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN7Soprano4NodeEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN7Soprano5Error9ErrorCodeEE14qt_metatype_idEvE11metatype_id@Base 2.1.1
-#DEPRECATED: PRIVATE: TEMPLINST# _ZZN11QMetaTypeIdIN7Soprano9StatementEE14qt_metatype_idEvE11metatype_id@Base 2.1.1

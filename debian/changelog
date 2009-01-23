@@ -1,3 +1,11 @@
+soprano (2.1.67+dfsg.1-2~pre1) UNRELEASED; urgency=low
+
+  +++ Changes by Modestas Vainius:
+
+  * More updates to debian/libsoprano4.symbols.in.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Jan 2009 11:53:18 +0200
+
 soprano (2.1.67+dfsg.1-1) experimental; urgency=low
 
   * New upstream development release.
@@ -14,7 +22,7 @@ soprano (2.1.67+dfsg.1-1) experimental; urgency=low
   * Add symbols file template for libsoprano4, build depend on
     pkg-kde-tools 0.3.1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Jan 2009 11:53:18 +0200
+
 
 soprano (2.1.1+dfsg.1-1) unstable; urgency=high
 
