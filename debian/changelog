@@ -4,8 +4,10 @@ soprano (2.1.67+dfsg.1-2~pre1) UNRELEASED; urgency=low
 
   * More updates to debian/libsoprano4.symbols.in.
   * Rename debian/*.lintian to debian/*.lintian-overrides.
+  * Bump debian/compat and debhelper build dependency to v7 (to get more
+    sophisticated debian/tmp handling).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:09:11 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:47:56 +0200
 
 soprano (2.1.67+dfsg.1-1) experimental; urgency=low
 
