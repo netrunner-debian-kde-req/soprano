@@ -3,8 +3,9 @@ soprano (2.1.67+dfsg.1-2~pre1) UNRELEASED; urgency=low
   +++ Changes by Modestas Vainius:
 
   * More updates to debian/libsoprano4.symbols.in.
+  * Rename debian/*.lintian to debian/*.lintian-overrides.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Jan 2009 11:53:18 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:09:11 +0200
 
 soprano (2.1.67+dfsg.1-1) experimental; urgency=low
 
