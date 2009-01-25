@@ -1,4 +1,4 @@
-soprano (2.1.67+dfsg.1-2~pre1) UNRELEASED; urgency=low
+soprano (2.1.67+dfsg.1-2) experimental; urgency=low
 
   +++ Changes by Modestas Vainius:
 
@@ -16,7 +16,7 @@ soprano (2.1.67+dfsg.1-2~pre1) UNRELEASED; urgency=low
     Soprano::Utils::ReadOnlyModel and Soprano::RdfSchemaModel. Update symbols
     file template.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Jan 2009 15:24:58 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Jan 2009 19:38:22 +0100
 
 soprano (2.1.67+dfsg.1-1) experimental; urgency=low
 
