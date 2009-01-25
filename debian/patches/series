@@ -1,2 +1,3 @@
 01_x11_not_required.diff
 02_build_with_visibility_hidden.diff
+03_fix_soprano_exports.diff

@@ -1,0 +1,39 @@
+Export public classes
+--- a/soprano/rdfschemamodel.h
++++ b/soprano/rdfschemamodel.h
+@@ -24,6 +24,7 @@
+ 
+ #include "filtermodel.h"
+ #include "node.h"
++#include "soprano_export.h"
+ 
+ namespace Soprano {
+ 
+@@ -42,7 +43,7 @@
+      *
+      * \author Sebastian Trueg <trueg@kde.org>
+      */
+-    class RdfSchemaModel : public FilterModel
++    class SOPRANO_EXPORT RdfSchemaModel : public FilterModel
+     {
+     public:
+         /**
+--- a/soprano/util/readonlymodel.h
++++ b/soprano/util/readonlymodel.h
+@@ -23,6 +23,7 @@
+ #define _SOPRANO_READ_ONLY_MODEL_H_
+ 
+ #include "model.h"
++#include "soprano_export.h"
+ 
+ namespace Soprano {
+     namespace Util {
+@@ -39,7 +40,7 @@
+          *
+          * \since 2.1
+          */
+-        class ReadOnlyModel : public Model
++        class SOPRANO_EXPORT ReadOnlyModel : public Model
+         {
+             Q_OBJECT
+ 

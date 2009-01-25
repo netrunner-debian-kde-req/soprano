@@ -1,5 +1,6 @@
 soprano (2.1.67+dfsg.1-2~pre1) UNRELEASED; urgency=low
 
+
   +++ Changes by Modestas Vainius:
 
   * More updates to debian/libsoprano4.symbols.in.
@@ -12,8 +13,11 @@ soprano (2.1.67+dfsg.1-2~pre1) UNRELEASED; urgency=low
     - replace debian/cdbs/kde.mk with
       /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk in debian/rules;
     - remove custom symbolshelper rules from debian/rules.
+  * Add 03_fix_soprano_exports.diff patch to SOPRANO_EXPORT public API classes
+    Soprano::Utils::ReadOnlyModel and Soprano::RdfSchemaModel. Update symbols
+    file template.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:47:56 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Jan 2009 15:24:58 +0200
 
 soprano (2.1.67+dfsg.1-1) experimental; urgency=low
 
@@ -31,7 +35,7 @@ soprano (2.1.67+dfsg.1-1) experimental; urgency=low
   * Add symbols file template for libsoprano4, build depend on
     pkg-kde-tools 0.3.1.
 
-
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Jan 2009 11:53:18 +0200
 
 soprano (2.1.1+dfsg.1-1) unstable; urgency=high
 
