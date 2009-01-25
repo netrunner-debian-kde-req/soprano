@@ -1,8 +1,6 @@
 libsoprano.so.4 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
 #DEPRECATED: PRIVATE: EXTERNAL# _Z5qHashRK4QUrl@Base 2.1.67
-#DEPRECATED: PRIVATE: EXTERNAL# _ZN15QBasicAtomicInt3refEv@Base 2.1.1
-#DEPRECATED: PRIVATE: EXTERNAL# _ZN15QBasicAtomicInt5derefEv@Base 2.1.1
  _ZN7Soprano10BindingSet6insertERK7QStringRKNS_4NodeE@Base 2.1.1
  _ZN7Soprano10BindingSetC1ERKS0_@Base 2.1.1
  _ZN7Soprano10BindingSetC1Ev@Base 2.1.1
@@ -1921,7 +1919,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZlsR11QTextStreamRKN7Soprano9StatementE@Base 2.1.1
 libsopranoclient.so.1 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
-#DEPRECATED: PRIVATE: EXTERNAL# _ZN15QBasicAtomicInt3refEv@Base 2.1.1
 #DEPRECATED: PRIVATE: EXTERNAL# _ZN7QStringC1Ev@Base 2.1.1
  _ZN7Soprano6Client10DBusClient11createModelERK7QStringRK5QListINS_14BackendSettingEE@Base 2.1.1
  _ZN7Soprano6Client10DBusClient11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.1
@@ -2265,8 +2262,6 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  _ZThn{vt:8}_N7Soprano5Index16IndexFilterModelD1Ev@Base 2.1.1
 libsopranoserver.so.1 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
-#DEPRECATED: PRIVATE: EXTERNAL# _ZN15QBasicAtomicInt3refEv@Base 2.1.1
-#DEPRECATED: PRIVATE: EXTERNAL# _ZN15QBasicAtomicInt5derefEv@Base 2.1.1
 #DEPRECATED: PRIVATE: EXTERNAL# _ZN7QStringC1Ev@Base 2.1.1
  _ZN7Soprano6Server10ServerCore10setBackendEPKNS_7BackendE@Base 2.1.1
  _ZN7Soprano6Server10ServerCore11createModelERK5QListINS_14BackendSettingEE@Base 2.1.1
