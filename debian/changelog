@@ -6,6 +6,12 @@ soprano (2.1.67+dfsg.1-2~pre1) UNRELEASED; urgency=low
   * Rename debian/*.lintian to debian/*.lintian-overrides.
   * Bump debian/compat and debhelper build dependency to v7 (to get more
     sophisticated debian/tmp handling).
+  * Switch from internal debian/cdbs/kde.mk to pkg-kde-tools:
+    - bump pkg-kde-tools build depend to 0.4;
+    - remove debian/cdbs directory;
+    - replace debian/cdbs/kde.mk with
+      /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk in debian/rules;
+    - remove custom symbolshelper rules from debian/rules.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:47:56 +0200
 
