@@ -1,6 +1,5 @@
 soprano (2.1.67+dfsg.1-2~pre1) UNRELEASED; urgency=low
 
-
   +++ Changes by Modestas Vainius:
 
   * More updates to debian/libsoprano4.symbols.in.
