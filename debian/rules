@@ -1,5 +1,4 @@
 #!/usr/bin/make -f
-THIS_SHOULD_GO_TO_UNSTABLE=0
 
 include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
