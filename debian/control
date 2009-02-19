@@ -7,8 +7,8 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), cmake (>= 2.6.2), quilt, pkg-
  libclucene-dev, libqt4-dev (>= 4.4.0), librdf0-dev, doxygen, graphviz
 Standards-Version: 3.8.0
 Homepage: http://soprano.sourceforge.net
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/soprano
-Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/soprano
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/soprano
+Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/soprano
 
 Package: libsoprano4
 Section: libs
