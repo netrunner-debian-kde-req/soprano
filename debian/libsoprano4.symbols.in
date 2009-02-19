@@ -1993,6 +1993,7 @@ libsopranoclient.so.1 libsoprano4 #MINVER#
  _ZN7Soprano6Client11SparqlModel19removeAllStatementsERKNS_9StatementE@Base 2.1.67
  _ZN7Soprano6Client11SparqlModel19slotRequestFinishedEibRK10QByteArray@Base 2.1.67
  _ZN7Soprano6Client11SparqlModel7setHostERK7QStringt@Base 2.1.67
+ _ZN7Soprano6Client11SparqlModel7setPathERK7QString@Base 2.2.1
  _ZN7Soprano6Client11SparqlModel7setUserERK7QStringS4_@Base 2.1.67
  _ZN7Soprano6Client11SparqlModelC1ERK7QStringtS4_S4_@Base 2.1.67
  _ZN7Soprano6Client11SparqlModelC2ERK7QStringtS4_S4_@Base 2.1.67

@@ -1,4 +1,4 @@
-soprano (2.2.1+dfsg.1-0~pre1) UNRELEASED; urgency=low
+soprano (2.2.1+dfsg.1-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -9,8 +9,9 @@ soprano (2.2.1+dfsg.1-0~pre1) UNRELEASED; urgency=low
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
   * Remove 03_fix_soprano_exports.diff merged upstream.
+  * Update debian/libsoprano4.symbols.in.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 18 Feb 2009 17:36:21 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Feb 2009 02:16:37 +0100
 
 soprano (2.1.67+dfsg.1-2) experimental; urgency=low
 
