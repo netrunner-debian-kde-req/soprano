@@ -1,4 +1,4 @@
-soprano (2.2.2+dfsg.1-1) UNRELEASED; urgency=low
+soprano (2.2.2+dfsg.1-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -10,7 +10,7 @@ soprano (2.2.2+dfsg.1-1) UNRELEASED; urgency=low
 
   * API documentation is now built enabling flag SOPRANO_BUILD_API_DOCS.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Feb 2009 21:02:07 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Feb 2009 23:28:35 +0100
 
 soprano (2.2.1+dfsg.1-1) unstable; urgency=low
 
