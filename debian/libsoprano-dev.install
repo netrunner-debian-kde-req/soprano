@@ -19,6 +19,7 @@ usr/include/Soprano/Error/Locator
 usr/include/Soprano/Error/ParserError
 usr/include/Soprano/FilterModel
 usr/include/Soprano/Global
+usr/include/Soprano/Graph
 usr/include/Soprano/Index/CLuceneIndex
 usr/include/Soprano/Index/IndexFilterModel
 usr/include/Soprano/Index/QueryHit
@@ -31,8 +32,10 @@ usr/include/Soprano/Inference/StandardRuleSet
 usr/include/Soprano/Inference/StatementPattern
 usr/include/Soprano/Iterator
 usr/include/Soprano/IteratorBackend
+usr/include/Soprano/LanguageTag
 usr/include/Soprano/LiteralValue
 usr/include/Soprano/Model
+usr/include/Soprano/NRLModel
 usr/include/Soprano/Node
 usr/include/Soprano/NodeIterator
 usr/include/Soprano/Parser
@@ -84,6 +87,7 @@ usr/include/soprano/dummymodel.h
 usr/include/soprano/error.h
 usr/include/soprano/filtermodel.h
 usr/include/soprano/global.h
+usr/include/soprano/graph.h
 usr/include/soprano/indexfiltermodel.h
 usr/include/soprano/indexqueryhit.h
 usr/include/soprano/inferencemodel.h
@@ -92,6 +96,7 @@ usr/include/soprano/inferenceruleparser.h
 usr/include/soprano/inferenceruleset.h
 usr/include/soprano/iterator.h
 usr/include/soprano/iteratorbackend.h
+usr/include/soprano/languagetag.h
 usr/include/soprano/literalvalue.h
 usr/include/soprano/localsocketclient.h
 usr/include/soprano/locator.h
@@ -102,6 +107,7 @@ usr/include/soprano/node.h
 usr/include/soprano/nodeiterator.h
 usr/include/soprano/nodepattern.h
 usr/include/soprano/nrl.h
+usr/include/soprano/nrlmodel.h
 usr/include/soprano/owl.h
 usr/include/soprano/parser.h
 usr/include/soprano/plugin.h
@@ -120,6 +126,7 @@ usr/include/soprano/simplenodeiterator.h
 usr/include/soprano/simplestatementiterator.h
 usr/include/soprano/soprano.h
 usr/include/soprano/soprano_export.h
+usr/include/soprano/sopranomacros.h
 usr/include/soprano/sopranotypes.h
 usr/include/soprano/sparqlmodel.h
 usr/include/soprano/statement.h
