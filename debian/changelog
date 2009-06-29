@@ -1,4 +1,4 @@
-soprano (2.2.67+svn977209+dfsg.1-0r1) UNRELEASED; urgency=low
+soprano (2.2.69+dfsg.1-0r1) UNRELEASED; urgency=low
 
   * New upstream snapshot.
 
@@ -7,7 +7,7 @@ soprano (2.2.67+svn977209+dfsg.1-0r1) UNRELEASED; urgency=low
   * Update installed files.
   * Update libsoprano4.symbols.in.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Jun 2009 21:17:06 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Jun 2009 14:28:35 +0300
 
 soprano (2.2.2+dfsg.1-1) unstable; urgency=low
 
