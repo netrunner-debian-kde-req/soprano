@@ -1,3 +1,9 @@
+soprano (2.3.0+dfsg.1-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 18 Jul 2009 10:19:05 +0200
+
 soprano (2.2.69+dfsg.1-2) experimental; urgency=low
 
   +++ Changes by Sune Vuorela:
