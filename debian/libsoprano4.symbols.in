@@ -2296,7 +2296,7 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  _ZN7Soprano5Index12CLuceneIndex5closeEv@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex6searchEPN6lucene6search5QueryE@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex6searchERK7QString@Base 2.1.1
- (optional=PRIVATE)_ZN7Soprano5Index12CLuceneIndex7Private11closeReaderEv@Base 2.1.1
+ (optional=private)_ZN7Soprano5Index12CLuceneIndex7Private11closeReaderEv@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex7Private11closeWriterEv@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex7Private11getDocumentERKNS_4NodeE@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex7Private14getIndexReaderEv@Base 2.1.1
