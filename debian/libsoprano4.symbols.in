@@ -527,7 +527,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano12LiteralValue18createPlainLiteralERK7QStringRKNS_11LanguageTagE@Base 2.2.69
  _ZN7Soprano12LiteralValue19dataTypeUriFromTypeEN8QVariant4TypeE@Base 2.1.1
  _ZN7Soprano12LiteralValue19typeFromDataTypeUriERK4QUrl@Base 2.1.1
- (optional=private)_ZN7Soprano12LiteralValue7PrivateC1ERK8QVariant@Base 2.1.1
  _ZN7Soprano12LiteralValueC1EPKc@Base 2.1.1
  _ZN7Soprano12LiteralValueC1ERK10QByteArray@Base 2.1.1
  _ZN7Soprano12LiteralValueC1ERK13QLatin1String@Base 2.1.1
@@ -1293,8 +1292,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano8NRLModelD1Ev@Base 2.1.1
  _ZN7Soprano8NRLModelD2Ev@Base 2.1.1
  _ZN7Soprano9Inference10RuleParser5clearEv@Base 2.3.0
- (optional=private)_ZN7Soprano9Inference10RuleParser7Private28parseMatchedStatementPatternEPb@Base 2.1.1
- (optional=private)_ZN7Soprano9Inference10RuleParser7PrivateC1Ev@Base 2.1.1
  _ZN7Soprano9Inference10RuleParser9addPrefixERK7QStringRK4QUrl@Base 2.3.0
  _ZN7Soprano9Inference10RuleParser9parseFileERK7QString@Base 2.1.1
  _ZN7Soprano9Inference10RuleParser9parseRuleERK7QString@Base 2.3.0
