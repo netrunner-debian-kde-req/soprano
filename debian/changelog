@@ -2,7 +2,14 @@ soprano (2.3.0+dfsg.1-1) experimental; urgency=low
 
   * New upstream release.
 
- -- Fathi Boudra <fabo@debian.org>  Sat, 18 Jul 2009 10:19:05 +0200
+  +++ Changes by Fathi Boudra:
+
+  +++ Changes by Modestas Vainius:
+
+  * Convert symbols file to dpkg-dev 1.15.3 compatible format. Build depend on
+    dpkg-dev 1.15.3.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jul 2009 12:34:23 +0300
 
 soprano (2.2.69+dfsg.1-2) experimental; urgency=low
 
