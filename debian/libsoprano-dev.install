@@ -144,8 +144,3 @@ usr/lib/libsopranoindex.so
 usr/lib/libsopranoserver.so
 usr/lib/pkgconfig/soprano.pc
 usr/share/apps/cmake/modules/SopranoAddOntology.cmake
-usr/share/dbus-1/interfaces/org.soprano.Model.xml
-usr/share/dbus-1/interfaces/org.soprano.NodeIterator.xml
-usr/share/dbus-1/interfaces/org.soprano.QueryResultIterator.xml
-usr/share/dbus-1/interfaces/org.soprano.Server.xml
-usr/share/dbus-1/interfaces/org.soprano.StatementIterator.xml

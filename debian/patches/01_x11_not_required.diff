@@ -1,6 +1,6 @@
 --- a/cmake/modules/FindQt4.cmake
 +++ b/cmake/modules/FindQt4.cmake
-@@ -1211,7 +1211,7 @@
+@@ -1211,7 +1211,7 @@ QT4_ADD_DBUS_INTERFACES(<srcList> <files
    IF(UNIX)
      # on OS X X11 may not be required
      IF (Q_WS_X11)

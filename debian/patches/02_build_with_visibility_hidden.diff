@@ -1,6 +1,6 @@
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -76,6 +76,15 @@
+@@ -126,6 +126,15 @@ endif(APPLE)
  ##################  some compiler settings ################################
  if(CMAKE_COMPILER_IS_GNUCXX AND NOT WIN32 )
      set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wnon-virtual-dtor -Wno-long-long -ansi -Wundef -Wcast-align -Wchar-subscripts -Wall -W -Wpointer-arith -Wformat-security -fno-check-new -fno-common")
@@ -18,7 +18,7 @@
      add_definitions(-D_CRT_SECURE_NO_DEPRECATE -D_CRT_NONSTDC_NO_DEPRECATE -Zc:wchar_t-)
 --- a/index/CMakeLists.txt
 +++ b/index/CMakeLists.txt
-@@ -27,15 +27,14 @@
+@@ -27,15 +27,14 @@ configure_file(clucene-config.h.cmake ${
  # CLucene requires exception support and has no support for visibility=hidden
  # so we must use the default (i.e. public) value for -fvisibility
  IF(NOT WIN32)

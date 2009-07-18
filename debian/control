@@ -4,16 +4,33 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Armin Berres <trigger+debian@space-based.de>, Fathi Boudra <fabo@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>, Modestas Vainius <modestas@vainius.eu>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), cmake (>= 2.6.2), quilt, pkg-kde-tools (>= 0.4), dpkg-dev (>= 1.15.3),
- libclucene-dev, libqt4-dev (>= 4.4.0), librdf0-dev, doxygen, graphviz,
-Standards-Version: 3.8.0
+ libclucene-dev, libqt4-dev (>= 4.4.0), librdf0-dev, doxygen, graphviz
+Standards-Version: 3.8.2
 Homepage: http://soprano.sourceforge.net
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/soprano
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/soprano
 
+Package: soprano-daemon
+Section: utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: libsoprano4
+Conflicts: libsoprano4 (<< 2.3.0+dfsg.1-1), libsoprano-dev (<< 2.3.0+dfsg.1-1)
+Replaces: libsoprano4 (<< 2.3.0+dfsg.1-1), libsoprano-dev (<< 2.3.0+dfsg.1-1)
+Description: daemon for the Soprano RDF framework
+ Soprano is a pluggable RDF storage, parsing, and serialization framework based
+ on Qt 4. Soprano is targeted at desktop applications that need to store RDF
+ data. Its API has been optimized for simplicity and ease of use, while its
+ modular structure allows it to use various different RDF storage
+ implementations as its backend.
+ .
+ This package contains the Soprano daemon, D-Bus service, parser
+ plugins, and a storage plugin for the Redland RDF Application Framework.
+
 Package: libsoprano4
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, soprano-daemon (= ${binary:Version})
 Conflicts: libsoprano3
 Replaces: libsoprano3
 Description: libraries for the Soprano RDF framework
@@ -27,6 +44,7 @@ Description: libraries for the Soprano RDF framework
  plugins, and a storage plugin for the Redland RDF Application Framework.
 
 Package: libsoprano-dbg
+Priority: extra
 Section: debug
 Architecture: any
 Suggests: libsoprano4 (= ${binary:Version})

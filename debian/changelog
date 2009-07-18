@@ -4,20 +4,23 @@ soprano (2.3.0+dfsg.1-1) experimental; urgency=low
 
   +++ Changes by Fathi Boudra:
 
+  * Set priority extra to debug package.
+  * Bump Standards-Version from 3.8.0 to 3.8.2 (no changes needed).
+
   +++ Changes by Modestas Vainius:
 
   * Convert symbols file to dpkg-dev 1.15.3 compatible format. Build depend on
     dpkg-dev 1.15.3.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jul 2009 12:34:23 +0300
+  +++ Changes by Scott Kitterman:
 
-soprano (2.2.69+dfsg.1-2) experimental; urgency=low
+  * Split out non library files split into soprano-daemon. (Closes: #517475)
 
   +++ Changes by Sune Vuorela:
 
   * Fix sections.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 11 Jul 2009 22:02:53 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 18 Jul 2009 12:34:23 +0300
 
 soprano (2.2.69+dfsg.1-1) experimental; urgency=low
 

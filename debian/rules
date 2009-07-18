@@ -4,7 +4,7 @@ include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
 
 DEB_CMAKE_EXTRA_FLAGS += -DSOPRANO_BUILD_API_DOCS=ON
 
-#DEB_DH_MAKESHLIBS_ARGS_libsoprano4 = -V'libsoprano4 (>= 2.1.67)'
+#DEB_DH_MAKESHLIBS_ARGS_libsoprano4 = -V'libsoprano4 (>= 2.3.0)'
 
 #build/libsoprano-doc::
 #	cp qt4.tag $(DEB_BUILDDIR)/qt4.tag
