@@ -1,0 +1,9 @@
+--- a/cmake/modules/CMakeLists.txt
++++ b/cmake/modules/CMakeLists.txt
+@@ -1,5 +1,5 @@
+ install(FILES
+   SopranoAddOntology.cmake
+   DESTINATION
+-  share/apps/cmake/modules
++  ${DATA_INSTALL_DIR}/cmake/modules
+ )

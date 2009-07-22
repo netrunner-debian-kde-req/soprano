@@ -143,4 +143,4 @@ usr/lib/libsopranoclient.so
 usr/lib/libsopranoindex.so
 usr/lib/libsopranoserver.so
 usr/lib/pkgconfig/soprano.pc
-usr/share/apps/cmake/modules/SopranoAddOntology.cmake
+usr/share/kde4/apps/cmake/modules/SopranoAddOntology.cmake
