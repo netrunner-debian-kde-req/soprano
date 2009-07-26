@@ -1088,7 +1088,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano5Query31BinaryDateTimeBooleanExpression9setSecondERK9QDateTime@Base 2.1.1
  _ZN7Soprano5Query31BinaryDateTimeBooleanExpressionC1ERK9QDateTimeS4_@Base 2.1.1
  _ZN7Soprano5Query31BinaryDateTimeBooleanExpressionC2ERK9QDateTimeS4_@Base 2.1.1
- (arch=arm armel hppa m68k mips mipsel sparc)_ZN7Soprano5Query31BinaryDateTimeBooleanExpressionD2Ev@Base 2.1.1
  _ZN7Soprano5Query32BinaryNumericalBooleanExpression7PrivateC1EPNS0_19NumericalExpressionES4_@Base 2.1.1
  _ZN7Soprano5Query32BinaryNumericalBooleanExpression7PrivateC1ERKS2_@Base 2.1.1
  _ZN7Soprano5Query32BinaryNumericalBooleanExpression7PrivateC2EPNS0_19NumericalExpressionES4_@Base 2.1.1
@@ -1099,7 +1098,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano5Query32BinaryNumericalBooleanExpression9setSecondEPNS0_19NumericalExpressionE@Base 2.1.1
  _ZN7Soprano5Query32BinaryNumericalBooleanExpressionC1EPNS0_19NumericalExpressionES3_@Base 2.1.1
  _ZN7Soprano5Query32BinaryNumericalBooleanExpressionC2EPNS0_19NumericalExpressionES3_@Base 2.1.1
- (arch=arm armel hppa m68k mips mipsel sparc)_ZN7Soprano5Query32BinaryNumericalBooleanExpressionD2Ev@Base 2.1.1
  _ZN7Soprano5Query3NotC1EPNS0_17BooleanExpressionE@Base 2.1.1
  _ZN7Soprano5Query3NotC2EPNS0_17BooleanExpressionE@Base 2.1.1
  _ZN7Soprano5Query3NotD0Ev@Base 2.1.1
@@ -2104,7 +2102,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZlsR11QTextStreamRKN7Soprano9StatementE@Base 2.1.1
 libsopranoclient.so.1 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
- (optional=external)_ZN7QStringC1Ev@Base 2.1.1
  _ZN7Soprano6Client10DBusClient11createModelERK7QStringRK5QListINS_14BackendSettingEE@Base 2.1.1
  _ZN7Soprano6Client10DBusClient11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.1
  _ZN7Soprano6Client10DBusClient11qt_metacastEPKc@Base 2.1.1
@@ -2146,20 +2143,10 @@ libsopranoclient.so.1 libsoprano4 #MINVER#
  _ZN7Soprano6Client17LocalSocketClientD0Ev@Base 2.1.1
  _ZN7Soprano6Client17LocalSocketClientD1Ev@Base 2.1.1
  _ZN7Soprano6Client17LocalSocketClientD2Ev@Base 2.1.1
- (arch=alpha arm armel hppa m68k mips mipsel sparc)_ZN7Soprano6Client19DBusServerInterface11createModelERK7QString@Base 2.1.1
- (optional=useless)_ZN7Soprano6Client19DBusServerInterface9allModelsEv@Base 2.1.1
  _ZN7Soprano6Client21DBusStatementIteratorC1ERK7QStringS4_@Base 2.1.1
  _ZN7Soprano6Client21DBusStatementIteratorC2ERK7QStringS4_@Base 2.1.1
  _ZN7Soprano6Client23DBusQueryResultIteratorC1ERK7QStringS4_@Base 2.1.1
  _ZN7Soprano6Client23DBusQueryResultIteratorC2ERK7QStringS4_@Base 2.1.1
- (optional=useless)_ZN7Soprano6Client25DBusNodeIteratorInterface7currentEv@Base 2.1.1
- (optional=useless)_ZN7Soprano6Client30DBusStatementIteratorInterface7currentEv@Base 2.1.1
- (optional=useless)_ZN7Soprano6Client32DBusQueryResultIteratorInterface16currentStatementEv@Base 2.1.1
- (optional=useless)_ZN7Soprano6Client32DBusQueryResultIteratorInterface4nextEv@Base 2.1.1
- (optional=useless)_ZN7Soprano6Client32DBusQueryResultIteratorInterface5closeEv@Base 2.1.1
- (optional=useless)_ZN7Soprano6Client32DBusQueryResultIteratorInterface7currentEv@Base 2.1.1
- (optional=useless)_ZN7Soprano6Client32DBusQueryResultIteratorInterface7isGraphEv@Base 2.1.1
- (arch=alpha arm armel hppa ia64 m68k mips mipsel sparc)_ZN7Soprano6Client32DBusQueryResultIteratorInterface9boolValueEv@Base 2.1.1
  _ZN7Soprano6Client9DBusModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.1
  _ZN7Soprano6Client9DBusModel11qt_metacastEPKc@Base 2.1.1
  _ZN7Soprano6Client9DBusModel12addStatementERKNS_9StatementE@Base 2.1.1
@@ -2275,7 +2262,6 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  (optional=external)_ZN6QDebugD1Ev@Base 2.1.1
  (optional=external)_ZN6QDebuglsEPKc@Base 2.1.1
  (optional=external)_ZN6QDebuglsERK7QString@Base 2.1.1
- (optional=external)_ZN6QDebuglsEm@Base 2.1.1
  (optional=external)_ZN7QStringD1Ev@Base 2.1.1
  (optional=templinst)_ZN7Soprano15IteratorBackendINS_5Index8QueryHitEED0Ev@Base 2.1.1
  (optional=templinst)_ZN7Soprano15IteratorBackendINS_5Index8QueryHitEED1Ev@Base 2.1.1
@@ -2363,7 +2349,6 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  _ZN7Soprano5Index8QueryHitaSERKS1_@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_10BindingSetEE4nextEv@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEE4nextEv@Base 2.1.1
- (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEE5closeEv@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEE7PrivateD1Ev@Base 2.1.67
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEEC1EPNS_15IteratorBackendIS2_EE@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEEC1ERKS3_@Base 2.1.67
@@ -2371,7 +2356,6 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEED0Ev@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEED1Ev@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_9StatementEE4nextEv@Base 2.1.1
- (optional=templinst)_ZN7Soprano8IteratorINS_9StatementEE5closeEv@Base 2.1.1
  _ZN7TString8fromUtf8EPKc@Base 2.1.1
  _ZN7TStringC1EPKwb@Base 2.1.1
  _ZN7TStringC1ERK7QString@Base 2.1.1
@@ -2450,7 +2434,6 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  _ZThn{vt:8}_N7Soprano5Index16IndexFilterModelD1Ev@Base 2.1.1
 libsopranoserver.so.1 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
- (optional=external)_ZN7QStringC1Ev@Base 2.1.1
  _ZN7Soprano6Server10ServerCore10setBackendEPKNS_7BackendE@Base 2.1.1
  _ZN7Soprano6Server10ServerCore11createModelERK5QListINS_14BackendSettingEE@Base 2.1.1
  _ZN7Soprano6Server10ServerCore11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.1.1

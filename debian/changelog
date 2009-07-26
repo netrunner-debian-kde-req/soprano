@@ -1,8 +1,15 @@
 soprano (2.3.0+dfsg.1-2) UNRELEASED; urgency=low
 
+  +++ Changes by Fathi Boudra:
+
   * Add patch to fix SopranoAddOntology.cmake path.
 
- -- Fathi Boudra <fabo@debian.org>  Wed, 22 Jul 2009 19:12:22 +0200
+  +++ Changes by Modestas Vainius:
+
+  * Remove incorrectly tagged and obsolete symbols from libsoprano4.symbols.in.
+    Resolves FTBFS (Closes: #537817).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Jul 2009 23:06:56 +0300
 
 soprano (2.3.0+dfsg.1-1) experimental; urgency=low
 
