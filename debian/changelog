@@ -1,4 +1,6 @@
-soprano (2.3.0+dfsg.1-2) UNRELEASED; urgency=low
+soprano (2.3.0+dfsg.1-2) unstable; urgency=low
+
+  * Upload to unstable
 
   +++ Changes by Fathi Boudra:
 
