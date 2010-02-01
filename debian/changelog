@@ -1,6 +1,7 @@
 soprano (2.3.73+dfsg.1-1~pre1) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - Fix Raptor RDF serializer installation. (Closes: #562388)
 
   [ Ana Beatriz Guerrero Lopez ]
   * Remove myself from Uploaders.
