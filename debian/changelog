@@ -1,4 +1,4 @@
-soprano (2.3.70+dfsg.1-1~pre1) UNRELEASED; urgency=low
+soprano (2.3.73+dfsg.1-1~pre1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -12,11 +12,10 @@ soprano (2.3.70+dfsg.1-1~pre1) UNRELEASED; urgency=low
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
 
-  TODO: 
-  - what happens with Raptor RDF serializer ?
-  - add runtime dependencies for virtuoso
+  
+  * TODO: add runtime dependencies for virtuoso !!!
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 24 Sep 2009 20:50:06 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Feb 2010 17:02:21 +0100
 
 soprano (2.3.1+dfsg.1-1) unstable; urgency=low
 
