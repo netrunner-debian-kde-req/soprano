@@ -1,5 +1,7 @@
 soprano (2.4.0.1+dfsg.1-1~pre1) UNRELEASED; urgency=low
 
+  * TODO: add runtime dependencies for virtuoso (bug #519171) !!!
+
   * New upstream release:
     - Fix Raptor RDF serializer installation. (Closes: #562388)
 
@@ -12,8 +14,16 @@ soprano (2.4.0.1+dfsg.1-1~pre1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
-
-  * TODO: add runtime dependencies for virtuoso !!!
+  * Build depend on pkg-kde-tools 0.6.1.
+  * Convert libsoprano4.symbols.in to new pkg-kde-tools 0.6 format and
+    update it for 2.4.0.1.
+  * Bump libqt4-dev build depend to version 4.5.0.
+  * Bump libsoprano4 shlibs with each new upstream version.
+  * Do not install dbus interface XMLs.
+  * Exempt libsoprano4 from soprano-daemon ${shlibs:Depends} to avoid circular
+    deps (Closes: #546199).
+  * Bump Standards-Version to 3.8.4: no changes needed.
+  * Remove pointless shlibs:Depends subst from libsoprano-doc.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Feb 2010 17:02:21 +0100
 

@@ -3,10 +3,10 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Armin Berres <armin+debian@space-based.de>, Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), cmake (>= 2.6.2), quilt, pkg-kde-tools (>= 0.4), dpkg-dev (>= 1.15.3),
- libclucene-dev, libqt4-dev (>= 4.4.0), librdf0-dev, doxygen, graphviz,
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), cmake (>= 2.6.2), quilt, pkg-kde-tools (>= 0.6), dpkg-dev (>= 1.15.5),
+ libclucene-dev, libqt4-dev (>= 4.5.0), librdf0-dev, doxygen, graphviz,
  libiodbc2-dev, 
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Homepage: http://soprano.sourceforge.net
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/soprano/#_trunk_packages_soprano_
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/soprano
@@ -78,7 +78,7 @@ Description: development files for the Soprano RDF framework
 Package: libsoprano-doc
 Section: doc
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}
 Recommends: qt4-doc
 Description: developer documentation for the Soprano RDF framework
  Soprano is a pluggable RDF storage, parsing, and serialization framework based
