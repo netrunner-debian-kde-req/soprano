@@ -2052,40 +2052,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZTVN7Soprano8NRLModelE@Base 2.1.1
  _ZTVN7Soprano9Inference14InferenceModelE@Base 2.1.1
  _ZTVN7Soprano9StatementE@Base 2.1.1
- _ZThn{vt:8}_N7Soprano10SerializerD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano10SerializerD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano11FilterModelD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano11FilterModelD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano12StorageModelD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano12StorageModelD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano14RdfSchemaModelD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano14RdfSchemaModelD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano4Util10AsyncModelD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano4Util10AsyncModelD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano4Util10DummyModelD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano4Util10DummyModelD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano4Util10MutexModelD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano4Util10MutexModelD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano4Util11AsyncResultD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano4Util11AsyncResultD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano4Util13ReadOnlyModelD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano4Util13ReadOnlyModelD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano4Util16SignalCacheModelD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano4Util16SignalCacheModelD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano5ModelD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano5ModelD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano5Query10SerializerD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano5Query10SerializerD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano5Query6ParserD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano5Query6ParserD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6ParserD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6ParserD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano7BackendD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano7BackendD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano8NRLModelD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano8NRLModelD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano9Inference14InferenceModelD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano9Inference14InferenceModelD1Ev@Base 2.1.1
  _Zls6QDebugRKN7Soprano10BindingSetE@Base 2.1.1
  _Zls6QDebugRKN7Soprano11LanguageTagE@Base 2.2.69
  _Zls6QDebugRKN7Soprano12LiteralValueE@Base 2.1.1
@@ -2100,6 +2066,40 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZlsR11QTextStreamRKN7Soprano4NodeE@Base 2.1.1
  _ZlsR11QTextStreamRKN7Soprano5Error5ErrorE@Base 2.1.1
  _ZlsR11QTextStreamRKN7Soprano9StatementE@Base 2.1.1
+ (c++)"non-virtual thunk to Soprano::Backend::~Backend()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Backend::~Backend()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::FilterModel::~FilterModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::FilterModel::~FilterModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Inference::InferenceModel::~InferenceModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Inference::InferenceModel::~InferenceModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Model::~Model()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Model::~Model()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::NRLModel::~NRLModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::NRLModel::~NRLModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Parser::~Parser()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Parser::~Parser()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Query::Parser::~Parser()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Query::Parser::~Parser()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Query::Serializer::~Serializer()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Query::Serializer::~Serializer()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::RdfSchemaModel::~RdfSchemaModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::RdfSchemaModel::~RdfSchemaModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Serializer::~Serializer()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Serializer::~Serializer()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::StorageModel::~StorageModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::StorageModel::~StorageModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Util::AsyncModel::~AsyncModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Util::AsyncModel::~AsyncModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Util::AsyncResult::~AsyncResult()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Util::AsyncResult::~AsyncResult()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Util::DummyModel::~DummyModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Util::DummyModel::~DummyModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Util::MutexModel::~MutexModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Util::MutexModel::~MutexModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Util::ReadOnlyModel::~ReadOnlyModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Util::ReadOnlyModel::~ReadOnlyModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Util::SignalCacheModel::~SignalCacheModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Util::SignalCacheModel::~SignalCacheModel()@Base" 2.1.1
 libsopranoclient.so.1 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  _ZN7Soprano6Client10DBusClient11createModelERK7QStringRK5QListINS_14BackendSettingEE@Base 2.1.1
@@ -2223,16 +2223,16 @@ libsopranoclient.so.1 libsoprano4 #MINVER#
  _ZTVN7Soprano6Client23DBusQueryResultIteratorE@Base 2.1.1
  _ZTVN7Soprano6Client9DBusModelE@Base 2.1.1
  _ZTVN7Soprano6Client9TcpClientE@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6Client10DBusClientD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6Client10DBusClientD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6Client11SparqlModelD0Ev@Base 2.1.67
- _ZThn{vt:8}_N7Soprano6Client11SparqlModelD1Ev@Base 2.1.67
- _ZThn{vt:8}_N7Soprano6Client17LocalSocketClientD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6Client17LocalSocketClientD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6Client9DBusModelD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6Client9DBusModelD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6Client9TcpClientD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6Client9TcpClientD1Ev@Base 2.1.1
+ (c++)"non-virtual thunk to Soprano::Client::DBusClient::~DBusClient()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Client::DBusClient::~DBusClient()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Client::DBusModel::~DBusModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Client::DBusModel::~DBusModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Client::LocalSocketClient::~LocalSocketClient()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Client::LocalSocketClient::~LocalSocketClient()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Client::SparqlModel::~SparqlModel()@Base" 2.1.67
+ (c++)"non-virtual thunk to Soprano::Client::SparqlModel::~SparqlModel()@Base" 2.1.67
+ (c++)"non-virtual thunk to Soprano::Client::TcpClient::~TcpClient()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Client::TcpClient::~TcpClient()@Base" 2.1.1
 libsopranoindex.so.1 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_Z6qDebugv@Base 2.1.1
@@ -2430,8 +2430,8 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  _ZTVN7Soprano5Index23QueryHitIteratorBackendE@Base 2.1.1
  _ZTVN7Soprano5Index36QueryHitWrapperResultIteratorBackendE@Base 2.1.1
  _ZTVN7Soprano8IteratorINS_5Index8QueryHitEEE@Base 2.1.1
- _ZThn{vt:8}_N7Soprano5Index16IndexFilterModelD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano5Index16IndexFilterModelD1Ev@Base 2.1.1
+ (c++)"non-virtual thunk to Soprano::Index::IndexFilterModel::~IndexFilterModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Index::IndexFilterModel::~IndexFilterModel()@Base" 2.1.1
 libsopranoserver.so.1 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  _ZN7Soprano6Server10ServerCore10setBackendEPKNS_7BackendE@Base 2.1.1
@@ -2504,9 +2504,9 @@ libsopranoserver.so.1 libsoprano4 #MINVER#
  _ZTVN7Soprano6Server10ServerCoreE@Base 2.1.1
  _ZTVN7Soprano6Server15DBusExportModelE@Base 2.1.1
  _ZTVN7Soprano6Server18DBusExportIteratorE@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6Server10ServerCoreD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6Server10ServerCoreD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6Server15DBusExportModelD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6Server15DBusExportModelD1Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6Server18DBusExportIteratorD0Ev@Base 2.1.1
- _ZThn{vt:8}_N7Soprano6Server18DBusExportIteratorD1Ev@Base 2.1.1
+ (c++)"non-virtual thunk to Soprano::Server::DBusExportIterator::~DBusExportIterator()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Server::DBusExportIterator::~DBusExportIterator()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Server::DBusExportModel::~DBusExportModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Server::DBusExportModel::~DBusExportModel()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Server::ServerCore::~ServerCore()@Base" 2.1.1
+ (c++)"non-virtual thunk to Soprano::Server::ServerCore::~ServerCore()@Base" 2.1.1
