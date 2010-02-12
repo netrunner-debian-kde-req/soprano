@@ -76,6 +76,7 @@ Description: development files for the Soprano RDF framework
  Soprano libraries.
 
 Package: libsoprano-doc
+Priority: extra
 Section: doc
 Architecture: all
 Depends: ${misc:Depends}
