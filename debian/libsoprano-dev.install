@@ -150,4 +150,4 @@ usr/share/dbus-1/interfaces/org.soprano.NodeIterator.xml
 usr/share/dbus-1/interfaces/org.soprano.QueryResultIterator.xml
 usr/share/dbus-1/interfaces/org.soprano.Server.xml
 usr/share/dbus-1/interfaces/org.soprano.StatementIterator.xml
-usr/share/kde4/apps/cmake/modules/SopranoAddOntology.cmake
+usr/share/soprano/cmake/SopranoAddOntology.cmake
