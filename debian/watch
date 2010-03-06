@@ -1,7 +1,4 @@
 version=3
 
-opts=dversionmangle=s/~/-/ \
+opts=dversionmangle=s/~/-/;s/\+dfsg.1// \
 http://sf.net/soprano/soprano-(.*)\.tar\.bz2
-
-ftp://upload.sourceforge.net/pub/sourceforge/s/so/soprano/ \
-  soprano-(.*)\.tar\.bz2

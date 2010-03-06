@@ -1,2 +1,2 @@
 01_x11_not_required.diff
-02_build_with_visibility_hidden.diff
+02_disable_usr_lib_install_rpath.diff

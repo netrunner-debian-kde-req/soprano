@@ -1,8 +1,22 @@
-soprano (2.4.1+dfsg.1-1) UNRELEASED; urgency=low
+soprano (2.4.1+dfsg.1-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>>  Fri, 05 Mar 2010 08:56:00 +0100
+  [ Modestas Vainius ]
+  * Make soprano-daemon suggest virtuoso-minimal.
+  * Add a note to soprano-daemon description that it is not intended to be used
+    directly by end users (see thread in #546199).
+  * Drop 02_build_with_visibility_hidden.diff patch, merged upstream.
+  * Update symbol file.
+  * Add patch 02_disable_usr_lib_install_rpath.diff to get rid of /usr/lib
+    RPATH.
+  * Upgrade libsoprano4 to soprano-dbg Depends.
+  * Fix debian/watch:
+    - dversionmangle dfsg.1 suffix;
+    - remove bogus excess lines.
+  * Update libsoprano-dev.install.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 06 Mar 2010 02:45:14 +0200
 
 soprano (2.4.0.1+dfsg.1-2) unstable; urgency=low
 
