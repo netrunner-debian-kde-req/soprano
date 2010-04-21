@@ -1,12 +1,12 @@
-From: Modestas Vainius <modax@debian.org>
-Subject: Do not set install RPATH to /usr/lib by default
- /usr/lib RPATH is disallowed on Debian systems and is a bad practise in
-  general
+Description: Do not set install RPATH to /usr/lib by default
+             /usr/lib RPATH is disallowed on Debian systems
+             and is a bad practice in general
+Author: Modestas Vainius <modax@debian.org>
 Forwarded: not-needed
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -129,15 +129,6 @@
+@@ -129,15 +129,6 @@ set(INCLUDE_INSTALL_DIR      "${CMAKE_IN
  set(PKGCONFIG_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}/pkgconfig/" CACHE STRING "Base directory for pkgconfig files")
  
  

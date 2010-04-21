@@ -2272,6 +2272,7 @@ libsopranoclient.so.1 libsoprano4 #MINVER#
 libsopranoindex.so.1 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_Z6qDebugv@Base 2.1.1
+ (optional=external)_ZGVZ13qvariant_castI8QVariantET_RKS0_E3vid@Base 2.4.2
  (optional=external)_ZN10QByteArrayD1Ev@Base 2.1.1
  (optional=external|arch=armel sparc)_ZN11QStringListD1Ev@Base 2.4.1
  (optional=external)_ZN12QMutexLockerD1Ev@Base 2.1.1
@@ -2281,13 +2282,16 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  (optional=templinst)_ZN18QSharedDataPointerIN7TString7PrivateEED1Ev@Base 2.1.1
  (optional=templinst)_ZN20QGlobalStaticDeleterIN7Soprano5Index12IndexStaticsEED1Ev@Base 2.1.1
  (optional=templinst)_ZN4QSetI4QUrlED1Ev@Base 2.1.67
+ (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 2.4.2
  (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE13detach_helperEv@Base 2.1.1
  (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
- (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE8freeDataEP9QHashData@Base 2.1.1
+#MISSING: 2.4.2# (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE8freeDataEP9QHashData@Base 2.1.1
+ (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEE11deleteNode2EPN9QHashData4NodeE@Base 2.4.2
  (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEE13detach_helperEv@Base 2.1.1
  (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
- (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEE8freeDataEP9QHashData@Base 2.1.1
+#MISSING: 2.4.2# (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEE8freeDataEP9QHashData@Base 2.1.1
  (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEED1Ev@Base 2.1.1
+ (optional=templinst)_ZN5QListI4QUrlE13detach_helperEv@Base 2.4.2
  (optional=templinst)_ZN5QListI4QUrlE4freeEPN9QListData4DataE@Base 2.1.1
  (optional=templinst)_ZN5QListI4QUrlE6appendERKS0_@Base 2.1.1
  (optional=templinst)_ZN5QListI7QStringE13detach_helperEv@Base 2.1.1

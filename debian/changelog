@@ -1,3 +1,15 @@
+soprano (2.4.2+dfsg.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ Fathi Boudra ]
+  * Use DEP-3 headers on the patches.
+  * Cleanup build dependencies versions.
+  * Update copyright years.
+  * Update symbol file.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 21 Apr 2010 09:22:06 +0300
+
 soprano (2.4.1+dfsg.1-1) unstable; urgency=low
 
   * New upstream release.

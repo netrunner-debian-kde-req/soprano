@@ -1,3 +1,7 @@
+Description: fix wrong check. X11 isn't required.
+Author: Fathi Boudra <fabo@debian.org>
+Forwarded: not-needed
+
 --- a/cmake/modules/FindQt4.cmake
 +++ b/cmake/modules/FindQt4.cmake
 @@ -1211,7 +1211,7 @@ QT4_ADD_DBUS_INTERFACES(<srcList> <files
