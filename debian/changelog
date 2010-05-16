@@ -1,3 +1,11 @@
+soprano (2.4.3+dfsg.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update symbol file for 2.4.2 on all arches for 2.4.3 on amd64.
+  * Add debian/source/format (1.0).
+
+ -- Modestas Vainius <modax@debian.org>  Mon, 17 May 2010 01:08:55 +0300
+
 soprano (2.4.2+dfsg.1-1) unstable; urgency=low
 
   * New upstream release.

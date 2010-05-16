@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.4.1 alpha armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 2.4.3 amd64
 libsoprano.so.4 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_Z5qHashRK4QUrl@Base 2.1.67
@@ -83,6 +83,7 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano10Vocabulary3NRL18semanticsDefinedByEv@Base 2.1.1
  _ZN7Soprano10Vocabulary3NRL20coreGraphMetadataForEv@Base 2.1.1
  _ZN7Soprano10Vocabulary3NRL21RuleViewSpecificationEv@Base 2.1.1
+ _ZN7Soprano10Vocabulary3NRL23DiscardableInstanceBaseEv@Base 2.4.3
  _ZN7Soprano10Vocabulary3NRL25ExternalViewSpecificationEv@Base 2.1.1
  _ZN7Soprano10Vocabulary3NRL25InverseFunctionalPropertyEv@Base 2.1.1
  _ZN7Soprano10Vocabulary3NRL4DataEv@Base 2.1.1
@@ -2274,7 +2275,7 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  (optional=external)_Z6qDebugv@Base 2.1.1
  (optional=external)_ZGVZ13qvariant_castI8QVariantET_RKS0_E3vid@Base 2.4.2
  (optional=external)_ZN10QByteArrayD1Ev@Base 2.1.1
- (optional=external|arch=armel sparc)_ZN11QStringListD1Ev@Base 2.4.1
+ (optional=external|arch=armel hppa sparc)_ZN11QStringListD1Ev@Base 2.4.1
  (optional=external)_ZN12QMutexLockerD1Ev@Base 2.1.1
  (optional=external|arch=sparc)_ZN15QBasicAtomicInt3refEv@Base 2.4.1
  (optional=templinst)_ZN18QSharedDataPointerIN7Soprano5Index8QueryHit7PrivateEED1Ev@Base 2.1.1
@@ -2285,11 +2286,9 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 2.4.2
  (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE13detach_helperEv@Base 2.1.1
  (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#MISSING: 2.4.2# (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE8freeDataEP9QHashData@Base 2.1.1
  (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEE11deleteNode2EPN9QHashData4NodeE@Base 2.4.2
  (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEE13detach_helperEv@Base 2.1.1
  (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
-#MISSING: 2.4.2# (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEE8freeDataEP9QHashData@Base 2.1.1
  (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEED1Ev@Base 2.1.1
  (optional=templinst)_ZN5QListI4QUrlE13detach_helperEv@Base 2.4.2
  (optional=templinst)_ZN5QListI4QUrlE4freeEPN9QListData4DataE@Base 2.1.1
@@ -2297,7 +2296,7 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  (optional=templinst)_ZN5QListI7QStringE13detach_helperEv@Base 2.1.1
  (optional=templinst)_ZN5QListI7QStringE4freeEPN9QListData4DataE@Base 2.1.1
  (optional=templinst)_ZN5QListI7QStringE6appendERKS0_@Base 2.1.1
- (optional=templinst|arch=armel sparc)_ZN5QListI7QStringED2Ev@Base 2.4.1
+ (optional=templinst|arch=armel hppa sparc)_ZN5QListI7QStringED2Ev@Base 2.4.1
  (optional=external)_ZN6QDebugD1Ev@Base 2.1.1
  (optional=external)_ZN6QDebuglsEPKc@Base 2.1.1
  (optional=external)_ZN6QDebuglsERK7QString@Base 2.1.1
@@ -2388,14 +2387,12 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  _ZN7Soprano5Index8QueryHitaSERKS1_@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_10BindingSetEE4nextEv@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEE4nextEv@Base 2.1.1
- (optional=templinst|arch=armel i386 kfreebsd-amd64 kfreebsd-i386 sparc)_ZN7Soprano8IteratorINS_5Index8QueryHitEE5closeEv@Base 2.4.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEEC1EPNS_15IteratorBackendIS2_EE@Base 2.1.1
- (optional=templinst|arch=armel sparc)_ZN7Soprano8IteratorINS_5Index8QueryHitEEC1ERKS3_@Base 2.4.1
+ (optional=templinst|arch=armel hppa sparc)_ZN7Soprano8IteratorINS_5Index8QueryHitEEC1ERKS3_@Base 2.4.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEEC1Ev@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEED0Ev@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEED1Ev@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_9StatementEE4nextEv@Base 2.1.1
- (optional=templinst|arch=armel i386 kfreebsd-amd64 kfreebsd-i386 sparc)_ZN7Soprano8IteratorINS_9StatementEE5closeEv@Base 2.4.1
  _ZN7TString8fromUtf8EPKc@Base 2.1.1
  _ZN7TStringC1EPKwb@Base 2.1.1
  _ZN7TStringC1ERK7QString@Base 2.1.1
@@ -2482,16 +2479,11 @@ libsopranoserver.so.1 libsoprano4 #MINVER#
  _ZN7Soprano6Server10ServerCore16staticMetaObjectE@Base 2.1.1
  _ZN7Soprano6Server10ServerCore18setBackendSettingsERK5QListINS_14BackendSettingEE@Base 2.1.1
  _ZN7Soprano6Server10ServerCore20registerAsDBusObjectERK7QString@Base 2.1.1
- _ZN7Soprano6Server10ServerCore20slotNewTcpConnectionEv@Base 2.1.1
- _ZN7Soprano6Server10ServerCore23slotNewSocketConnectionEv@Base 2.1.1
  _ZN7Soprano6Server10ServerCore24serverConnectionFinishedEv@Base 2.1.1
  _ZN7Soprano6Server10ServerCore25setMaximumConnectionCountEi@Base 2.4.0.1
  _ZN7Soprano6Server10ServerCore5modelERK7QString@Base 2.1.1
  _ZN7Soprano6Server10ServerCore5startERK7QString@Base 2.1.1
  _ZN7Soprano6Server10ServerCore6listenEt@Base 2.1.1
- _ZN7Soprano6Server10ServerCore7Private17_s_tcpSocketErrorEN15QAbstractSocket11SocketErrorE@Base 2.1.1
- _ZN7Soprano6Server10ServerCore7Private19_s_localSocketErrorEN12QLocalSocket16LocalSocketErrorE@Base 2.1.1
- _ZN7Soprano6Server10ServerCore7Private24handleIncomingConnectionEP9QIODevice@Base 2.4.0.1
  _ZN7Soprano6Server10ServerCoreC1EP7QObject@Base 2.1.1
  _ZN7Soprano6Server10ServerCoreC2EP7QObject@Base 2.1.1
  _ZN7Soprano6Server10ServerCoreD0Ev@Base 2.1.1
