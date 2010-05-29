@@ -16,7 +16,7 @@ Package: soprano-daemon
 Section: utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: libsoprano4
+Recommends: libsoprano4 (= ${binary:Version})
 Suggests: virtuoso-minimal
 Conflicts: libsoprano4 (<< 2.3.0+dfsg.1-1), libsoprano-dev (<< 2.3.0+dfsg.1-1)
 Replaces: libsoprano4 (<< 2.3.0+dfsg.1-1), libsoprano-dev (<< 2.3.0+dfsg.1-1)
