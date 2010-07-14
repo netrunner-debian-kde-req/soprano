@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.4.3 amd64
+# SymbolsHelper-Confirmed: 2.4.63 i386
 libsoprano.so.4 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_Z5qHashRK4QUrl@Base 2.1.67
@@ -1408,8 +1408,10 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZNK7Soprano10BindingSet5valueERK7QString@Base 2.1.1
  _ZNK7Soprano10BindingSet5valueEi@Base 2.1.1
  _ZNK7Soprano10BindingSet8containsERK7QString@Base 2.1.1
+ _ZNK7Soprano10BindingSeteqERKS0_@Base 2.4.63
  _ZNK7Soprano10BindingSetixE7QString@Base 2.1.1
  _ZNK7Soprano10BindingSetixEi@Base 2.1.1
+ _ZNK7Soprano10BindingSetneERKS0_@Base 2.4.63
  _ZNK7Soprano10Serializer13clearPrefixesEv@Base 2.3.0
  _ZNK7Soprano10Serializer21supportsSerializationENS_16RdfSerializationERK7QString@Base 2.1.1
  _ZNK7Soprano10Serializer27supportedUserSerializationsEv@Base 2.1.1

@@ -1,3 +1,10 @@
+soprano (2.4.63-1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
+  * Update symbol file for 2.4.63 on i386
+
+ -- Bjoern Ricks <bjoern.ricks@intevation.de>  Wed, 14 Jul 2010 18:21:02 +0200
+
 soprano (2.4.3+dfsg.1-2) UNRELEASED; urgency=low
 
   * Make libsoprano4 Recommends in soprano-daemon strictly versioned.
