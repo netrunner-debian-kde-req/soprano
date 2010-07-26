@@ -86,7 +86,7 @@ soprano (2.3.1+dfsg.1-1) unstable; urgency=low
 
   * Bump Standards-Version from 3.8.2 to 3.8.3, no changes required.
   * Modified the SopranoAddOntology patch to fix a path.
- 
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 24 Sep 2009 20:50:06 +0200
 
 soprano (2.3.0+dfsg.1-2) unstable; urgency=low
@@ -231,7 +231,7 @@ soprano (2.1+dfsg.1-1) unstable; urgency=low
   * Add myself to uploaders.
   * Update debian/copyright.
   * Add prune-nonfree debian/rules target as a helper to get rid of jars and
-    *.class files inside the tarball. 
+    *.class files inside the tarball.
   * Add dfsg suffix to the original tarball name. It was pruned.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 23 Jul 2008 17:26:55 +0300
@@ -246,12 +246,12 @@ soprano (2.0.98-2) unstable; urgency=low
 soprano (2.0.98-1) experimental; urgency=low
 
   * New upstream release.
-  
+
   +++ Changes by Fathi Boudra:
 
   * Add patch to make X11 not required to fix FTBF after libqt4-dev
     dependencies clean up.
-  
+
   +++ Changes by Modestas Vainius:
 
   * Bump libsoprano4 shlibs to 2.0.98 because libsoprano4 changed its version
@@ -283,7 +283,7 @@ soprano (2.0.97~svn790369-1) experimental; urgency=low
 
 soprano (2.0.3-2) experimental; urgency=low
 
-  * Rebuild against Qt 4.4 beta. Update build depend on libqt4-dev 
+  * Rebuild against Qt 4.4 beta. Update build depend on libqt4-dev
     to (>> 4.4.0~).
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 25 Mar 2008 19:25:36 +0100
@@ -322,14 +322,14 @@ soprano (1.99~rc2-1) unstable; urgency=low
   * New upstream release.
   * Update libsoprano-dev.install.
   * Update Standards-Version to 3.7.3, no changes required.
-  * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps 
+  * Add export LDFLAGS+="-Wl,--as-needed" in rules to make dpkg-shlibdeps
     happier.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 16 Dec 2007 19:10:15 +0100
 
 soprano (1.98.0~rc1-1) unstable; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
   * Update *.install files.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 04 Dec 2007 17:40:32 +0100
@@ -352,9 +352,9 @@ soprano (1.97.1~beta4-1) unstable; urgency=low
   * Update patch.
 
   ++ changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Move Homepage into control field.
-  * Repackage to remove nonfree stuff and upload. 
+  * Repackage to remove nonfree stuff and upload.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Nov 2007 14:04:18 +0100
 
@@ -406,7 +406,7 @@ soprano (0.9.0~snapshot20070728-1) unstable; urgency=low
   * First upload to Debian. (Closes: #422206)
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Some minor changes for package polishing.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 Jul 2007 02:03:40 +0200
