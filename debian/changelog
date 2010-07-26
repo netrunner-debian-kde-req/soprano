@@ -410,10 +410,3 @@ soprano (0.9.0~snapshot20070728-1) unstable; urgency=low
   * Some minor changes for package polishing.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 28 Jul 2007 02:03:40 +0200
-
-soprano (0.9.0~snapshot20070525-1) unstable; urgency=low
-
-  * Initial release.
-
- -- Sune Vuorela <debian@pusling.com>  Fri,  4 May 2007 09:49:34 +0200
-
