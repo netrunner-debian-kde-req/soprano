@@ -15,7 +15,6 @@ DEB_DH_SHLIBDEPS_ARGS_soprano-daemon = -- -xlibsoprano4
 install/libsoprano-doc::
 	mkdir -p $(DEB_DESTDIR)/usr/share/soprano/doc/html
 	cp $(DEB_BUILDDIR)/docs/html/*.css \
-	$(DEB_BUILDDIR)/docs/html/*.gif \
 	$(DEB_BUILDDIR)/docs/html/*.html \
 	$(DEB_BUILDDIR)/docs/html/*.png \
 	$(DEB_DESTDIR)/usr/share/soprano/doc/html/
