@@ -1,14 +1,15 @@
-soprano (2.4.63-1) UNRELEASED; urgency=low
+soprano (2.4.64-0r1) UNRELEASED; urgency=low
+
+  * New upstream beta release.
 
   [ Bjoern Ricks ]
-  * New upstream snapshot.
   * Update symbol file for 2.4.63 on i386
 
   [ Modestas Vainius ]
   * Make libsoprano4 Recommends in soprano-daemon strictly versioned.
   * Point debian/control Vcs fields to the new Git repository.
 
- -- Bjoern Ricks <bjoern.ricks@intevation.de>  Wed, 14 Jul 2010 18:21:02 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Jul 2010 20:58:13 +0300
 
 soprano (2.4.3+dfsg.1-1) unstable; urgency=low
 
