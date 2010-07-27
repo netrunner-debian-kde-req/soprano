@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.4.64 amd64
+# SymbolsHelper-Confirmed: 2.4.64 amd64 i386
 libsoprano.so.4 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_Z5qHashRK4QUrl@Base 2.1.67
