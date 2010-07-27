@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.4.63 i386
+# SymbolsHelper-Confirmed: 2.4.64 amd64
 libsoprano.so.4 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_Z5qHashRK4QUrl@Base 2.1.67
@@ -1290,6 +1290,7 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano5qHashERKNS_11LanguageTagE@Base 2.2.69
  _ZN7Soprano5qHashERKNS_12LiteralValueE@Base 2.2.69
  _ZN7Soprano5qHashERKNS_4NodeE@Base 2.1.67
+ _ZN7Soprano5qHashERKNS_9StatementE@Base 2.4.64
  _ZN7Soprano6ParserC1ERK7QString@Base 2.1.1
  _ZN7Soprano6ParserC2ERK7QString@Base 2.1.1
  _ZN7Soprano6ParserD0Ev@Base 2.1.1
@@ -2507,7 +2508,7 @@ libsopranoserver.so.1 libsoprano4 #MINVER#
  _ZN7Soprano6Server18DBusExportIterator16setDeleteOnCloseEb@Base 2.1.1
  _ZN7Soprano6Server18DBusExportIterator16staticMetaObjectE@Base 2.1.1
  _ZN7Soprano6Server18DBusExportIterator18unregisterIteratorEv@Base 2.1.1
- _ZN7Soprano6Server18DBusExportIterator7Private23slotServiceOwnerChangedERK7QStringS5_S5_@Base 2.1.1
+ (optional=private)_ZN7Soprano6Server18DBusExportIterator7Private23slotServiceUnregisteredERK7QString@Base 2.4.64
  _ZN7Soprano6Server18DBusExportIteratorC1ENS_12NodeIteratorEP7QObject@Base 2.1.1
  _ZN7Soprano6Server18DBusExportIteratorC1ENS_17StatementIteratorEP7QObject@Base 2.1.1
  _ZN7Soprano6Server18DBusExportIteratorC1ENS_19QueryResultIteratorEP7QObject@Base 2.1.1

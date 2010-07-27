@@ -9,6 +9,9 @@ soprano (2.4.64-0r1) UNRELEASED; urgency=low
   * Make libsoprano4 Recommends in soprano-daemon strictly versioned.
   * Point debian/control Vcs fields to the new Git repository.
 
+  [ George Kiagiadakis ]
+  * Update symbol file for 2.4.64 on amd64.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Jul 2010 20:58:13 +0300
 
 soprano (2.4.3+dfsg.1-1) unstable; urgency=low
