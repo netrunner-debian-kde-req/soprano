@@ -9,8 +9,8 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.4.15), cmake (>= 2.6.8),
  graphviz, libiodbc2-dev
 Standards-Version: 3.8.4
 Homepage: http://soprano.sourceforge.net
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/soprano/#_trunk_packages_soprano_
-Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/soprano
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-req/soprano.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-req/soprano.git
 
 Package: soprano-daemon
 Section: utils
