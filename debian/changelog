@@ -8,6 +8,9 @@ soprano (2.4.4+dfsg.1-1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.1: add/replace Conflicts with Breaks next to
     Replaces as needed.
   * Require cmake 2.6.2, not 2.6.8.
+  * Switch to source format 3.0 (quilt):
+    - remove quilt build dependency;
+    - bump pkg-kde-tools build dependency to 0.9.
 
   [ George Kiagiadakis ]
   * Looks like there are no .gif files anymore in the docs (Closes: #590400).
