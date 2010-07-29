@@ -3,7 +3,7 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Armin Berres <armin+debian@space-based.de>, Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.4.15), cmake (>= 2.6.8),
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.4.15), cmake (>= 2.6.2),
  quilt (>= 0.46), pkg-kde-tools (>= 0.6.4), dpkg-dev (>= 1.15.5),
  libclucene-dev (>= 0.9.21b), libqt4-dev (>= 4.5.3), librdf0-dev, doxygen,
  graphviz, libiodbc2-dev
