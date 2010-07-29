@@ -11,6 +11,7 @@ soprano (2.4.4+dfsg.1-1) UNRELEASED; urgency=low
   * Switch to source format 3.0 (quilt):
     - remove quilt build dependency;
     - bump pkg-kde-tools build dependency to 0.9.
+  * Move debug package to the bottom of debian/control.
 
   [ George Kiagiadakis ]
   * Looks like there are no .gif files anymore in the docs (Closes: #590400).

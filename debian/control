@@ -47,21 +47,6 @@ Description: libraries for the Soprano RDF framework
  This package contains the Soprano core libraries, D-Bus service, parser
  plugins, and a storage plugin for the Redland RDF Application Framework.
 
-Package: libsoprano-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Depends: ${misc:Depends}, libsoprano4 (= ${binary:Version})
-Description: debugging symbols for the Soprano RDF framework
- Soprano is a pluggable RDF storage, parsing, and serialization framework based
- on Qt 4.  Soprano is targeted at desktop applications that need to store RDF
- data.  Its API has been optimized for simplicity and ease of use, while its
- modular structure allows it to use various different RDF storage
- implementations as its backend.
- .
- This package contains debugging files used to investigate problems with
- binaries included in the Soprano packages.
-
 Package: libsoprano-dev
 Section: libdevel
 Architecture: any
@@ -94,3 +79,18 @@ Description: developer documentation for the Soprano RDF framework
  .
  This package contains documentation for software developers using the Soprano
  RDF framework.
+
+Package: libsoprano-dbg
+Priority: extra
+Section: debug
+Architecture: any
+Depends: ${misc:Depends}, libsoprano4 (= ${binary:Version})
+Description: debugging symbols for the Soprano RDF framework
+ Soprano is a pluggable RDF storage, parsing, and serialization framework based
+ on Qt 4.  Soprano is targeted at desktop applications that need to store RDF
+ data.  Its API has been optimized for simplicity and ease of use, while its
+ modular structure allows it to use various different RDF storage
+ implementations as its backend.
+ .
+ This package contains debugging files used to investigate problems with
+ binaries included in the Soprano packages.
