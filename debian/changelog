@@ -5,6 +5,8 @@ soprano (2.4.4+dfsg.1-1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Make libsoprano4 Recommends in soprano-daemon strictly versioned.
   * Point debian/control Vcs fields to the new Git repository.
+  * Bump Standards-Version to 3.9.1: add/replace Conflicts with Breaks next to
+    Replaces as needed.
 
   [ George Kiagiadakis ]
   * Looks like there are no .gif files anymore in the docs (Closes: #590400).
