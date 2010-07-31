@@ -1,4 +1,4 @@
-soprano (2.4.4+dfsg.1-1) UNRELEASED; urgency=low
+soprano (2.4.4+dfsg.1-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -14,9 +14,14 @@ soprano (2.4.4+dfsg.1-1) UNRELEASED; urgency=low
   * Move debug package to the bottom of debian/control.
 
   [ George Kiagiadakis ]
-  * Looks like there are no .gif files anymore in the docs (Closes: #590400).
+  * With the new version of doxygen (1.7.1), there are not longer *.gif
+    files in the documentation. (Closes: #590400).
 
- -- Modestas Vainius <modax@debian.org>  Sat, 29 May 2010 17:25:01 +0300
+  [ Ana Beatriz Guerrero Lopez ]
+  * Add versioned build dependend on doxygen (>= 1.7.1), full documentation
+    will not be installed if you build the package with a previous version.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 14:36:03 -0400
 
 soprano (2.4.3+dfsg.1-1) unstable; urgency=low
 
