@@ -5,10 +5,6 @@ soprano (2.4.64-0r1) UNRELEASED; urgency=low
   [ Bjoern Ricks ]
   * Update symbol file for 2.4.63 on i386
 
-  [ Modestas Vainius ]
-  * Make libsoprano4 Recommends in soprano-daemon strictly versioned.
-  * Point debian/control Vcs fields to the new Git repository.
-
   [ George Kiagiadakis ]
   * Update symbol file for 2.4.64 and confirm on amd64 and i386.
 
