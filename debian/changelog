@@ -16,10 +16,14 @@ soprano (2.4.64+dfsg.1-0r1) UNRELEASED; urgency=low
   [ George Kiagiadakis ]
   * With the new version of doxygen (1.7.1), there are not longer *.gif
     files in the documentation. (Closes: #590400).
+  * Update symbol file for 2.4.64 and confirm on amd64 and i386.
 
   [ Ana Beatriz Guerrero Lopez ]
   * Add versioned build dependend on doxygen (>= 1.7.1), full documentation
     will not be installed if you build the package with a previous version.
+
+  [ Bjoern Ricks ]
+  * Update symbol file for 2.4.63 on i386
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 14:36:03 -0400
 
