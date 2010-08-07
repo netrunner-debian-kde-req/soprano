@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.4.64 amd64 i386
+# SymbolsHelper-Confirmed: 2.5.0 amd64
 libsoprano.so.4 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_Z5qHashRK4QUrl@Base 2.1.67
@@ -684,12 +684,14 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano26QueryResultIteratorBackendD2Ev@Base 2.1.1
  _ZN7Soprano26valueInSettingsWithDefaultERK5QListINS_14BackendSettingEENS_13BackendOptionERK8QVariant@Base 2.4.0.1
  _ZN7Soprano4Node11literalToN3ERKNS_12LiteralValueE@Base 2.2.69
+ _ZN7Soprano4Node12fromN3StreamER11QTextStream6QFlagsINS0_12N3ParserFlagEE@Base 2.5.0
  _ZN7Soprano4Node12resourceToN3ERK4QUrl@Base 2.2.69
  _ZN7Soprano4Node15createBlankNodeERK7QString@Base 2.1.1
  _ZN7Soprano4Node15createEmptyNodeEv@Base 2.1.1
  _ZN7Soprano4Node17createLiteralNodeERKNS_12LiteralValueE@Base 2.2.69
  _ZN7Soprano4Node17createLiteralNodeERKNS_12LiteralValueERK7QString@Base 2.1.1
  _ZN7Soprano4Node18createResourceNodeERK4QUrl@Base 2.1.1
+ _ZN7Soprano4Node6fromN3ERK7QString6QFlagsINS0_12N3ParserFlagEE@Base 2.5.0
  _ZN7Soprano4Node9blankToN3ERK7QString@Base 2.2.69
  _ZN7Soprano4NodeC1ERK4QUrl@Base 2.1.1
  _ZN7Soprano4NodeC1ERK7QString@Base 2.1.1
@@ -2125,6 +2127,7 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZlsR11QTextStreamRKN7Soprano4NodeE@Base 2.1.1
  _ZlsR11QTextStreamRKN7Soprano5Error5ErrorE@Base 2.1.1
  _ZlsR11QTextStreamRKN7Soprano9StatementE@Base 2.1.1
+ _ZrsR11QTextStreamRN7Soprano4NodeE@Base 2.5.0
  (c++)"non-virtual thunk to Soprano::Backend::~Backend()@Base" 2.1.1
  (c++)"non-virtual thunk to Soprano::FilterModel::~FilterModel()@Base" 2.1.1
  (c++)"non-virtual thunk to Soprano::Inference::InferenceModel::~InferenceModel()@Base" 2.1.1

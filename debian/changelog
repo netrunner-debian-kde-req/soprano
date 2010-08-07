@@ -12,6 +12,7 @@ soprano (2.5.0+dfsg.1-0r1) UNRELEASED; urgency=low
     - remove quilt build dependency;
     - bump pkg-kde-tools build dependency to 0.9.
   * Move debug package to the bottom of debian/control.
+  * Update sumbol file for 2.5.0 on amd64.
 
   [ George Kiagiadakis ]
   * With the new version of doxygen (1.7.1), there are not longer *.gif
