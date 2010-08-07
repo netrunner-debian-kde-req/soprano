@@ -1,4 +1,4 @@
-soprano (2.5.0+dfsg.1-0r1) UNRELEASED; urgency=low
+soprano (2.5.0+dfsg.1-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -27,7 +27,7 @@ soprano (2.5.0+dfsg.1-0r1) UNRELEASED; urgency=low
   [ Bjoern Ricks ]
   * Update symbol file for 2.4.63 on i386
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 31 Jul 2010 14:36:03 -0400
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 Aug 2010 02:07:52 +0300
 
 soprano (2.4.3+dfsg.1-1) unstable; urgency=low
 
