@@ -1,3 +1,9 @@
+soprano (2.5.63+dfsg.1-1) UNRELEASED; urgency=low
+
+  * New upstream beta.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Nov 2010 14:43:25 +0100
+
 soprano (2.5.0+dfsg.1-1) unstable; urgency=low
 
   * New upstream release.
