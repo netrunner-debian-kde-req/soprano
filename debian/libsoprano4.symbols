@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.5.0 amd64
+# SymbolsHelper-Confirmed: 2.5.63 amd64
 libsoprano.so.4 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_Z5qHashRK4QUrl@Base 2.1.67
@@ -18,14 +18,17 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano10SerializerD1Ev@Base 2.1.1
  _ZN7Soprano10SerializerD2Ev@Base 2.1.1
  _ZN7Soprano10Vocabulary3NAO10annotationEv@Base 2.1.1
+ _ZN7Soprano10Vocabulary3NAO10deprecatedEv@Base 2.5.63
  _ZN7Soprano10Vocabulary3NAO10identifierEv@Base 2.1.1
  _ZN7Soprano10Vocabulary3NAO10prefSymbolEv@Base 2.1.1
  _ZN7Soprano10Vocabulary3NAO11contributorEv@Base 2.1.1
  _ZN7Soprano10Vocabulary3NAO11descriptionEv@Base 2.1.1
+ _ZN7Soprano10Vocabulary3NAO11userVisibleEv@Base 2.5.63
  _ZN7Soprano10Vocabulary3NAO12lastModifiedEv@Base 2.1.1
  _ZN7Soprano10Vocabulary3NAO12naoNamespaceEv@Base 2.1.1
  _ZN7Soprano10Vocabulary3NAO13numericRatingEv@Base 2.1.1
  _ZN7Soprano10Vocabulary3NAO14hasSubResourceEv@Base 2.1.67
+ _ZN7Soprano10Vocabulary3NAO14isDataGraphForEv@Base 2.5.63
  _ZN7Soprano10Vocabulary3NAO14scoreParameterEv@Base 2.1.67
  _ZN7Soprano10Vocabulary3NAO15FreeDesktopIconEv@Base 2.1.67
  _ZN7Soprano10Vocabulary3NAO15engineeringToolEv@Base 2.1.1
