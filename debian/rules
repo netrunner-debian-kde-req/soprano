@@ -1,27 +1,27 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk
+builddir = Build
 
-DEB_CMAKE_EXTRA_FLAGS += -DSOPRANO_BUILD_API_DOCS=ON
+dh = --builddirectory=$(builddir)
 
-DEB_DH_MAKESHLIBS_ARGS_libsoprano4 = -V
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-DEB_DH_SHLIBDEPS_ARGS_soprano-daemon = -- -xlibsoprano4
+override_dh_auto_configure:
+	$(overriden_command) -- -DSOPRANO_BUILD_API_DOCS=ON
 
-#build/libsoprano-doc::
-#	cp qt4.tag $(DEB_BUILDDIR)/qt4.tag
-# 	cd $(DEB_BUILDDIR) && $(MAKE) apidox
+override_dh_install:
+	$(overriden_command) -plibsoprano-doc --sourcedir=$(builddir)
+	$(overriden_command) --remaining-packages
 
-install/libsoprano-doc::
-	mkdir -p $(DEB_DESTDIR)/usr/share/soprano/doc/html
-	cp $(DEB_BUILDDIR)/docs/html/*.css \
-	$(DEB_BUILDDIR)/docs/html/*.html \
-	$(DEB_BUILDDIR)/docs/html/*.png \
-	$(DEB_DESTDIR)/usr/share/soprano/doc/html/
+override_dh_makeshlibs:
+	$(overriden_command) -V
 
-binary-post-install/libsoprano-dev::
-	doxytag -t debian/$(cdbs_curpkg)/usr/share/soprano/doc/soprano.tag \
-		$(DEB_DESTDIR)/usr/share/soprano/doc/html
+override_dh_shlibdeps:
+	$(overriden_command) -psoprano-daemon -- -xlibsoprano4
+	$(overriden_command) --remaining-packages
+
+override_dh_strip:
+	$(overriden_command) --dbg-package=libsoprano-dbg
 
 prune-nonfree:
 	# Deleting binary blobs

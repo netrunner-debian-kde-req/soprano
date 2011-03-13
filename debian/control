@@ -3,11 +3,9 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>, Armin Berres <armin+debian@space-based.de>, Fathi Boudra <fabo@debian.org>, Modestas Vainius <modax@debian.org>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7.4.15), cmake (>= 2.6.2),
- pkg-kde-tools (>= 0.9), dpkg-dev (>= 1.15.5),
- libclucene-dev (>= 0.9.21b), libqt4-dev (>= 4.5.3), librdf0-dev,
- doxygen (>= 1.7.1),
- graphviz, libiodbc2-dev
+Build-Depends: debhelper (>= 7.4.15), cmake (>= 2.6.2), pkg-kde-tools (>= 0.11),
+ dpkg-dev (>= 1.15.5), libclucene-dev (>= 0.9.21b), libqt4-dev (>= 4.5.3), librdf0-dev,
+ doxygen (>= 1.7.1), graphviz, libiodbc2-dev
 Standards-Version: 3.9.1
 Homepage: http://soprano.sourceforge.net
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-req/soprano.git

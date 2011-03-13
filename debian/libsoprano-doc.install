@@ -1,1 +1,3 @@
-usr/share/soprano/doc
+docs/html/*.html usr/share/soprano/doc/html/
+docs/html/*.css usr/share/soprano/doc/html/
+docs/html/*.png usr/share/soprano/doc/html/

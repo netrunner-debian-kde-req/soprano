@@ -5,6 +5,14 @@ soprano (2.6.0+dfsg.1-0r1) UNRELEASED; urgency=low
   [ Didier Raboud ]
   * Add symbols for 2.5.63.
 
+  [ Modestas Vainius ]
+  * Switch debian/rules build engine to dhmk based qt-kde-team/2/*:
+    - drop cdbs from Build-Depends;
+    - bump pkg-kde-tools build dependency requirement to 0.11;
+    - port debian/rules to dhmk;
+    - set --builddirectory to Build/;
+    - install libsoprano-doc files via libsoprano-doc.install.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Nov 2010 14:43:25 +0100
 
 soprano (2.5.0+dfsg.1-1) unstable; urgency=low
