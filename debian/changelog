@@ -2,9 +2,6 @@ soprano (2.6.0+dfsg.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
-  [ Didier Raboud ]
-  * Add symbols for 2.5.63.
-
   [ Modestas Vainius ]
   * Switch debian/rules build engine to dhmk based qt-kde-team/2/*:
     - drop cdbs from Build-Depends;
@@ -19,6 +16,7 @@ soprano (2.6.0+dfsg.1-0r1) UNRELEASED; urgency=low
   * Generate soprano.tag while building docs (patch
     doxyfile_generate_tagfile.diff) and install the file to libsoprano-doc
     (/usr/share/soprano/doc/) rather than libsoprano-dev.
+  * Update symbol file. (Closes: #615663)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Nov 2010 14:43:25 +0100
 
