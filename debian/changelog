@@ -12,6 +12,9 @@ soprano (2.6.0+dfsg.1-0r1) UNRELEASED; urgency=low
     - port debian/rules to dhmk;
     - set --builddirectory to Build/;
     - install libsoprano-doc files via libsoprano-doc.install.
+  * Do not build redland backend it works with raptor V2. (Closes: #615487)
+    In the meantime, replace librdf0-dev (which needs raptor V2) with
+    libraptor1-dev in order to build raptor parser/serializer.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Nov 2010 14:43:25 +0100
 
