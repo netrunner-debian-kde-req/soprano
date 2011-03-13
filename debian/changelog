@@ -16,6 +16,9 @@ soprano (2.6.0+dfsg.1-0r1) UNRELEASED; urgency=low
     In the meantime, replace librdf0-dev (which needs raptor V2) with
     libraptor1-dev in order to build raptor parser/serializer.
   * Drop sequence number from the debian/patches/* files.
+  * Generate soprano.tag while building docs (patch
+    doxyfile_generate_tagfile.diff) and install the file to libsoprano-doc
+    (/usr/share/soprano/doc/) rather than libsoprano-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Nov 2010 14:43:25 +0100
 
