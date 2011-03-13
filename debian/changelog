@@ -1,6 +1,6 @@
-soprano (2.5.63+dfsg.1-0r1) UNRELEASED; urgency=low
+soprano (2.6.0+dfsg.1-0r1) UNRELEASED; urgency=low
 
-  * New upstream beta.
+  * New upstream release.
 
   [ Didier Raboud ]
   * Add symbols for 2.5.63.
