@@ -1,6 +1,9 @@
 soprano (2.6.0+dfsg.1-2) UNRELEASED; urgency=low
 
   * Remove debian/README.source: not necessary as of 3.0 (quilt).
+  * Add support for raptor V2 to the redland backend.
+    (patch redland_raptor2_support.h) and start building it again
+    (Closes: #615487)
 
  -- Modestas Vainius <modax@debian.org>  Sun, 13 Mar 2011 17:38:10 +0200
 

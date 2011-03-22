@@ -7,8 +7,7 @@ dh = --builddirectory=$(builddir)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_auto_configure:
-	$(overriden_command) -- -DSOPRANO_BUILD_API_DOCS=ON \
-	    -DSOPRANO_DISABLE_REDLAND_BACKEND=TRUE
+	$(overriden_command) -- -DSOPRANO_BUILD_API_DOCS=ON
 
 override_dh_install:
 	$(overriden_command) -plibsoprano-doc --sourcedir=$(builddir)
