@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.6.0 amd64
+# SymbolsHelper-Confirmed: 2.6.0 alpha amd64 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mipsel powerpc s390 sparc
 libsoprano.so.4 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_Z5qHashRK4QUrl@Base 2.1.67
@@ -2282,10 +2282,12 @@ libsopranoclient.so.1 libsoprano4 #MINVER#
 libsopranoindex.so.1 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_Z6qDebugv@Base 2.1.1
+ (optional=guardvariable)_ZGVZ13qvariant_castI8QVariantET_RKS0_E3vid@Base 2.6.0
  (optional=external)_ZN10QByteArrayD1Ev@Base 2.1.1
- _ZN10QByteArrayD2Ev@Base 2.6.0
- (optional=external|arch=armel hppa sparc)_ZN11QStringListD1Ev@Base 2.4.1
- _ZN12QMutexLocker6unlockEv@Base 2.6.0
+ (optional=external)_ZN10QByteArrayD2Ev@Base 2.6.0
+ (optional=external)_ZN11QStringListD1Ev@Base 2.4.1
+ (optional=external)_ZN12QMutexLocker6unlockEv@Base 2.6.0
+ (optional=external)_ZN12QMutexLockerD1Ev@Base 2.6.0
  (optional=external|arch=sparc)_ZN15QBasicAtomicInt3refEv@Base 2.4.1
  (optional=templinst)_ZN18QSharedDataPointerIN7Soprano5Index8QueryHit7PrivateEED1Ev@Base 2.1.1
  (optional=templinst)_ZN18QSharedDataPointerIN7Soprano5Index8QueryHit7PrivateEED2Ev@Base 2.6.0
@@ -2297,6 +2299,7 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  (optional=templinst)_ZN18QSharedDataPointerIN7TString7PrivateEED2Ev@Base 2.6.0
  (optional=templinst)_ZN20QGlobalStaticDeleterIN7Soprano5Index12IndexStaticsEED1Ev@Base 2.1.1
  (optional=templinst)_ZN20QGlobalStaticDeleterIN7Soprano5Index12IndexStaticsEED2Ev@Base 2.6.0
+ (optional=templinst)_ZN4QSetI4QUrlED1Ev@Base 2.6.0
  (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 2.4.2
  (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE13detach_helperEv@Base 2.1.1
  (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
@@ -2308,7 +2311,9 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEED1Ev@Base 2.1.1
  (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEED2Ev@Base 2.6.0
  (optional=templinst)_ZN5QListI4QUrlE13detach_helperEi@Base 2.6.0
+ (optional=templinst)_ZN5QListI4QUrlE13detach_helperEv@Base 2.6.0
  (optional=templinst)_ZN5QListI4QUrlE18detach_helper_growEii@Base 2.6.0
+ (optional=templinst)_ZN5QListI4QUrlE4freeEPN9QListData4DataE@Base 2.6.0
  (optional=templinst)_ZN5QListI4QUrlE6appendERKS0_@Base 2.1.1
  (optional=templinst)_ZN5QListI4QUrlE7reserveEi@Base 2.6.0
  (optional=templinst)_ZN5QListI4QUrlED1Ev@Base 2.6.0
@@ -2316,15 +2321,16 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  (optional=templinst)_ZN5QListI7QStringE13detach_helperEi@Base 2.6.0
  (optional=templinst)_ZN5QListI7QStringE13detach_helperEv@Base 2.1.1
  (optional=templinst)_ZN5QListI7QStringE18detach_helper_growEii@Base 2.6.0
+ (optional=templinst)_ZN5QListI7QStringE4freeEPN9QListData4DataE@Base 2.6.0
  (optional=templinst)_ZN5QListI7QStringE6appendERKS0_@Base 2.1.1
  (optional=templinst)_ZN5QListI7QStringED1Ev@Base 2.6.0
- (optional=templinst|arch=amd64 armel hppa sparc)_ZN5QListI7QStringED2Ev@Base 2.4.1
+ (optional=templinst)_ZN5QListI7QStringED2Ev@Base 2.4.1
  (optional=external)_ZN6QDebugD1Ev@Base 2.1.1
- _ZN6QDebugD2Ev@Base 2.6.0
+ (optional=external)_ZN6QDebugD2Ev@Base 2.6.0
  (optional=external)_ZN6QDebuglsEPKc@Base 2.1.1
  (optional=external)_ZN6QDebuglsERK7QString@Base 2.1.1
  (optional=external)_ZN7QStringD1Ev@Base 2.1.1
- _ZN7QStringD2Ev@Base 2.6.0
+ (optional=external)_ZN7QStringD2Ev@Base 2.6.0
  (optional=templinst)_ZN7Soprano15IteratorBackendINS_5Index8QueryHitEED0Ev@Base 2.1.1
  (optional=templinst)_ZN7Soprano15IteratorBackendINS_5Index8QueryHitEED1Ev@Base 2.1.1
  (optional=templinst)_ZN7Soprano15IteratorBackendINS_5Index8QueryHitEED2Ev@Base 2.6.0
@@ -2342,7 +2348,11 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  _ZN7Soprano5Index12CLuceneIndex5closeEv@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex6searchEPN6lucene6search5QueryE@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex6searchERK7QString@Base 2.1.1
- _ZN7Soprano5Index12CLuceneIndex7Private11getDocumentEPN6lucene5index4TermE@Base 2.6.0
+ (optional=private)_ZN7Soprano5Index12CLuceneIndex7Private11closeReaderEv@Base 2.6.0
+ (optional=private)_ZN7Soprano5Index12CLuceneIndex7Private11closeWriterEv@Base 2.6.0
+ (optional=private)_ZN7Soprano5Index12CLuceneIndex7Private11getDocumentEPN6lucene5index4TermE@Base 2.6.0
+ (optional=private)_ZN7Soprano5Index12CLuceneIndex7Private11getDocumentERKNS_4NodeE@Base 2.6.0
+ (optional=private)_ZN7Soprano5Index12CLuceneIndex7Private14getIndexReaderEv@Base 2.6.0
  _ZN7Soprano5Index12CLuceneIndex7Private6commitEv@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex8optimizeEv@Base 2.1.67
  _ZN7Soprano5Index12CLuceneIndexC1EPN6lucene8analysis8AnalyzerE@Base 2.1.1

@@ -1,5 +1,7 @@
 soprano (2.6.0+dfsg.1-3) UNRELEASED; urgency=low
 
+  * Fix symbol files to support both gcc 4.4 and Qt 4.6 configurations.
+    Fixes FTBFS.
 
  -- Modestas Vainius <modax@debian.org>  Wed, 23 Mar 2011 18:57:39 +0200
 
