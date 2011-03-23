@@ -1,3 +1,8 @@
+soprano (2.6.0+dfsg.1-3) UNRELEASED; urgency=low
+
+
+ -- Modestas Vainius <modax@debian.org>  Wed, 23 Mar 2011 18:57:39 +0200
+
 soprano (2.6.0+dfsg.1-2) unstable; urgency=low
 
   * Remove debian/README.source: not necessary as of 3.0 (quilt).
