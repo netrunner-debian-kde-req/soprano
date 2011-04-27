@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 7.4.15), cmake (>= 2.6.2), pkg-kde-tools (>= 0.11),
  dpkg-dev (>= 1.15.5), libclucene-dev (>= 0.9.21b), libqt4-dev (>= 4.5.3),
  libraptor1-dev (>= 1.4.16), librdf0-dev (>= 1.0.13),
  doxygen (>= 1.7.1), graphviz, libiodbc2-dev
-Standards-Version: 3.9.1
+Standards-Version: 3.9.2
 Homepage: http://soprano.sourceforge.net
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-req/soprano.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-req/soprano.git
