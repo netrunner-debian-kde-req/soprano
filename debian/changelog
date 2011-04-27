@@ -1,6 +1,8 @@
 soprano (2.6.0+dfsg.1-4) UNRELEASED; urgency=low
 
   * Bump Standards-Version to 3.9.2: no changes needed.
+  * Replace $(overriden_command) with $(overridden_command) in debian/rules.
+    Requires pkg-kde-tools 0.12.
 
  -- Modestas Vainius <modax@debian.org>  Wed, 27 Apr 2011 15:39:56 +0300
 
