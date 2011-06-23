@@ -1,4 +1,4 @@
-soprano (2.6.0+dfsg.1-4) UNRELEASED; urgency=low
+soprano (2.6.0+dfsg.1-4) unstable; urgency=low
 
   * Bump Standards-Version to 3.9.2: no changes needed.
   * Replace $(overriden_command) with $(overridden_command) in debian/rules.
@@ -8,7 +8,7 @@ soprano (2.6.0+dfsg.1-4) UNRELEASED; urgency=low
     redland_raptor2_support.h improved).
   * Update libsoprano4.symbols.
 
- -- Modestas Vainius <modax@debian.org>  Wed, 27 Apr 2011 15:39:56 +0300
+ -- Modestas Vainius <modax@debian.org>  Thu, 23 Jun 2011 12:52:37 +0300
 
 soprano (2.6.0+dfsg.1-3) unstable; urgency=low
 
