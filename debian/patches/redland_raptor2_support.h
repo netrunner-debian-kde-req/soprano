@@ -1,9 +1,11 @@
 From: Luigi Toscano <luigi.toscano@tiscali.it>
+From: Modestas Vainius <modax@debian.org>
 Subject: Add support for raptor V2 to the redland backend
-Acked-By: Modestas Vainius <modax@debian.org>
 Forwarded: no
 Origin: other
-Last-Update: 2011-03-22
+Last-Update: 2011-06-23
+
+This patch should be considered as pretty dirty FTBFS fix.
 
 --- a/backends/redland/redlandbackend.cpp
 +++ b/backends/redland/redlandbackend.cpp
@@ -65,3 +67,13 @@ Last-Update: 2011-03-22
  #include <redland.h>
  
  #include "error.h"
+--- a/cmake/modules/FindRedland.cmake
++++ b/cmake/modules/FindRedland.cmake
+@@ -44,6 +44,7 @@ if(REDLAND_CONFIG_EXECUTABLE)
+     execute_process(
+       COMMAND ${REDLAND_CONFIG_EXECUTABLE} --cflags
+       OUTPUT_VARIABLE redland_LIBS_ARGS)
++    set(REDLAND_CFLAGS ${redland_LIBS_ARGS})
+     string( REPLACE " " ";" redland_LIBS_ARGS ${redland_LIBS_ARGS} )
+     foreach( _ARG ${redland_LIBS_ARGS} )
+       if(${_ARG} MATCHES "^-I")
