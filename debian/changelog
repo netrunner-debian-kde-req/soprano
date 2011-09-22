@@ -1,3 +1,10 @@
+soprano (2.7.0+dfsg.1-0r0) UNRELEASED; urgency=low
+
+  [ Daniele E. Domenichelli ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Sep 2011 23:43:58 +0100
+
 soprano (2.6.0+dfsg.1-4) unstable; urgency=low
 
   * Bump Standards-Version to 3.9.2: no changes needed.
