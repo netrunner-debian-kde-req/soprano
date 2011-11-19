@@ -1,6 +1,6 @@
 soprano (2.7.3+dfsg.1-0r0) UNRELEASED; urgency=low
 
-  * New upstream release.
+  * New upstream release. (Closes: #641475)
 
   [ Daniele E. Domenichelli ]
   * Update libsoprano4.symbols.
