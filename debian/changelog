@@ -1,4 +1,4 @@
-soprano (2.7.3+dfsg.1-0r0) UNRELEASED; urgency=low
+soprano (2.7.3+dfsg.1-0r0) experimental; urgency=low
 
   * New upstream release. (Closes: #641475)
 
@@ -8,7 +8,7 @@ soprano (2.7.3+dfsg.1-0r0) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Pass -DSOPRANO_DISABLE_SESAME2_BACKEND=ON to cmake. (Closes: #649443)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 22 Sep 2011 23:43:58 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:44:51 -0300
 
 soprano (2.6.0+dfsg.1-4) unstable; urgency=low
 
