@@ -1,3 +1,11 @@
+soprano (2.7.5+dfsg.1-1) unstable; urgency=low
+
+  * Team upload.
+  * New upstream release.
+  * Update uploaders (remove Armin).
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 04 Mar 2012 21:41:08 +0100
+
 soprano (2.7.3+dfsg.1-1) experimental; urgency=low
 
   * New upstream release. (Closes: #641475)
