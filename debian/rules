@@ -7,11 +7,19 @@ dh = --builddirectory=$(builddir)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DSOPRANO_BUILD_API_DOCS=ON \
+	$(overridden_command) -- -DSOPRANO_BUILD_API_DOCS=OFF \
 		-DSOPRANO_DISABLE_SESAME2_BACKEND=ON
 
+override_dh_auto_install:
+	$(overridden_command)
+ifneq (,$(filter %-doc,$(shell dh_listpackages)))
+	dh_auto_build --builddirectory=$(builddir) -Smakefile -- apidox
+endif
+
 override_dh_install:
+ifneq (,$(filter %-doc,$(shell dh_listpackages)))
 	$(overridden_command) -plibsoprano-doc --sourcedir=$(builddir)
+endif
 	$(overridden_command) --remaining-packages
 
 override_dh_makeshlibs:
