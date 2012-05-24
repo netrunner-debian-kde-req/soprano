@@ -2,6 +2,7 @@ soprano (2.7.6+dfsg.1-0r1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * New upstream release.
+  * Bump Standards-Version to 3.9.3, no changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:44:51 -0300
 
