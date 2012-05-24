@@ -1,3 +1,10 @@
+soprano (2.7.6+dfsg.1-0r1) UNRELEASED; urgency=low
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:44:51 -0300
+
 soprano (2.7.5+dfsg.1-1) unstable; urgency=low
 
   * Team upload.
