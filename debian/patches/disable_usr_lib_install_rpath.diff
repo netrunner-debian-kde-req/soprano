@@ -6,7 +6,7 @@ Forwarded: not-needed
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -129,15 +129,6 @@ set(INCLUDE_INSTALL_DIR      "${CMAKE_IN
+@@ -133,15 +133,6 @@ set(INCLUDE_INSTALL_DIR      "${CMAKE_IN
  set(PKGCONFIG_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}/pkgconfig/" CACHE STRING "Base directory for pkgconfig files")
  
  
