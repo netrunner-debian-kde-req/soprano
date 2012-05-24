@@ -1,8 +1,10 @@
-# SymbolsHelper-Confirmed: 2.7.5 alpha amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390 s390x sh4 sparc sparc64
+# SymbolsHelper-Confirmed: 2.7.6 amd64 i386
 libsoprano.so.4 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_Z5qHashRK4QUrl@Base 2.1.67
  _ZN7Soprano10BindingSet6insertERK7QStringRKNS_4NodeE@Base 2.1.1
+ (optional=private)_ZN7Soprano10BindingSet7PrivateD1Ev@Base 2.7.6
+ (optional=private)_ZN7Soprano10BindingSet7PrivateD2Ev@Base 2.7.6
  _ZN7Soprano10BindingSet7replaceERK7QStringRKNS_4NodeE@Base 2.2.69
  _ZN7Soprano10BindingSet7replaceEiRKNS_4NodeE@Base 2.2.69
  _ZN7Soprano10BindingSetC1ERKS0_@Base 2.1.1
@@ -2448,6 +2450,7 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  (optional=external)_Z6qDebugv@Base 2.1.1
  (optional=external)_ZN10QByteArrayD1Ev@Base 2.1.1
  (optional=external)_ZN10QByteArrayD2Ev@Base 2.6.0
+ (optional=external)_ZN12QMutexLocker6unlockEv@Base 2.7.6
  (optional=external|arch=powerpc)_ZN12QMutexLockerD1Ev@Base 2.7.5
  (optional=external|arch=powerpc)_ZN12QMutexLockerD2Ev@Base 2.7.5
  (optional=templinst)_ZN18QSharedDataPointerIN7Soprano8IteratorINS0_5Index8QueryHitEE7PrivateEE13detach_helperEv@Base 2.7.5
@@ -2472,6 +2475,7 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  (optional=templinst)_ZN5QListI4QUrlE18detach_helper_growEii@Base 2.6.0
  (optional=templinst)_ZN5QListI4QUrlE6appendERKS0_@Base 2.1.1
  (optional=templinst)_ZN5QListI7QStringE13detach_helperEi@Base 2.6.0
+ (optional=templinst)_ZN5QListI7QStringE13detach_helperEv@Base 2.7.6
  (optional=templinst)_ZN5QListI7QStringE18detach_helper_growEii@Base 2.6.0
  (optional=templinst)_ZN5QListI7QStringE6appendERKS0_@Base 2.1.1
  (optional=templinst)_ZN5QListI7QStringED1Ev@Base 2.6.0
@@ -2567,6 +2571,7 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  _ZN7Soprano5Index8QueryHitaSERKS1_@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_10BindingSetEE4nextEv@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEE4nextEv@Base 2.1.1
+ (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEE5closeEv@Base 2.7.6
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEEC1EPNS_15IteratorBackendIS2_EE@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEEC1Ev@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEEC2EPNS_15IteratorBackendIS2_EE@Base 2.6.0
@@ -2575,6 +2580,7 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEED1Ev@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEED2Ev@Base 2.6.0
  (optional=templinst)_ZN7Soprano8IteratorINS_9StatementEE4nextEv@Base 2.1.1
+ (optional=templinst)_ZN7Soprano8IteratorINS_9StatementEE5closeEv@Base 2.7.6
  _ZN7TString8fromUtf8EPKc@Base 2.1.1
  _ZN7TStringC1EPKwb@Base 2.1.1
  _ZN7TStringC1ERK7QString@Base 2.1.1
