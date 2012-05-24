@@ -1,6 +1,6 @@
-soprano (2.7.6+dfsg.1-0r1) UNRELEASED; urgency=low
+soprano (2.7.6+dfsg.1-1) unstable; urgency=low
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release:
     - soprano does not use installdox anymore. (Closes: #674346)
   * Refresh the patches.
@@ -8,7 +8,7 @@ soprano (2.7.6+dfsg.1-0r1) UNRELEASED; urgency=low
   * Generate the apidox only when libsoprano-doc is being built too.
   * Update symbols files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:44:51 -0300
+ -- Pino Toscano <pino@debian.org>  Thu, 24 May 2012 19:50:21 +0200
 
 soprano (2.7.5+dfsg.1-1) unstable; urgency=low
 
