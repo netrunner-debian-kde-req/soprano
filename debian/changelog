@@ -1,6 +1,10 @@
 soprano (2.8.0+dfsg.1-0r0) UNRELEASED; urgency=low
 
+  [ Debian Qt/KDE Maintainers ]
   * New upstream release. 
+
+  [ José Manuel Santamaría Lema ]
+  * Delete disable_usr_lib_install_rpath.diff, applied upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Jul 2012 18:27:33 +0200
 
