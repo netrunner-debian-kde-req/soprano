@@ -1,6 +1,5 @@
-soprano (2.8.0+dfsg.1-0r0) UNRELEASED; urgency=low
+soprano (2.8.0+dfsg.1-0r1) UNRELEASED; urgency=low
 
-  [ Debian Qt/KDE Maintainers ]
   * New upstream release. 
 
   [ José Manuel Santamaría Lema ]
