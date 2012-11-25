@@ -70,6 +70,8 @@ Section: doc
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: qt4-doc
+Breaks: libsoprano-dev (<< 2.6.0+dfsg.1-1)
+Replaces: libsoprano-dev (<< 2.6.0+dfsg.1-1)
 Description: developer documentation for the Soprano RDF framework
  Soprano is a pluggable RDF storage, parsing, and serialization framework based
  on Qt 4.  Soprano is targeted at desktop applications that need to store RDF
