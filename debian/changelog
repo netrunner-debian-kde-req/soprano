@@ -1,3 +1,8 @@
+soprano (2.7.6+dfsg.1-2) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Nov 2012 10:50:29 +0100
+
 soprano (2.7.6+dfsg.1-1) unstable; urgency=low
 
   * Team upload.
