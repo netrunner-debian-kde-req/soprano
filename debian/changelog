@@ -1,13 +1,13 @@
 soprano (2.8.0+dfsg.1-0r2) UNRELEASED; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
 
   [ José Manuel Santamaría Lema ]
   * Update symbols files.
   * Bump debhelper compatibility level to 9.
 
   [ Daniele E. Domenichelli ]
-  * Update disable_usr_lib_install_rpath.diff
+  * Update disable_usr_lib_install_rpath.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Jul 2012 18:27:33 +0200
 
