@@ -3,6 +3,7 @@ soprano (2.7.6+dfsg.1-2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * soprano.tag moved in since 2.6.0+dfsg.1-1 from libsoprano-dev to
     libsoprano-doc, so add proper breaks/replaces. (Closes: #694288)
+  * Fix epoch in the version of the libqt4-dev build dependency.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 25 Nov 2012 10:50:29 +0100
 
