@@ -1,5 +1,5 @@
 Author: José Manuel Santamaría Lema <panfaust@gmail.com>
-Forwarded: yes, upstream is aware of the problem and will fix it
+Forwarded: https://projects.kde.org/projects/kdesupport/soprano/repository/revisions/3482b5fe
 Description: If possible, don't use the defualt virtuso port (1111)
  Virtuoso server, by default, opens both tcp and unix sockets to communicate
  with the clients. The unix socket is named using this template:
