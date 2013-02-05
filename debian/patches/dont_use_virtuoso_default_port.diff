@@ -1,21 +1,20 @@
 Author: José Manuel Santamaría Lema <panfaust@gmail.com>
 Forwarded: https://projects.kde.org/projects/kdesupport/soprano/repository/revisions/3482b5fe
 Description: If possible, don't use the default virtuso port (1111)
- Virtuoso server, by default, opens both tcp and unix sockets to communicate
- with the clients. The unix socket is named using this template:
- /tmp/virt_XXXX
- where XXXX is the tcp port configured for the virtuoso server. If you start
- other virtuoso server configured to use the same port, with the unix socket
- enabled (remember it's enabled by default), then it would fail to start. It
- should fail and return, but currently it hangs.
+ Soprano launches a Virtuoso server using an unix socket (/tmp/virt_XXXX where
+ XXXX is the tcp port specified in the configuration file). It tries first with
+ the /tmp/virt_1111 port if it's availaible, and if it's not, keeps trying with
+ above ports one by one until it finds an usuable /tmp/virt_XXXX. Starting with
+ 1111 is a very unfortunate choice, because if you start other virtuoso server
+ configured to use the same port (note that 1111 is the default), then it would
+ fail to start. It should fail and return, but currently it hangs.
+ .
  When installing virtuoso-opensource-6.1, the postinst script will try to start
- virtuoso using the default 1111 port in order to change the admin password. So
- the problem is the following: since the unix socket /tmp_virt1111 is alredy
- being used, the virtuoso started by the postinst script won't work, breaking
- the installation.
- As I said above, to make it worse, right now virtuoso doesn't just fail and
- return if the unix socket is already being used, it hangs; therefore an
- installation of virtuoso as a standalone server may hang.
+ Virtuoso using the default 1111 port in order to change the admin password. So
+ the problem is the following: since the unix socket /tmp/virt_1111 is
+ (probably) alredy being used by the Virtuoso instance started by Soprano, the
+ Virtuoso instance started by the postinst script would hang (as explained in
+ the paragraph above), breaking the installation.
 --- a/backends/virtuoso/virtuosocontroller.cpp
 +++ b/backends/virtuoso/virtuosocontroller.cpp
 @@ -56,11 +56,11 @@ namespace {
