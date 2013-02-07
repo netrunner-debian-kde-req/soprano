@@ -78,6 +78,7 @@ usr/include/soprano/asyncresult.h
 usr/include/soprano/backend.h
 usr/include/soprano/bindingset.h
 usr/include/soprano/cluceneindex.h
+usr/include/soprano/datastream.h
 usr/include/soprano/dbusclient.h
 usr/include/soprano/dbusexportiterator.h
 usr/include/soprano/dbusexportmodel.h
