@@ -12,7 +12,7 @@ Description: If possible, don't use the default virtuso port (1111)
  When installing virtuoso-opensource-6.1, the postinst script will try to start
  Virtuoso using the default 1111 port in order to change the admin password. So
  the problem is the following: since the unix socket /tmp/virt_1111 is
- (probably) alredy being used by the Virtuoso instance started by Soprano, the
+ (probably) already being used by the Virtuoso instance started by Soprano, the
  Virtuoso instance started by the postinst script would hang (as explained in
  the paragraph above), breaking the installation.
 --- a/backends/virtuoso/virtuosocontroller.cpp
