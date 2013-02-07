@@ -8,6 +8,7 @@ soprano (2.9.0+dfsg.1-0r0) UNRELEASED; urgency=low
   * Remove dont_use_virtuoso_default_port.diff, applied upstream.
   * Update symbols files.
   * Update installed files.
+  * Add lintian override for hardening-no-fortify-functions.
 
   [ Daniele E. Domenichelli ]
   * Update disable_usr_lib_install_rpath.diff.
