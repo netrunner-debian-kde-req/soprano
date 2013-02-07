@@ -1,10 +1,10 @@
-soprano (2.7.6+dfsg.1-3) UNRELEASED; urgency=low
+soprano (2.7.6+dfsg.1-3) unstable; urgency=low
 
-  [ José Manuel Santamaría Lema ]
+  * Team upload.
   * Add dont_use_virtuoso_default_port.diff, prevents hangs when installing or
     running virtuoso as a standalone server.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Dec 2012 15:31:33 +0100
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Tue, 05 Feb 2013 11:38:17 +0100
 
 soprano (2.7.6+dfsg.1-2) unstable; urgency=low
 
