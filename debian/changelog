@@ -1,5 +1,7 @@
 soprano (2.7.6+dfsg.1-2wheezy1) UNRELEASED; urgency=low
 
+  * Add dont_use_virtuoso_default_port.diff, prevents hangs when installing or
+    running virtuoso as a standalone server.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Dec 2012 15:31:33 +0100
 
