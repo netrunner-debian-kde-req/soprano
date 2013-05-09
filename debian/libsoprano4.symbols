@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.9.0 amd64
+# SymbolsHelper-Confirmed: 2.9.1 amd64
 libsoprano.so.4 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_Z5qHashRK4QUrl@Base 2.1.67
@@ -2698,7 +2698,9 @@ libsopranoserver.so.1 libsoprano4 #MINVER#
  _ZN7Soprano6Server10ServerCore16staticMetaObjectE@Base 2.1.1
  _ZN7Soprano6Server10ServerCore18setBackendSettingsERK5QListINS_14BackendSettingEE@Base 2.1.1
  _ZN7Soprano6Server10ServerCore20registerAsDBusObjectERK7QString@Base 2.1.1
+ _ZN7Soprano6Server10ServerCore24serverConnectionFinishedEP7QObject@Base 2.9.1
  _ZN7Soprano6Server10ServerCore25setMaximumConnectionCountEi@Base 2.4.0.1
+ _ZN7Soprano6Server10ServerCore4stopEv@Base 2.9.1
  _ZN7Soprano6Server10ServerCore5modelERK7QString@Base 2.1.1
  _ZN7Soprano6Server10ServerCore5startERK7QString@Base 2.1.1
  _ZN7Soprano6Server10ServerCore6listenEt@Base 2.1.1
