@@ -9,6 +9,8 @@ soprano (2.9.1+dfsg.1-1) UNRELEASED; urgency=low
   * Update watch file.
   * Bump Standards-Version to 3.9.4, no changes required.
   * Add myself to the list of uploaders.
+  * Update symbols file:
+    - Remove Soprano::Server::ServerCore::serverConnectionFinished() (private).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 May 2013 23:43:36 +0200
 
