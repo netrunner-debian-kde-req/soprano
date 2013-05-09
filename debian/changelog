@@ -1,9 +1,11 @@
-soprano (2.9.0+dfsg1-2) UNRELEASED; urgency=low
+soprano (2.9.1+dfsg.1-1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Pino Toscano ]
   * Drop unused (since 2.9.0+dfsg1-1) patch disable_usr_lib_install_rpath.diff.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 May 2013 13:56:50 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 May 2013 23:43:36 +0200
 
 soprano (2.9.0+dfsg1-1) experimental; urgency=low
 
