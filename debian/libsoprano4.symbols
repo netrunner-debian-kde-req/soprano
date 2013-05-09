@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.9.1 amd64
+# SymbolsHelper-Confirmed: 2.9.1 amd64 i386
 libsoprano.so.4 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_Z5qHashRK4QUrl@Base 2.1.67
@@ -2537,7 +2537,7 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  _ZN7Soprano5Index12CLuceneIndex5closeEv@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex6searchEPN6lucene6search5QueryE@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex6searchERK7QString@Base 2.1.1
- (optional=private|arch=alpha amd64 armel armhf mips mipsel s390 s390x sh4 sparc)_ZN7Soprano5Index12CLuceneIndex7Private11getDocumentERKNS_4NodeE@Base 2.7.5
+ (optional=private)_ZN7Soprano5Index12CLuceneIndex7Private11getDocumentERKNS_4NodeE@Base 2.7.5
  _ZN7Soprano5Index12CLuceneIndex7Private6commitEv@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex8optimizeEv@Base 2.1.67
  _ZN7Soprano5Index12CLuceneIndexC1EPN6lucene8analysis8AnalyzerE@Base 2.1.1
