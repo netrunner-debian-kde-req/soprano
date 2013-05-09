@@ -1,4 +1,4 @@
-soprano (2.9.1+dfsg.1-1) UNRELEASED; urgency=low
+soprano (2.9.1+dfsg.1-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -13,7 +13,7 @@ soprano (2.9.1+dfsg.1-1) UNRELEASED; urgency=low
     - Remove Soprano::Server::ServerCore::serverConnectionFinished() (private).
     - Add new symbols.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 May 2013 23:43:36 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 May 2013 01:24:13 +0200
 
 soprano (2.9.0+dfsg1-1) experimental; urgency=low
 
