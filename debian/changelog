@@ -1,6 +1,7 @@
 soprano (2.9.2+dfsg.1-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Disable x11_not_required.diff patch, applied by upstream.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 11 May 2013 15:00:44 +0200
 
