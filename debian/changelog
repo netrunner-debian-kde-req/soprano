@@ -1,3 +1,9 @@
+soprano (2.9.2+dfsg.1-2) UNRELEASED; urgency=low
+
+  * Rebuild for multi-arch.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 05 Jun 2013 19:46:16 +0200
+
 soprano (2.9.2+dfsg.1-1) unstable; urgency=low
 
   * New upstream release.
