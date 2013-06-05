@@ -3,6 +3,7 @@ soprano (2.9.2+dfsg.1-2) UNRELEASED; urgency=low
   * Rebuild for multi-arch.
   * Update install files.
   * Update vcs-fields.
+  * Update lintian override for m-a.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 05 Jun 2013 19:46:16 +0200
 
