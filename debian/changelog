@@ -1,4 +1,4 @@
-soprano (2.9.2+dfsg.1-3) UNRELEASED; urgency=low
+soprano (2.9.2+dfsg.1-3) experimental; urgency=low
 
   * Rebuild without multi-arch.
   * New patch, add m-a dirs to the search patch.
