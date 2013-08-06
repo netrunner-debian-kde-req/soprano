@@ -1,5 +1,10 @@
 soprano (2.9.2+dfsg.1-4) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Remove last bits of multiarch, since soprano is not read for it and
+    would require more work to also not break rdepends:
+    - drop patch add_m-a_dirs_to_the_search_path.diff
+    - remove Pre-Depends
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 Aug 2013 14:31:42 +0200
 

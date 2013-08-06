@@ -18,7 +18,6 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-req/soprano.git
 Package: soprano-daemon
 Section: utils
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: libsoprano4 (= ${binary:Version})
 Suggests: virtuoso-minimal
@@ -38,7 +37,6 @@ Description: daemon for the Soprano RDF framework
 
 Package: libsoprano4
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}, soprano-daemon (= ${binary:Version})
 Conflicts: libsoprano3
 Replaces: libsoprano3
