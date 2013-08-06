@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.9.1 amd64 i386
+# SymbolsHelper-Confirmed: 2.9.2 amd64
 libsoprano.so.4 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_Z5qHashRK4QUrl@Base 2.1.67
@@ -2504,6 +2504,8 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 2.4.2
  (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE13detach_helperEv@Base 2.1.1
  (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
+ (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueED1Ev@Base 2.9.2
+ (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueED2Ev@Base 2.9.2
  (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEE11deleteNode2EPN9QHashData4NodeE@Base 2.4.2
  (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEE13detach_helperEv@Base 2.1.1
  (optional=templinst)_ZN5QHashIN7Soprano4NodeEPN6lucene8document8DocumentEE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
@@ -2605,7 +2607,9 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  (optional=templinst)_ZN7Soprano8IteratorINS_10BindingSetEE4nextEv@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEE4nextEv@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEE5closeEv@Base 2.7.6
+ (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEEC1EPNS_15IteratorBackendIS2_EE@Base 2.9.2
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEEC1Ev@Base 2.1.1
+ (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEEC2EPNS_15IteratorBackendIS2_EE@Base 2.9.2
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEEC2Ev@Base 2.6.0
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEED0Ev@Base 2.1.1
  (optional=templinst)_ZN7Soprano8IteratorINS_5Index8QueryHitEED1Ev@Base 2.1.1
