@@ -5,6 +5,9 @@ soprano (2.9.2+dfsg.1-4) UNRELEASED; urgency=low
     would require more work to also not break rdepends:
     - drop patch add_m-a_dirs_to_the_search_path.diff
     - remove Pre-Depends
+  * Backport upstream commit 4bfdfdfdee03080ec9ca21eeb168c2ab9dbba0bb to fix
+    compatibility with clucene 2.x; patch upstream_find-clucene-shared.diff.
+    (Closes: #718369)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 Aug 2013 14:31:42 +0200
 
