@@ -1,6 +1,7 @@
 soprano (2.9.3+dfsg-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * New patch: add_library_architecture_to_libDirs.patch.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 05 Sep 2013 17:25:16 +0200
 

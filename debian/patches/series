@@ -1,2 +1,3 @@
 redland_raptor2_support.h
 upstream_find-clucene-shared.diff
+add_library_architecture_to_libDirs.patch
