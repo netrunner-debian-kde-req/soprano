@@ -1,4 +1,4 @@
-soprano (2.9.3+dfsg-1) UNRELEASED; urgency=low
+soprano (2.9.3+dfsg-1) experimental; urgency=low
 
   * New upstream release.
   * New patch: add_library_architecture_to_libDirs.patch.
