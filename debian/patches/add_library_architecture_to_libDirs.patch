@@ -1,7 +1,7 @@
 Index: soprano/CMakeLists.txt
 ===================================================================
---- soprano.orig/CMakeLists.txt	2013-09-18 18:29:05.920379046 +0200
-+++ soprano/CMakeLists.txt	2013-09-18 18:30:51.012192999 +0200
+--- soprano.orig/CMakeLists.txt	2013-10-26 21:38:41.206651307 +0200
++++ soprano/CMakeLists.txt	2013-10-26 21:38:41.202651468 +0200
 @@ -136,6 +136,10 @@
  endif(NOT SOPRANO_DISABLE_VIRTUOSO_BACKEND)
  set(HAVE_DBUS BUILD_DBUS_SUPPORT)
@@ -15,15 +15,15 @@ Index: soprano/CMakeLists.txt
  set (LIB_DESTINATION "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}" CACHE STRING "Library directory name")
 Index: soprano/soprano/sopranodirs.cpp
 ===================================================================
---- soprano.orig/soprano/sopranodirs.cpp	2013-09-18 18:29:05.920379046 +0200
-+++ soprano/soprano/sopranodirs.cpp	2013-09-18 18:29:05.916379206 +0200
+--- soprano.orig/soprano/sopranodirs.cpp	2013-10-26 21:38:41.206651307 +0200
++++ soprano/soprano/sopranodirs.cpp	2013-10-26 21:39:33.700543565 +0200
 @@ -132,6 +132,10 @@
  #else
      paths << QLatin1String( "/usr/lib"SOPRANO_LIB_SUFFIX );
      paths << QLatin1String( "/usr/local/lib"SOPRANO_LIB_SUFFIX );
 +#ifdef LIBRARY_ARCHITECTURE
-+    paths << QLatin1String( "/usr/lib"SOPRANO_LIB_SUFFIX"/"LIBRARY_ARCHITECTURE );
-+    paths << QLatin1String( "/usr/local/lib"SOPRANO_LIB_SUFFIX"/"LIBRARY_ARCHITECTURE );
++    paths << QLatin1String( "/usr/lib/"LIBRARY_ARCHITECTURE );
++    paths << QLatin1String( "/usr/local/lib/"LIBRARY_ARCHITECTURE );
 +#endif
      paths += Soprano::envDirList( "LD_LIBRARY_PATH" );
  #endif
