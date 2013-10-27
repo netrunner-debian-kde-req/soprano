@@ -1,3 +1,10 @@
+Description: Add multi-arch paths to virtuoso's plugins search path.
+ This patch adds multi arch paths to the list of possible paths in where
+ virtuoso plugins can be found.
+ It does not adds this path if the build happens on a non-m-a aware
+ environment.
+Author: Maximiliano Curia <maxy@debian.org>
+
 Index: soprano/CMakeLists.txt
 ===================================================================
 --- soprano.orig/CMakeLists.txt	2013-10-26 21:38:41.206651307 +0200
