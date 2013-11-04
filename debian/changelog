@@ -1,4 +1,4 @@
-soprano (2.9.4+dfsg-1) UNRELEASED; urgency=low
+soprano (2.9.4+dfsg-1) unstable; urgency=low
 
   * New upstream release.
   * Update patch: add_library_architecture_to_libDirs.patch.
@@ -7,7 +7,7 @@ soprano (2.9.4+dfsg-1) UNRELEASED; urgency=low
   * Remove obsolete patch: x11_not_required.diff.
   * Refresh patches.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 04 Nov 2013 12:54:35 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 04 Nov 2013 16:10:56 +0100
 
 soprano (2.9.3+dfsg-1) experimental; urgency=low
 
