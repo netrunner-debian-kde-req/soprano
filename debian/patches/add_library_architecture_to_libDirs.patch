@@ -7,9 +7,9 @@ Author: Maximiliano Curia <maxy@debian.org>
 
 Index: soprano/CMakeLists.txt
 ===================================================================
---- soprano.orig/CMakeLists.txt	2013-10-26 21:38:41.206651307 +0200
-+++ soprano/CMakeLists.txt	2013-10-26 21:38:41.202651468 +0200
-@@ -136,6 +136,10 @@
+--- soprano.orig/CMakeLists.txt	2013-11-04 13:08:44.205290167 +0100
++++ soprano/CMakeLists.txt	2013-11-04 13:08:44.201290328 +0100
+@@ -138,6 +138,10 @@
  endif(NOT SOPRANO_DISABLE_VIRTUOSO_BACKEND)
  set(HAVE_DBUS BUILD_DBUS_SUPPORT)
  
@@ -22,8 +22,8 @@ Index: soprano/CMakeLists.txt
  set (LIB_DESTINATION "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}" CACHE STRING "Library directory name")
 Index: soprano/soprano/sopranodirs.cpp
 ===================================================================
---- soprano.orig/soprano/sopranodirs.cpp	2013-10-26 21:38:41.206651307 +0200
-+++ soprano/soprano/sopranodirs.cpp	2013-10-26 21:39:33.700543565 +0200
+--- soprano.orig/soprano/sopranodirs.cpp	2013-11-04 13:08:44.205290167 +0100
++++ soprano/soprano/sopranodirs.cpp	2013-11-04 13:08:44.201290328 +0100
 @@ -132,6 +132,10 @@
  #else
      paths << QLatin1String( "/usr/lib"SOPRANO_LIB_SUFFIX );

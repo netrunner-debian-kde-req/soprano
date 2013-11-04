@@ -5,6 +5,7 @@ soprano (2.9.4+dfsg-1) UNRELEASED; urgency=low
   * Remove patch: upstream_find-clucene-shared.diff, already applied by
     upstream.
   * Remove obsolete patch: x11_not_required.diff.
+  * Refresh patches.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 04 Nov 2013 12:54:35 +0100
 
