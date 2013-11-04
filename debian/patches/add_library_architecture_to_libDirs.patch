@@ -4,6 +4,8 @@ Description: Add multi-arch paths to virtuoso's plugins search path.
  It does not adds this path if the build happens on a non-m-a aware
  environment.
 Author: Maximiliano Curia <maxy@debian.org>
+Bug: https://sourceforge.net/p/soprano/bugs/32
+Last-Update: 2013-11-04
 
 Index: soprano/CMakeLists.txt
 ===================================================================
