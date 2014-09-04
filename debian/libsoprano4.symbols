@@ -3,8 +3,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_Z5qHashRK4QUrl@Base 2.1.67
  _ZN7Soprano10BindingSet6insertERK7QStringRKNS_4NodeE@Base 2.1.1
- (optional=private)_ZN7Soprano10BindingSet7PrivateD1Ev@Base 2.7.6
- (optional=private)_ZN7Soprano10BindingSet7PrivateD2Ev@Base 2.7.6
  _ZN7Soprano10BindingSet7replaceERK7QStringRKNS_4NodeE@Base 2.2.69
  _ZN7Soprano10BindingSet7replaceEiRKNS_4NodeE@Base 2.2.69
  _ZN7Soprano10BindingSetC1ERKS0_@Base 2.1.1
@@ -1163,9 +1161,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano5Query20BooleanSetExpression7PrivateD2Ev@Base 2.1.1
  _ZN7Soprano5Query20BooleanSetExpressionC1Ev@Base 2.1.1
  _ZN7Soprano5Query20BooleanSetExpressionC2Ev@Base 2.1.1
- _ZN7Soprano5Query20BooleanSetExpressionD0Ev@Base 2.7.0
- _ZN7Soprano5Query20BooleanSetExpressionD1Ev@Base 2.7.0
- _ZN7Soprano5Query20BooleanSetExpressionD2Ev@Base 2.7.0
  _ZN7Soprano5Query20NumericalGreaterThanC1EPNS0_19NumericalExpressionES3_@Base 2.1.1
  _ZN7Soprano5Query20NumericalGreaterThanC2EPNS0_19NumericalExpressionES3_@Base 2.1.1
  _ZN7Soprano5Query20NumericalGreaterThanD0Ev@Base 2.7.0
@@ -1196,9 +1191,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano5Query22UnaryBooleanExpression7PrivateD2Ev@Base 2.1.1
  _ZN7Soprano5Query22UnaryBooleanExpressionC1EPNS0_17BooleanExpressionE@Base 2.1.1
  _ZN7Soprano5Query22UnaryBooleanExpressionC2EPNS0_17BooleanExpressionE@Base 2.1.1
- _ZN7Soprano5Query22UnaryBooleanExpressionD0Ev@Base 2.7.0
- _ZN7Soprano5Query22UnaryBooleanExpressionD1Ev@Base 2.7.0
- _ZN7Soprano5Query22UnaryBooleanExpressionD2Ev@Base 2.7.0
  _ZN7Soprano5Query23queryLanguageFromStringERK7QString@Base 2.1.1
  _ZN7Soprano5Query24DateTimeGreaterThanEqualC1ERK9QDateTimeS4_@Base 2.1.1
  _ZN7Soprano5Query24DateTimeGreaterThanEqualC2ERK9QDateTimeS4_@Base 2.1.1
@@ -1214,9 +1206,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano5Query24UnaryNumericalExpression7PrivateD2Ev@Base 2.1.1
  _ZN7Soprano5Query24UnaryNumericalExpressionC1EPNS0_19NumericalExpressionE@Base 2.1.1
  _ZN7Soprano5Query24UnaryNumericalExpressionC2EPNS0_19NumericalExpressionE@Base 2.1.1
- _ZN7Soprano5Query24UnaryNumericalExpressionD0Ev@Base 2.7.0
- _ZN7Soprano5Query24UnaryNumericalExpressionD1Ev@Base 2.7.0
- _ZN7Soprano5Query24UnaryNumericalExpressionD2Ev@Base 2.7.0
  _ZN7Soprano5Query24UnaryRTermExpressionBase7PrivateC1EPNS0_5RTermE@Base 2.1.1
  _ZN7Soprano5Query24UnaryRTermExpressionBase7PrivateC1ERKS2_@Base 2.1.1
  _ZN7Soprano5Query24UnaryRTermExpressionBase7PrivateC2EPNS0_5RTermE@Base 2.1.1
@@ -1236,9 +1225,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano5Query25BinaryNumericalExpression9setSecondEPNS0_19NumericalExpressionE@Base 2.1.1
  _ZN7Soprano5Query25BinaryNumericalExpressionC1EPNS0_19NumericalExpressionES3_@Base 2.1.1
  _ZN7Soprano5Query25BinaryNumericalExpressionC2EPNS0_19NumericalExpressionES3_@Base 2.1.1
- _ZN7Soprano5Query25BinaryNumericalExpressionD0Ev@Base 2.7.0
- _ZN7Soprano5Query25BinaryNumericalExpressionD1Ev@Base 2.7.0
- _ZN7Soprano5Query25BinaryNumericalExpressionD2Ev@Base 2.7.0
  _ZN7Soprano5Query25NumericalGreaterThanEqualC1EPNS0_19NumericalExpressionES3_@Base 2.1.1
  _ZN7Soprano5Query25NumericalGreaterThanEqualC2EPNS0_19NumericalExpressionES3_@Base 2.1.1
  _ZN7Soprano5Query25NumericalGreaterThanEqualD0Ev@Base 2.7.0
@@ -1246,14 +1232,8 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano5Query25NumericalGreaterThanEqualD2Ev@Base 2.7.0
  _ZN7Soprano5Query26UnaryRTermStringExpressionC1EPNS0_5RTermE@Base 2.1.1
  _ZN7Soprano5Query26UnaryRTermStringExpressionC2EPNS0_5RTermE@Base 2.1.1
- _ZN7Soprano5Query26UnaryRTermStringExpressionD0Ev@Base 2.7.0
- _ZN7Soprano5Query26UnaryRTermStringExpressionD1Ev@Base 2.7.0
- _ZN7Soprano5Query26UnaryRTermStringExpressionD2Ev@Base 2.7.0
  _ZN7Soprano5Query27UnaryRTermBooleanExpressionC1EPNS0_5RTermE@Base 2.1.1
  _ZN7Soprano5Query27UnaryRTermBooleanExpressionC2EPNS0_5RTermE@Base 2.1.1
- _ZN7Soprano5Query27UnaryRTermBooleanExpressionD0Ev@Base 2.7.0
- _ZN7Soprano5Query27UnaryRTermBooleanExpressionD1Ev@Base 2.7.0
- _ZN7Soprano5Query27UnaryRTermBooleanExpressionD2Ev@Base 2.7.0
  _ZN7Soprano5Query28BinaryRTermBooleanExpression7PrivateC1EPNS0_5RTermES4_@Base 2.1.1
  _ZN7Soprano5Query28BinaryRTermBooleanExpression7PrivateC1ERKS2_@Base 2.1.1
  _ZN7Soprano5Query28BinaryRTermBooleanExpression7PrivateC2EPNS0_5RTermES4_@Base 2.1.1
@@ -1264,9 +1244,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano5Query28BinaryRTermBooleanExpression9setSecondEPNS0_5RTermE@Base 2.1.1
  _ZN7Soprano5Query28BinaryRTermBooleanExpressionC1EPNS0_5RTermES3_@Base 2.1.1
  _ZN7Soprano5Query28BinaryRTermBooleanExpressionC2EPNS0_5RTermES3_@Base 2.1.1
- _ZN7Soprano5Query28BinaryRTermBooleanExpressionD0Ev@Base 2.7.0
- _ZN7Soprano5Query28BinaryRTermBooleanExpressionD1Ev@Base 2.7.0
- _ZN7Soprano5Query28BinaryRTermBooleanExpressionD2Ev@Base 2.7.0
  _ZN7Soprano5Query29BinaryStringBooleanExpression7PrivateC1EPNS0_16StringExpressionES4_@Base 2.1.1
  _ZN7Soprano5Query29BinaryStringBooleanExpression7PrivateC1ERKS2_@Base 2.1.1
  _ZN7Soprano5Query29BinaryStringBooleanExpression7PrivateC2EPNS0_16StringExpressionES4_@Base 2.1.1
@@ -1277,23 +1254,14 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano5Query29BinaryStringBooleanExpression9setSecondEPNS0_16StringExpressionE@Base 2.1.1
  _ZN7Soprano5Query29BinaryStringBooleanExpressionC1EPNS0_16StringExpressionES3_@Base 2.1.1
  _ZN7Soprano5Query29BinaryStringBooleanExpressionC2EPNS0_16StringExpressionES3_@Base 2.1.1
- _ZN7Soprano5Query29BinaryStringBooleanExpressionD0Ev@Base 2.7.0
- _ZN7Soprano5Query29BinaryStringBooleanExpressionD1Ev@Base 2.7.0
- _ZN7Soprano5Query29BinaryStringBooleanExpressionD2Ev@Base 2.7.0
  _ZN7Soprano5Query29UnaryRTermNumericalExpressionC1EPNS0_5RTermE@Base 2.1.1
  _ZN7Soprano5Query29UnaryRTermNumericalExpressionC2EPNS0_5RTermE@Base 2.1.1
- _ZN7Soprano5Query29UnaryRTermNumericalExpressionD0Ev@Base 2.7.0
- _ZN7Soprano5Query29UnaryRTermNumericalExpressionD1Ev@Base 2.7.0
- _ZN7Soprano5Query29UnaryRTermNumericalExpressionD2Ev@Base 2.7.0
  _ZN7Soprano5Query31BinaryDateTimeBooleanExpression7PrivateC1E9QDateTimeRKS3_@Base 2.1.1
  _ZN7Soprano5Query31BinaryDateTimeBooleanExpression7PrivateC2E9QDateTimeRKS3_@Base 2.1.1
  _ZN7Soprano5Query31BinaryDateTimeBooleanExpression8setFirstERK9QDateTime@Base 2.1.1
  _ZN7Soprano5Query31BinaryDateTimeBooleanExpression9setSecondERK9QDateTime@Base 2.1.1
  _ZN7Soprano5Query31BinaryDateTimeBooleanExpressionC1ERK9QDateTimeS4_@Base 2.1.1
  _ZN7Soprano5Query31BinaryDateTimeBooleanExpressionC2ERK9QDateTimeS4_@Base 2.1.1
- _ZN7Soprano5Query31BinaryDateTimeBooleanExpressionD0Ev@Base 2.7.0
- _ZN7Soprano5Query31BinaryDateTimeBooleanExpressionD1Ev@Base 2.7.0
- _ZN7Soprano5Query31BinaryDateTimeBooleanExpressionD2Ev@Base 2.7.0
  _ZN7Soprano5Query32BinaryNumericalBooleanExpression7PrivateC1EPNS0_19NumericalExpressionES4_@Base 2.1.1
  _ZN7Soprano5Query32BinaryNumericalBooleanExpression7PrivateC1ERKS2_@Base 2.1.1
  _ZN7Soprano5Query32BinaryNumericalBooleanExpression7PrivateC2EPNS0_19NumericalExpressionES4_@Base 2.1.1
@@ -1304,9 +1272,6 @@ libsoprano.so.4 libsoprano4 #MINVER#
  _ZN7Soprano5Query32BinaryNumericalBooleanExpression9setSecondEPNS0_19NumericalExpressionE@Base 2.1.1
  _ZN7Soprano5Query32BinaryNumericalBooleanExpressionC1EPNS0_19NumericalExpressionES3_@Base 2.1.1
  _ZN7Soprano5Query32BinaryNumericalBooleanExpressionC2EPNS0_19NumericalExpressionES3_@Base 2.1.1
- _ZN7Soprano5Query32BinaryNumericalBooleanExpressionD0Ev@Base 2.7.0
- _ZN7Soprano5Query32BinaryNumericalBooleanExpressionD1Ev@Base 2.7.0
- _ZN7Soprano5Query32BinaryNumericalBooleanExpressionD2Ev@Base 2.7.0
  _ZN7Soprano5Query3NotC1EPNS0_17BooleanExpressionE@Base 2.1.1
  _ZN7Soprano5Query3NotC2EPNS0_17BooleanExpressionE@Base 2.1.1
  _ZN7Soprano5Query3NotD0Ev@Base 2.1.1
@@ -2488,19 +2453,16 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
 * Build-Depends-Package: libsoprano-dev
  (optional=external)_ZN10QByteArrayD1Ev@Base 2.1.1
  (optional=external)_ZN10QByteArrayD2Ev@Base 2.6.0
- (optional=external)_ZN12QMutexLocker6unlockEv@Base 2.7.6
  (optional=external|arch=powerpc)_ZN12QMutexLockerD1Ev@Base 2.7.5
  (optional=external|arch=powerpc)_ZN12QMutexLockerD2Ev@Base 2.7.5
- (optional=templinst)_ZN18QSharedDataPointerIN7Soprano8IteratorINS0_5Index8QueryHitEE7PrivateEE13detach_helperEv@Base 2.7.5
+ (optional=templinst|arch=mips64 mips64el)_ZN18QSharedDataPointerIN7Soprano8IteratorINS0_5Index8QueryHitEE7PrivateEE13detach_helperEv@Base 2.7.5
  (optional=templinst)_ZN18QSharedDataPointerIN7Soprano8IteratorINS0_5Index8QueryHitEE7PrivateEED1Ev@Base 2.1.1
  (optional=templinst)_ZN18QSharedDataPointerIN7Soprano8IteratorINS0_5Index8QueryHitEE7PrivateEED2Ev@Base 2.6.0
- (optional=templinst)_ZN18QSharedDataPointerIN7TString7PrivateEE13detach_helperEv@Base 2.7.5
+ (optional=templinst|arch=mips64 mips64el)_ZN18QSharedDataPointerIN7TString7PrivateEE13detach_helperEv@Base 2.9.4+dfsg-1
  (optional=templinst)_ZN18QSharedDataPointerIN7TString7PrivateEED1Ev@Base 2.1.1
  (optional=templinst)_ZN18QSharedDataPointerIN7TString7PrivateEED2Ev@Base 2.6.0
  (optional=templinst)_ZN20QGlobalStaticDeleterIN7Soprano5Index12IndexStaticsEED1Ev@Base 2.1.1
  (optional=templinst)_ZN20QGlobalStaticDeleterIN7Soprano5Index12IndexStaticsEED2Ev@Base 2.6.0
- (optional=templinst)_ZN4QSetI4QUrlED1Ev@Base 2.6.0
- (optional=templinst)_ZN4QSetI4QUrlED2Ev@Base 2.6.0
  (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 2.4.2
  (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE13detach_helperEv@Base 2.1.1
  (optional=templinst)_ZN5QHashI4QUrl15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 2.1.1
@@ -2515,16 +2477,12 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  (optional=templinst)_ZN5QListI4QUrlE18detach_helper_growEii@Base 2.6.0
  (optional=templinst)_ZN5QListI4QUrlE6appendERKS0_@Base 2.1.1
  (optional=templinst)_ZN5QListI7QStringE13detach_helperEi@Base 2.6.0
- (optional=templinst)_ZN5QListI7QStringE13detach_helperEv@Base 2.7.6
  (optional=templinst)_ZN5QListI7QStringE18detach_helper_growEii@Base 2.6.0
  (optional=templinst)_ZN5QListI7QStringE6appendERKS0_@Base 2.1.1
  (optional=templinst)_ZN5QListI7QStringED1Ev@Base 2.6.0
  (optional=templinst)_ZN5QListI7QStringED2Ev@Base 2.4.1
  (optional=external)_ZN7QStringD1Ev@Base 2.1.1
  (optional=external)_ZN7QStringD2Ev@Base 2.6.0
- (optional=templinst)_ZN7Soprano15IteratorBackendINS_5Index8QueryHitEED0Ev@Base 2.1.1
- (optional=templinst)_ZN7Soprano15IteratorBackendINS_5Index8QueryHitEED1Ev@Base 2.1.1
- (optional=templinst)_ZN7Soprano15IteratorBackendINS_5Index8QueryHitEED2Ev@Base 2.6.0
  _ZN7Soprano5Index11idFieldNameEv@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex11getResourceEPN6lucene8document8DocumentE@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex12addStatementERKNS_9StatementE@Base 2.1.1
@@ -2539,7 +2497,6 @@ libsopranoindex.so.1 libsoprano4 #MINVER#
  _ZN7Soprano5Index12CLuceneIndex5closeEv@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex6searchEPN6lucene6search5QueryE@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex6searchERK7QString@Base 2.1.1
- (optional=private)_ZN7Soprano5Index12CLuceneIndex7Private11getDocumentERKNS_4NodeE@Base 2.7.5
  _ZN7Soprano5Index12CLuceneIndex7Private6commitEv@Base 2.1.1
  _ZN7Soprano5Index12CLuceneIndex8optimizeEv@Base 2.1.67
  _ZN7Soprano5Index12CLuceneIndexC1EPN6lucene8analysis8AnalyzerE@Base 2.1.1
